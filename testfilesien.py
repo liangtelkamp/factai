@@ -1,1 +1,1 @@
-hoi
+print('hoi')
