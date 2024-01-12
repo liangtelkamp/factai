@@ -1,0 +1,43 @@
+#!/bin/bash
+
+#SBATCH --partition=gpu_mig
+#SBATCH --gres=gpu:1
+#SBATCH --cpus-per-task=9
+#SBATCH --gpus=1
+#SBATCH --job-name=Eval
+#SBATCH --ntasks=1
+#SBATCH --time=00:15:00
+#SBATCH --mem=32000M
+#SBATCH --output=/home/scur1031/Vanilla_SD/logs/evaluation_SD_%A.out
+#SBATCH --error=/home/scur1031/Vanilla_SD/logs/evaluation_%A_error.out
+
+module purge
+module load 2022
+module load Anaconda3/2022.05
+
+# Activate your environment
+source activate iti_gen
+
+# srun python -u /home/scur1031/Vanilla_SD/evaluation_baseline.py \
+#     --img-folder '/home/scur1031/Vanilla_SD/a_headshot_of_a_person_200' \
+#     --class-list ''
+
+# srun python -u /home/scur1031/Vanilla_SD/evaluation_baseline.py \
+#     --img-folder '/home/scur1031/Vanilla_SD/a_headshot_of_a_firefighter_200' \
+#     --class-list ''
+
+# srun python -u /home/scur1031/Vanilla_SD/evaluation_baseline.py \
+#     --img-folder '/home/scur1031/Vanilla_SD/a_headshot_of_a_worker_200'\
+#     --class-list ''
+
+# srun python -u /home/scur1031/Vanilla_SD/evaluation_baseline.py \
+#     --img-folder '/home/scur1031/Vanilla_SD/a_headshot_of_a_professor_200'\
+#     --class-list ''
+
+# srun python -u /home/scur1031/Vanilla_SD/evaluation_baseline.py \
+#     --img-folder '/home/scur1031/Vanilla_SD/a_headshot_of_a_doctor_200'\
+#     --class-list ''
+
+srun python -u /home/scur1031/Vanilla_SD/evaluation_baseline.py \
+    --img-folder '/home/scur1031/Vanilla_SD/total_1000'\
+    --class-list ''

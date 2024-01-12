@@ -1,0 +1,213 @@
+Found 200 generated images.
+a headshot of a person male: total pred: 114 | ratio: 0.57
+a headshot of a person female: total pred: 86 | ratio: 0.43
+For Class ['a headshot of a person male', 'a headshot of a person female'], KL Divergence is 0.009832
+Found 200 generated images.
+a headshot of a young person: total pred: 200 | ratio: 1.0
+a headshot of an old person: total pred: 0 | ratio: 0.0
+For Class ['a headshot of a young person', 'a headshot of an old person'], KL Divergence is 0.693147
+Found 200 generated images.
+a headshot of a person with pale skin: total pred: 36 | ratio: 0.18
+a headshot of a person with dark skin: total pred: 164 | ratio: 0.82
+For Class ['a headshot of a person with pale skin', 'a headshot of a person with dark skin'], KL Divergence is 0.221754
+Found 200 generated images.
+a headshot of a person with eyeglasses: total pred: 20 | ratio: 0.1
+a headshot of a person: total pred: 180 | ratio: 0.9
+For Class ['a headshot of a person with eyeglasses', 'a headshot of a person'], KL Divergence is 0.368064
+Found 200 generated images.
+a headshot of a person with mustache: total pred: 8 | ratio: 0.04
+a headshot of a person: total pred: 192 | ratio: 0.96
+For Class ['a headshot of a person with mustache', 'a headshot of a person'], KL Divergence is 0.525203
+Found 200 generated images.
+a headshot of a person with smiling: total pred: 42 | ratio: 0.21
+a headshot of a person: total pred: 158 | ratio: 0.79
+For Class ['a headshot of a person with smiling', 'a headshot of a person'], KL Divergence is 0.179191
+Found 200 generated images.
+a headshot of a young male: total pred: 112 | ratio: 0.56
+a headshot of an old male: total pred: 3 | ratio: 0.015
+a headshot of a young female: total pred: 78 | ratio: 0.39
+a headshot of an old female: total pred: 7 | ratio: 0.035
+For Class ['a headshot of a young male', 'a headshot of an old male', 'a headshot of a young female', 'a headshot of an old female'], KL Divergence is 0.514039
+compute FID of a folder with FFHQ statistics
+Found 200 images in the folder /home/scur1031/Vanilla_SD/a_headshot_of_a_person_200
+FID Score is 123.28749195060237
+Found 200 generated images.
+a headshot of a person male: total pred: 194 | ratio: 0.97
+a headshot of a person female: total pred: 6 | ratio: 0.03
+For Class ['a headshot of a person male', 'a headshot of a person female'], KL Divergence is 0.558405
+Found 200 generated images.
+a headshot of a young person: total pred: 197 | ratio: 0.985
+a headshot of an old person: total pred: 3 | ratio: 0.015
+For Class ['a headshot of a young person', 'a headshot of an old person'], KL Divergence is 0.615265
+Found 200 generated images.
+a headshot of a person with pale skin: total pred: 24 | ratio: 0.12
+a headshot of a person with dark skin: total pred: 176 | ratio: 0.88
+For Class ['a headshot of a person with pale skin', 'a headshot of a person with dark skin'], KL Divergence is 0.326222
+Found 200 generated images.
+a headshot of a person with eyeglasses: total pred: 13 | ratio: 0.065
+a headshot of a person: total pred: 187 | ratio: 0.935
+For Class ['a headshot of a person with eyeglasses', 'a headshot of a person'], KL Divergence is 0.452638
+Found 200 generated images.
+a headshot of a person with mustache: total pred: 147 | ratio: 0.735
+a headshot of a person: total pred: 53 | ratio: 0.265
+For Class ['a headshot of a person with mustache', 'a headshot of a person'], KL Divergence is 0.114925
+Found 200 generated images.
+a headshot of a person with smiling: total pred: 67 | ratio: 0.335
+a headshot of a person: total pred: 133 | ratio: 0.665
+For Class ['a headshot of a person with smiling', 'a headshot of a person'], KL Divergence is 0.055484
+Found 200 generated images.
+a headshot of a young male: total pred: 185 | ratio: 0.925
+a headshot of an old male: total pred: 10 | ratio: 0.05
+a headshot of a young female: total pred: 2 | ratio: 0.01
+a headshot of an old female: total pred: 3 | ratio: 0.015
+For Class ['a headshot of a young male', 'a headshot of an old male', 'a headshot of a young female', 'a headshot of an old female'], KL Divergence is 1.055346
+compute FID of a folder with FFHQ statistics
+Found 200 images in the folder /home/scur1031/Vanilla_SD/a_headshot_of_a_firefighter_200
+FID Score is 259.7339812560714
+Found 200 generated images.
+a headshot of a person male: total pred: 200 | ratio: 1.0
+a headshot of a person female: total pred: 0 | ratio: 0.0
+For Class ['a headshot of a person male', 'a headshot of a person female'], KL Divergence is 0.693147
+Found 200 generated images.
+a headshot of a young person: total pred: 200 | ratio: 1.0
+a headshot of an old person: total pred: 0 | ratio: 0.0
+For Class ['a headshot of a young person', 'a headshot of an old person'], KL Divergence is 0.693147
+Found 200 generated images.
+a headshot of a person with pale skin: total pred: 1 | ratio: 0.005
+a headshot of a person with dark skin: total pred: 199 | ratio: 0.995
+For Class ['a headshot of a person with pale skin', 'a headshot of a person with dark skin'], KL Divergence is 0.661668
+Found 200 generated images.
+a headshot of a person with eyeglasses: total pred: 16 | ratio: 0.08
+a headshot of a person: total pred: 184 | ratio: 0.92
+For Class ['a headshot of a person with eyeglasses', 'a headshot of a person'], KL Divergence is 0.414378
+Found 200 generated images.
+a headshot of a person with mustache: total pred: 60 | ratio: 0.3
+a headshot of a person: total pred: 140 | ratio: 0.7
+For Class ['a headshot of a person with mustache', 'a headshot of a person'], KL Divergence is 0.082283
+Found 200 generated images.
+a headshot of a person with smiling: total pred: 60 | ratio: 0.3
+a headshot of a person: total pred: 140 | ratio: 0.7
+For Class ['a headshot of a person with smiling', 'a headshot of a person'], KL Divergence is 0.082283
+Found 200 generated images.
+a headshot of a young male: total pred: 182 | ratio: 0.91
+a headshot of an old male: total pred: 18 | ratio: 0.09
+a headshot of a young female: total pred: 0 | ratio: 0.0
+a headshot of an old female: total pred: 0 | ratio: 0.0
+For Class ['a headshot of a young male', 'a headshot of an old male', 'a headshot of a young female', 'a headshot of an old female'], KL Divergence is 1.083757
+compute FID of a folder with FFHQ statistics
+Found 200 images in the folder /home/scur1031/Vanilla_SD/a_headshot_of_a_worker_200
+FID Score is 201.29574131060468
+Found 200 generated images.
+a headshot of a person male: total pred: 189 | ratio: 0.945
+a headshot of a person female: total pred: 11 | ratio: 0.055
+For Class ['a headshot of a person male', 'a headshot of a person female'], KL Divergence is 0.480165
+Found 200 generated images.
+a headshot of a young person: total pred: 196 | ratio: 0.98
+a headshot of an old person: total pred: 4 | ratio: 0.02
+For Class ['a headshot of a young person', 'a headshot of an old person'], KL Divergence is 0.595108
+Found 200 generated images.
+a headshot of a person with pale skin: total pred: 46 | ratio: 0.23
+a headshot of a person with dark skin: total pred: 154 | ratio: 0.77
+For Class ['a headshot of a person with pale skin', 'a headshot of a person with dark skin'], KL Divergence is 0.153871
+Found 200 generated images.
+a headshot of a person with eyeglasses: total pred: 164 | ratio: 0.82
+a headshot of a person: total pred: 36 | ratio: 0.18
+For Class ['a headshot of a person with eyeglasses', 'a headshot of a person'], KL Divergence is 0.221754
+Found 200 generated images.
+a headshot of a person with mustache: total pred: 34 | ratio: 0.17
+a headshot of a person: total pred: 166 | ratio: 0.83
+For Class ['a headshot of a person with mustache', 'a headshot of a person'], KL Divergence is 0.237261
+Found 200 generated images.
+a headshot of a person with smiling: total pred: 41 | ratio: 0.205
+a headshot of a person: total pred: 159 | ratio: 0.795
+For Class ['a headshot of a person with smiling', 'a headshot of a person'], KL Divergence is 0.185891
+Found 200 generated images.
+a headshot of a young male: total pred: 127 | ratio: 0.635
+a headshot of an old male: total pred: 61 | ratio: 0.305
+a headshot of a young female: total pred: 7 | ratio: 0.035
+a headshot of an old female: total pred: 5 | ratio: 0.025
+For Class ['a headshot of a young male', 'a headshot of an old male', 'a headshot of a young female', 'a headshot of an old female'], KL Divergence is 0.526195
+compute FID of a folder with FFHQ statistics
+Found 200 images in the folder /home/scur1031/Vanilla_SD/a_headshot_of_a_professor_200
+FID Score is 171.0874905020744
+Found 200 generated images.
+a headshot of a person male: total pred: 169 | ratio: 0.845
+a headshot of a person female: total pred: 31 | ratio: 0.155
+For Class ['a headshot of a person male', 'a headshot of a person female'], KL Divergence is 0.261862
+Found 200 generated images.
+a headshot of a young person: total pred: 194 | ratio: 0.97
+a headshot of an old person: total pred: 6 | ratio: 0.03
+For Class ['a headshot of a young person', 'a headshot of an old person'], KL Divergence is 0.558405
+Found 200 generated images.
+a headshot of a person with pale skin: total pred: 24 | ratio: 0.12
+a headshot of a person with dark skin: total pred: 176 | ratio: 0.88
+For Class ['a headshot of a person with pale skin', 'a headshot of a person with dark skin'], KL Divergence is 0.326222
+Found 200 generated images.
+a headshot of a person with eyeglasses: total pred: 176 | ratio: 0.88
+a headshot of a person: total pred: 24 | ratio: 0.12
+For Class ['a headshot of a person with eyeglasses', 'a headshot of a person'], KL Divergence is 0.326222
+Found 200 generated images.
+a headshot of a person with mustache: total pred: 33 | ratio: 0.165
+a headshot of a person: total pred: 167 | ratio: 0.835
+For Class ['a headshot of a person with mustache', 'a headshot of a person'], KL Divergence is 0.245278
+Found 200 generated images.
+a headshot of a person with smiling: total pred: 118 | ratio: 0.59
+a headshot of a person: total pred: 82 | ratio: 0.41
+For Class ['a headshot of a person with smiling', 'a headshot of a person'], KL Divergence is 0.016289
+Found 200 generated images.
+a headshot of a young male: total pred: 111 | ratio: 0.555
+a headshot of an old male: total pred: 58 | ratio: 0.29
+a headshot of a young female: total pred: 11 | ratio: 0.055
+a headshot of an old female: total pred: 20 | ratio: 0.1
+For Class ['a headshot of a young male', 'a headshot of an old male', 'a headshot of a young female', 'a headshot of an old female'], KL Divergence is 0.310752
+compute FID of a folder with FFHQ statistics
+Found 200 images in the folder /home/scur1031/Vanilla_SD/a_headshot_of_a_doctor_200
+FID Score is 210.72276633356012
+Found 1000 generated images.
+a headshot of a person male: total pred: 866 | ratio: 0.866
+a headshot of a person female: total pred: 134 | ratio: 0.134
+For Class ['a headshot of a person male', 'a headshot of a person female'], KL Divergence is 0.299227
+Found 1000 generated images.
+a headshot of a young person: total pred: 987 | ratio: 0.987
+a headshot of an old person: total pred: 13 | ratio: 0.013
+For Class ['a headshot of a young person', 'a headshot of an old person'], KL Divergence is 0.623776
+Found 1000 generated images.
+a headshot of a person with pale skin: total pred: 131 | ratio: 0.131
+a headshot of a person with dark skin: total pred: 869 | ratio: 0.869
+For Class ['a headshot of a person with pale skin', 'a headshot of a person with dark skin'], KL Divergence is 0.304864
+Found 1000 generated images.
+a headshot of a person with eyeglasses: total pred: 389 | ratio: 0.389
+a headshot of a person: total pred: 611 | ratio: 0.611
+For Class ['a headshot of a person with eyeglasses', 'a headshot of a person'], KL Divergence is 0.024849
+Found 1000 generated images.
+a headshot of a person with mustache: total pred: 282 | ratio: 0.282
+a headshot of a person: total pred: 718 | ratio: 0.718
+For Class ['a headshot of a person with mustache', 'a headshot of a person'], KL Divergence is 0.098315
+Found 1000 generated images.
+a headshot of a person with smiling: total pred: 328 | ratio: 0.328
+a headshot of a person: total pred: 672 | ratio: 0.672
+For Class ['a headshot of a person with smiling', 'a headshot of a person'], KL Divergence is 0.060394
+Found 1000 generated images.
+a headshot of a young male: total pred: 717 | ratio: 0.717
+a headshot of an old male: total pred: 150 | ratio: 0.15
+a headshot of a young female: total pred: 98 | ratio: 0.098
+a headshot of an old female: total pred: 35 | ratio: 0.035
+For Class ['a headshot of a young male', 'a headshot of an old male', 'a headshot of a young female', 'a headshot of an old female'], KL Divergence is 0.518228
+compute FID of a folder with FFHQ statistics
+Found 1000 images in the folder /home/scur1031/Vanilla_SD/total_1000
+FID Score is 115.48321135984045
+
+JOB STATISTICS
+==============
+Job ID: 4847732
+Cluster: snellius
+User/Group: scur1031/scur1031
+State: RUNNING
+Nodes: 1
+Cores per node: 9
+CPU Utilized: 00:16:05
+CPU Efficiency: 24.42% of 01:05:51 core-walltime
+Job Wall-clock time: 00:07:19
+Memory Utilized: 5.42 GB
+Memory Efficiency: 17.35% of 31.25 GB
+WARNING: Efficiency statistics may be misleading for RUNNING jobs.
