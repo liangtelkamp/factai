@@ -18,26 +18,5 @@ module load Anaconda3/2022.05
 # Activate your environment
 source activate iti_gen
 
-# srun python -u /home/scur1031/Vanilla_SD/evaluation_baseline.py \
-#     --img-folder '/home/scur1031/Vanilla_SD/a_headshot_of_a_person_200' \
-#     --class-list ''
-
-# srun python -u /home/scur1031/Vanilla_SD/evaluation_baseline.py \
-#     --img-folder '/home/scur1031/Vanilla_SD/a_headshot_of_a_firefighter_200' \
-#     --class-list ''
-
-# srun python -u /home/scur1031/Vanilla_SD/evaluation_baseline.py \
-#     --img-folder '/home/scur1031/Vanilla_SD/a_headshot_of_a_worker_200'\
-#     --class-list ''
-
-# srun python -u /home/scur1031/Vanilla_SD/evaluation_baseline.py \
-#     --img-folder '/home/scur1031/Vanilla_SD/a_headshot_of_a_professor_200'\
-#     --class-list ''
-
-# srun python -u /home/scur1031/Vanilla_SD/evaluation_baseline.py \
-#     --img-folder '/home/scur1031/Vanilla_SD/a_headshot_of_a_doctor_200'\
-#     --class-list ''
-
 srun python -u /home/scur1031/Vanilla_SD/evaluation_baseline.py \
     --img-folder '/home/scur1031/Vanilla_SD/total_1000'\
-    --class-list ''

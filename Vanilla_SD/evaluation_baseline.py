@@ -22,8 +22,6 @@ def parse_args():
 
     parser.add_argument('--img-folder', type=str, default='/path/to/image/folder/you/want/to/evaluate',
                         help='path to image folder that you want to evaluate.')
-    parser.add_argument('--class-list', nargs='+',
-                        help='type of classes that you want to evaluate', required=True, type=str)
     parser.add_argument('--device', type=int, default=1, help='gpu number')
 
     return parser.parse_args()
@@ -36,6 +34,12 @@ class ImgDataset(Dataset):
         self.root_dir = root_dir
         self.file_list = glob.glob(os.path.join(self.root_dir, '*.png'))
         self.file_list += glob.glob(os.path.join(self.root_dir, '*.jpg'))
+
+        # If there is a subfolder, add it to the file list
+        subfolders = [f.path for f in os.scandir(self.root_dir) if f.is_dir()]
+        for subfolder in subfolders:
+            self.file_list += glob.glob(os.path.join(subfolder, '*.png'))
+            self.file_list += glob.glob(os.path.join(subfolder, '*.jpg'))
 
         print('Found {} generated images.'.format(len(self.file_list)))
 
@@ -96,7 +100,7 @@ if __name__ == '__main__':
     args = parse_args()
 
 
-    list_of_prompts = [['a headshot of a person male', 'a headshot of a person female'], ['a headshot of a young person', 'a headshot of an old person'], ['a headshot of a person with pale skin', 'a headshot of a person with dark skin'], ['a headshot of a person with eyeglasses', 'a headshot of a person with no eyeglasses'], ['a headshot of a person with mustache', 'a headshot of a person with no mustache'], ['a headshot of a person with smiling', 'a headshot of a person without smiling'], ['a headshot of a young male', 'a headshot of an old male', 'a headshot of a young female', 'a headshot of an old female']]
+    list_of_prompts = [['a headshot of a person male', 'a headshot of a person female'], ['a headshot of a young person', 'a headshot of an old person'], ['a headshot of a person with pale skin', 'a headshot of a person with dark skin'], ['a headshot of a person with eyeglasses', 'a headshot of a person with no eyeglasses'], ['a headshot of a person with mustache', 'a headshot of a person with no mustache'], ['a headshot of a person with smiling', 'a headshot of a person without smiling'], ['a headshot of a young male', 'a headshot of an old male', 'a headshot of a young female', 'a headshot of an old female']] # TODO make this a flag
     for classes_prompts in list_of_prompts:
         length = len(classes_prompts)
         device_ = "cuda".format(args.device) if torch.cuda.is_available() else "cpu" # Liang
@@ -116,5 +120,5 @@ if __name__ == '__main__':
 
         print("For Class {}, KL Divergence is {:4f}".format(classes_prompts, KL1))
 
-    # score = fid.compute_fid(args.img_folder, dataset_name="FFHQ", dataset_res=1024, dataset_split="trainval70k")
-    # print("FID Score is {}".format(score))
+    score = fid.compute_fid(args.img_folder, dataset_name="FFHQ", dataset_res=1024, dataset_split="trainval70k")
+    print("FID Score is {}".format(score))
