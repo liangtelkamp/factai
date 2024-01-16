@@ -1,0 +1,62 @@
+/home/scur1303/fact/factai/ITI-GEN/ckpts/a_headshot_of_a_person_Eyeglasses/original_prompt_embedding/sample_results/Eyeglasses_negative
+Found 100 generated images.
+a headshot of a man: total pred: 1 | ratio: 0.01
+a headshot of a woman: total pred: 99 | ratio: 0.99
+For Class ['a headshot of a man', 'a headshot of a woman'], KL Divergence is 0.637146
+compute FID of a folder with FFHQ statistics
+Found 100 images in the folder /home/scur1303/fact/factai/ITI-GEN/ckpts/a_headshot_of_a_person_Eyeglasses/original_prompt_embedding/sample_results/Eyeglasses_negative
+FID Score is 179.06457853826785
+/home/scur1303/fact/factai/ITI-GEN/ckpts/a_headshot_of_a_person_Eyeglasses/original_prompt_embedding/sample_results/Eyeglasses_negative
+Found 100 generated images.
+a headshot of a young person: total pred: 99 | ratio: 0.99
+a headshot of an old person: total pred: 1 | ratio: 0.01
+For Class ['a headshot of a young person', 'a headshot of an old person'], KL Divergence is 0.637146
+compute FID of a folder with FFHQ statistics
+Found 100 images in the folder /home/scur1303/fact/factai/ITI-GEN/ckpts/a_headshot_of_a_person_Eyeglasses/original_prompt_embedding/sample_results/Eyeglasses_negative
+FID Score is 179.06457853826785
+/home/scur1303/fact/factai/ITI-GEN/ckpts/a_headshot_of_a_person_Eyeglasses/original_prompt_embedding/sample_results/Eyeglasses_negative
+Found 100 generated images.
+a headshot of a person with eyeglasses: total pred: 6 | ratio: 0.06
+a headshot of a person: total pred: 94 | ratio: 0.94
+For Class ['a headshot of a person with eyeglasses', 'a headshot of a person'], KL Divergence is 0.466180
+compute FID of a folder with FFHQ statistics
+Found 100 images in the folder /home/scur1303/fact/factai/ITI-GEN/ckpts/a_headshot_of_a_person_Eyeglasses/original_prompt_embedding/sample_results/Eyeglasses_negative
+FID Score is 179.06457853826785
+/home/scur1303/fact/factai/ITI-GEN/ckpts/a_headshot_of_a_person_Eyeglasses/original_prompt_embedding/sample_results/Eyeglasses_negative
+Found 100 generated images.
+a headshot of a person with pale skin: total pred: 53 | ratio: 0.53
+a headshot of a person with dark skin: total pred: 47 | ratio: 0.47
+For Class ['a headshot of a person with pale skin', 'a headshot of a person with dark skin'], KL Divergence is 0.001801
+compute FID of a folder with FFHQ statistics
+Found 100 images in the folder /home/scur1303/fact/factai/ITI-GEN/ckpts/a_headshot_of_a_person_Eyeglasses/original_prompt_embedding/sample_results/Eyeglasses_negative
+FID Score is 179.06457853826785
+/home/scur1303/fact/factai/ITI-GEN/ckpts/a_headshot_of_a_person_Eyeglasses/original_prompt_embedding/sample_results/Eyeglasses_negative
+Found 100 generated images.
+a headshot of a person with mustache: total pred: 0 | ratio: 0.0
+a headshot of a person: total pred: 100 | ratio: 1.0
+For Class ['a headshot of a person with mustache', 'a headshot of a person'], KL Divergence is 0.693147
+compute FID of a folder with FFHQ statistics
+Found 100 images in the folder /home/scur1303/fact/factai/ITI-GEN/ckpts/a_headshot_of_a_person_Eyeglasses/original_prompt_embedding/sample_results/Eyeglasses_negative
+FID Score is 179.06457853826785
+/home/scur1303/fact/factai/ITI-GEN/ckpts/a_headshot_of_a_person_Eyeglasses/original_prompt_embedding/sample_results/Eyeglasses_negative
+Found 100 generated images.
+a headshot of a person with smiling: total pred: 32 | ratio: 0.32
+a headshot of a person: total pred: 68 | ratio: 0.68
+For Class ['a headshot of a person with smiling', 'a headshot of a person'], KL Divergence is 0.066278
+compute FID of a folder with FFHQ statistics
+Found 100 images in the folder /home/scur1303/fact/factai/ITI-GEN/ckpts/a_headshot_of_a_person_Eyeglasses/original_prompt_embedding/sample_results/Eyeglasses_negative
+FID Score is 179.06457853826785
+
+JOB STATISTICS
+==============
+Job ID: 4866052
+Cluster: snellius
+User/Group: scur1303/scur1303
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 9
+CPU Utilized: 00:08:48
+CPU Efficiency: 25.51% of 00:34:30 core-walltime
+Job Wall-clock time: 00:03:50
+Memory Utilized: 4.66 GB
+Memory Efficiency: 14.91% of 31.25 GB

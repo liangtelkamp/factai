@@ -1,0 +1,22 @@
+/home/scur1303/fact/factai/Baseline_HPS_man/woman/
+Found 100 generated images.
+a headshot of a man: total pred: 0 | ratio: 0.0
+a headshot of a woman: total pred: 100 | ratio: 1.0
+For Class ['a headshot of a man', 'a headshot of a woman'], KL Divergence is 0.693147
+compute FID of a folder with FFHQ statistics
+Found 100 images in the folder /home/scur1303/fact/factai/Baseline_HPS_man/woman/
+FID Score is 179.69372435789978
+
+JOB STATISTICS
+==============
+Job ID: 4865747
+Cluster: snellius
+User/Group: scur1303/scur1303
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 9
+CPU Utilized: 00:01:29
+CPU Efficiency: 20.18% of 00:07:21 core-walltime
+Job Wall-clock time: 00:00:49
+Memory Utilized: 4.53 GB
+Memory Efficiency: 14.49% of 31.25 GB

@@ -1,0 +1,62 @@
+/home/scur1303/fact/factai/ITI-GEN/ckpts/a_headshot_of_a_person_Young/original_prompt_embedding/sample_results/Young_negative
+Found 100 generated images.
+a headshot of a man: total pred: 98 | ratio: 0.98
+a headshot of a woman: total pred: 2 | ratio: 0.02
+For Class ['a headshot of a man', 'a headshot of a woman'], KL Divergence is 0.595108
+compute FID of a folder with FFHQ statistics
+Found 100 images in the folder /home/scur1303/fact/factai/ITI-GEN/ckpts/a_headshot_of_a_person_Young/original_prompt_embedding/sample_results/Young_negative
+FID Score is 174.67794549140268
+/home/scur1303/fact/factai/ITI-GEN/ckpts/a_headshot_of_a_person_Young/original_prompt_embedding/sample_results/Young_negative
+Found 100 generated images.
+a headshot of a young person: total pred: 4 | ratio: 0.04
+a headshot of an old person: total pred: 96 | ratio: 0.96
+For Class ['a headshot of a young person', 'a headshot of an old person'], KL Divergence is 0.525203
+compute FID of a folder with FFHQ statistics
+Found 100 images in the folder /home/scur1303/fact/factai/ITI-GEN/ckpts/a_headshot_of_a_person_Young/original_prompt_embedding/sample_results/Young_negative
+FID Score is 174.67794549140268
+/home/scur1303/fact/factai/ITI-GEN/ckpts/a_headshot_of_a_person_Young/original_prompt_embedding/sample_results/Young_negative
+Found 100 generated images.
+a headshot of a person with eyeglasses: total pred: 7 | ratio: 0.07
+a headshot of a person: total pred: 93 | ratio: 0.93
+For Class ['a headshot of a person with eyeglasses', 'a headshot of a person'], KL Divergence is 0.439508
+compute FID of a folder with FFHQ statistics
+Found 100 images in the folder /home/scur1303/fact/factai/ITI-GEN/ckpts/a_headshot_of_a_person_Young/original_prompt_embedding/sample_results/Young_negative
+FID Score is 174.67794549140268
+/home/scur1303/fact/factai/ITI-GEN/ckpts/a_headshot_of_a_person_Young/original_prompt_embedding/sample_results/Young_negative
+Found 100 generated images.
+a headshot of a person with pale skin: total pred: 37 | ratio: 0.37
+a headshot of a person with dark skin: total pred: 63 | ratio: 0.63
+For Class ['a headshot of a person with pale skin', 'a headshot of a person with dark skin'], KL Divergence is 0.034191
+compute FID of a folder with FFHQ statistics
+Found 100 images in the folder /home/scur1303/fact/factai/ITI-GEN/ckpts/a_headshot_of_a_person_Young/original_prompt_embedding/sample_results/Young_negative
+FID Score is 174.67794549140268
+/home/scur1303/fact/factai/ITI-GEN/ckpts/a_headshot_of_a_person_Young/original_prompt_embedding/sample_results/Young_negative
+Found 100 generated images.
+a headshot of a person with mustache: total pred: 20 | ratio: 0.2
+a headshot of a person: total pred: 80 | ratio: 0.8
+For Class ['a headshot of a person with mustache', 'a headshot of a person'], KL Divergence is 0.192745
+compute FID of a folder with FFHQ statistics
+Found 100 images in the folder /home/scur1303/fact/factai/ITI-GEN/ckpts/a_headshot_of_a_person_Young/original_prompt_embedding/sample_results/Young_negative
+FID Score is 174.67794549140268
+/home/scur1303/fact/factai/ITI-GEN/ckpts/a_headshot_of_a_person_Young/original_prompt_embedding/sample_results/Young_negative
+Found 100 generated images.
+a headshot of a person with smiling: total pred: 14 | ratio: 0.14
+a headshot of a person: total pred: 86 | ratio: 0.86
+For Class ['a headshot of a person with smiling', 'a headshot of a person'], KL Divergence is 0.288184
+compute FID of a folder with FFHQ statistics
+Found 100 images in the folder /home/scur1303/fact/factai/ITI-GEN/ckpts/a_headshot_of_a_person_Young/original_prompt_embedding/sample_results/Young_negative
+FID Score is 174.67794549140268
+
+JOB STATISTICS
+==============
+Job ID: 4866129
+Cluster: snellius
+User/Group: scur1303/scur1303
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 9
+CPU Utilized: 00:09:03
+CPU Efficiency: 26.01% of 00:34:48 core-walltime
+Job Wall-clock time: 00:03:52
+Memory Utilized: 4.79 GB
+Memory Efficiency: 15.34% of 31.25 GB

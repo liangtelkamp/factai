@@ -1,0 +1,22 @@
+/home/scur1303/fact/factai/Baseline_HPS_man/man/
+Found 100 generated images.
+a headshot of a person with pale skin: total pred: 9 | ratio: 0.09
+a headshot of a person with dark skin: total pred: 91 | ratio: 0.91
+For Class ['a headshot of a person with pale skin', 'a headshot of a person with dark skin'], KL Divergence is 0.390609
+compute FID of a folder with FFHQ statistics
+Found 100 images in the folder /home/scur1303/fact/factai/Baseline_HPS_man/man/
+FID Score is 171.25151621480126
+
+JOB STATISTICS
+==============
+Job ID: 4865701
+Cluster: snellius
+User/Group: scur1303/scur1303
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 9
+CPU Utilized: 00:01:29
+CPU Efficiency: 20.18% of 00:07:21 core-walltime
+Job Wall-clock time: 00:00:49
+Memory Utilized: 4.53 GB
+Memory Efficiency: 14.50% of 31.25 GB
