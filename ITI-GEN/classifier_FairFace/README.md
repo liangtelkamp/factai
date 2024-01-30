@@ -1,6 +1,7 @@
 # Reproducibility README:
+The FairFace classifier is used to classify the multi-category attributes 'age' and 'skin tone'.
 ## Job file:
-The job file to run the code is called classifier_fairface.job:
+The job file to run the code of the FairFace classifier is called classifier_fairface.job:
 ```
 #!/bin/bash
 
