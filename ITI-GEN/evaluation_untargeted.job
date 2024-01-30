@@ -18,52 +18,52 @@ module load Anaconda3/2022.05
 source activate iti_gen
 
 # Evaluation of untargeted attributes, trained on young/old, results for young
-srun python -u /home/scur1303/fact/factai/ITI-GEN/evaluation.py \
-    --img-folder '/home/scur1303/fact/factai/ITI-GEN/ckpts/a_headshot_of_a_person_Young/original_prompt_embedding/sample_results/Young_positive' \
+srun python -u evaluation.py \
+    --img-folder 'ckpts/a_headshot_of_a_person_Young/original_prompt_embedding/sample_results/Young_positive' \
     --class-list 'a headshot of a man' 'a headshot of a woman'
 
-srun python -u /home/scur1303/fact/factai/ITI-GEN/evaluation.py \
-    --img-folder '/home/scur1303/fact/factai/ITI-GEN/ckpts/a_headshot_of_a_person_Young/original_prompt_embedding/sample_results/Young_positive' \
+srun python -u evaluation.py \
+    --img-folder 'ckpts/a_headshot_of_a_person_Young/original_prompt_embedding/sample_results/Young_positive' \
     --class-list 'a headshot of a young person' 'a headshot of an old person'
 
-srun python -u /home/scur1303/fact/factai/ITI-GEN/evaluation.py \
-    --img-folder '/home/scur1303/fact/factai/ITI-GEN/ckpts/a_headshot_of_a_person_Young/original_prompt_embedding/sample_results/Young_positive' \
+srun python -u evaluation.py \
+    --img-folder 'ckpts/a_headshot_of_a_person_Young/original_prompt_embedding/sample_results/Young_positive' \
     --class-list 'a headshot of a person with pale skin' 'a headshot of a person with dark skin'
 
-srun python -u /home/scur1303/fact/factai/ITI-GEN/evaluation.py \
-    --img-folder '/home/scur1303/fact/factai/ITI-GEN/ckpts/a_headshot_of_a_person_Young/original_prompt_embedding/sample_results/Young_positive' \
+srun python -u evaluation.py \
+    --img-folder 'ckpts/a_headshot_of_a_person_Young/original_prompt_embedding/sample_results/Young_positive' \
     --class-list 'a headshot of a person with eyeglasses' 'a headshot of a person'
 
-srun python -u /home/scur1303/fact/factai/ITI-GEN/evaluation.py \
-    --img-folder '/home/scur1303/fact/factai/ITI-GEN/ckpts/a_headshot_of_a_person_Young/original_prompt_embedding/sample_results/Young_positive' \
+srun python -u evaluation.py \
+    --img-folder 'ckpts/a_headshot_of_a_person_Young/original_prompt_embedding/sample_results/Young_positive' \
     --class-list 'a headshot of a person with mustache' 'a headshot of a person'
 
-srun python -u /home/scur1303/fact/factai/ITI-GEN/evaluation.py \
-    --img-folder '/home/scur1303/fact/factai/ITI-GEN/ckpts/a_headshot_of_a_person_Young/original_prompt_embedding/sample_results/Young_positive' \
+srun python -u evaluation.py \
+    --img-folder 'ckpts/a_headshot_of_a_person_Young/original_prompt_embedding/sample_results/Young_positive' \
     --class-list 'a headshot of a person with smiling' 'a headshot of a person'
 
 
 # Evaluation of untargeted attributes, trained on young/old, results for old
-srun python -u /home/scur1303/fact/factai/ITI-GEN/evaluation.py \
-    --img-folder '/home/scur1303/fact/factai/ITI-GEN/ckpts/a_headshot_of_a_person_Young/original_prompt_embedding/sample_results/Young_negative' \
+srun python -u evaluation.py \
+    --img-folder 'ckpts/a_headshot_of_a_person_Young/original_prompt_embedding/sample_results/Young_negative' \
     --class-list 'a headshot of a man' 'a headshot of a woman'
 
-srun python -u /home/scur1303/fact/factai/ITI-GEN/evaluation.py \
-    --img-folder '/home/scur1303/fact/factai/ITI-GEN/ckpts/a_headshot_of_a_person_Young/original_prompt_embedding/sample_results/Young_negative' \
+srun python -u evaluation.py \
+    --img-folder 'ckpts/a_headshot_of_a_person_Young/original_prompt_embedding/sample_results/Young_negative' \
     --class-list 'a headshot of a young person' 'a headshot of an old person'
 
-srun python -u /home/scur1303/fact/factai/ITI-GEN/evaluation.py \
-    --img-folder '/home/scur1303/fact/factai/ITI-GEN/ckpts/a_headshot_of_a_person_Young/original_prompt_embedding/sample_results/Young_negative' \
+srun python -u evaluation.py \
+    --img-folder 'ckpts/a_headshot_of_a_person_Young/original_prompt_embedding/sample_results/Young_negative' \
     --class-list 'a headshot of a person with pale skin' 'a headshot of a person with dark skin'
 
-srun python -u /home/scur1303/fact/factai/ITI-GEN/evaluation.py \
-    --img-folder '/home/scur1303/fact/factai/ITI-GEN/ckpts/a_headshot_of_a_person_Young/original_prompt_embedding/sample_results/Young_negative' \
+srun python -u evaluation.py \
+    --img-folder 'ckpts/a_headshot_of_a_person_Young/original_prompt_embedding/sample_results/Young_negative' \
     --class-list 'a headshot of a person with eyeglasses' 'a headshot of a person'
 
-srun python -u /home/scur1303/fact/factai/ITI-GEN/evaluation.py \
-    --img-folder '/home/scur1303/fact/factai/ITI-GEN/ckpts/a_headshot_of_a_person_Young/original_prompt_embedding/sample_results/Young_negative' \
+srun python -u evaluation.py \
+    --img-folder 'ckpts/a_headshot_of_a_person_Young/original_prompt_embedding/sample_results/Young_negative' \
     --class-list 'a headshot of a person with mustache' 'a headshot of a person'
 
-srun python -u /home/scur1303/fact/factai/ITI-GEN/evaluation.py \
-    --img-folder '/home/scur1303/fact/factai/ITI-GEN/ckpts/a_headshot_of_a_person_Young/original_prompt_embedding/sample_results/Young_negative' \
+srun python -u evaluation.py \
+    --img-folder 'ckpts/a_headshot_of_a_person_Young/original_prompt_embedding/sample_results/Young_negative' \
     --class-list 'a headshot of a person with smiling' 'a headshot of a person'
