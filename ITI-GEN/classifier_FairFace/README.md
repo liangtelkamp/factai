@@ -1,4 +1,34 @@
-# FairFace: Face Attribute Dataset for Balanced Race, Gender, and Age
+# Reproducibility README:
+## Job file:
+The job file to run the code is called classifier_fairface.job:
+```
+#!/bin/bash
+
+#SBATCH --partition=gpu_mig
+#SBATCH --gres=gpu:1
+#SBATCH --cpus-per-task=9
+#SBATCH --gpus=1
+#SBATCH --job-name=Eval
+#SBATCH --ntasks=1
+#SBATCH --time=01:00:00
+#SBATCH --mem=32000M
+#SBATCH --output=fairface_%A.out
+
+module purge
+module load 2022
+module load Anaconda3/2022.05
+
+# Activate your environment
+source activate iti_gen
+
+srun python -u FairFace/predict.py --input_csv "FairFace/img_paths.csv" --output_csv "FairFace/outputs.csv" --image_path "ckpts/a_headshot_of_a_person_Male_Skin_tone/original_prompt_embedding/sample_results"
+```
+- '--input_csv': csv file of image paths where col name for image path is "img_path'.
+- '--output_csv': csv file for the output of the classifier.
+- '--image_path': directory where the images are stored.
+
+# Original README:
+## FairFace: Face Attribute Dataset for Balanced Race, Gender, and Age
 
 The paper: https://openaccess.thecvf.com/content/WACV2021/papers/Karkkainen_FairFace_Face_Attribute_Dataset_for_Balanced_Race_Gender_and_Age_WACV_2021_paper.pdf
 
