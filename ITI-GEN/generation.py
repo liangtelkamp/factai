@@ -15,6 +15,10 @@ from torch import autocast
 from contextlib import contextmanager, nullcontext
 from utils import get_folder_names_and_indexes
 
+# Import to make paths compatible
+import sys
+sys.path.append('/home/scur1031/ITI-GEN') # Change to make compatible
+
 from models.sd.ldm.util import instantiate_from_config
 from models.sd.ldm.models.diffusion.ddim import DDIMSampler
 from models.sd.ldm.models.diffusion.plms import PLMSSampler
@@ -26,7 +30,6 @@ from transformers import AutoFeatureExtractor
 safety_model_id = "CompVis/stable-diffusion-safety-checker"
 safety_feature_extractor = AutoFeatureExtractor.from_pretrained(safety_model_id)
 safety_checker = StableDiffusionSafetyChecker.from_pretrained(safety_model_id)
-
 
 
 def chunk(it, size):
@@ -259,10 +262,15 @@ def main():
 
     config = OmegaConf.load(f"{opt.config}")
     model = load_model_from_config(config, f"{opt.ckpt}")
-
-    device = torch.device("cuda:{}".format(opt.gpu)) if torch.cuda.is_available() else torch.device("cpu")
-    model = model.to(device)
-
+    try: # Added to make compatible with Snellius
+        device = torch.device("cuda:{}".format(opt.gpu)) if torch.cuda.is_available() else torch.device("cpu")
+        model = mode.to(device)
+    except:
+        print('Except')
+        device = torch.device("cuda") if torch.cuda.is_available() else torch.device("cpu")
+        model = model.to(device)
+    # Added to check device
+    print(f"Device: {device}")
 
     if opt.plms:
         sampler = PLMSSampler(model)
@@ -287,7 +295,8 @@ def main():
     # Get combination
     folder_with_indexes = get_folder_names_and_indexes(opt.attr_list.split(','))
     for folder, index in folder_with_indexes.items():
-
+        if folder in os.listdir(opt.outdir):
+            continue
         sample_path = os.path.join(opt.outdir, folder)
         os.makedirs(sample_path, exist_ok=True)
 
@@ -318,20 +327,20 @@ def main():
 
                             shape = [opt.C, opt.H // opt.f, opt.W // opt.f]
                             samples_ddim, tmp = sampler.sample(S=opt.ddim_steps,
-                                                             conditioning=c,
-                                                             batch_size=opt.n_samples,
-                                                             shape=shape,
-                                                             verbose=False,
-                                                             unconditional_guidance_scale=opt.scale,
-                                                             unconditional_conditioning=uc,
-                                                             eta=opt.ddim_eta,
-                                                             x_T=start_code)
+                                                                conditioning=c,
+                                                                batch_size=opt.n_samples,
+                                                                shape=shape,
+                                                                verbose=False,
+                                                                unconditional_guidance_scale=opt.scale,
+                                                                unconditional_conditioning=uc,
+                                                                eta=opt.ddim_eta,
+                                                                x_T=start_code)
 
                             x_samples_ddim = model.decode_first_stage(samples_ddim)
                             x_samples_ddim = torch.clamp((x_samples_ddim + 1.0) / 2.0, min=0.0, max=1.0)
                             x_samples_ddim = x_samples_ddim.cpu().permute(0, 2, 3, 1).numpy()
 
-                            # x_checked_image, has_nsfw_concept = check_safety(x_samples_ddim)
+                            x_checked_image, has_nsfw_concept = check_safety(x_samples_ddim)
 
                             x_checked_image_torch = torch.from_numpy(x_samples_ddim).permute(0, 3, 1, 2)
 
@@ -340,7 +349,7 @@ def main():
                                     x_sample = 255. * rearrange(x_sample.cpu().numpy(), 'c h w -> h w c')
                                     img = Image.fromarray(x_sample.astype(np.uint8))
                                     # img = put_watermark(img, wm_encoder)
-                                    img.save(os.path.join(sample_path, f"{base_count:05}.png"))
+                                    img.save(os.path.join(sample_path, f"{folder}_{base_count:05}.png"))
                                     base_count += 1
 
                             if not opt.skip_grid:

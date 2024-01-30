@@ -1,0 +1,203 @@
+Device used for training the model cuda
+Adjusting learning rate of group 0 to 1.0000e-02.
+Epoch 1, step 0 / 5. Update No.1 attribute: Male            Total loss: 1.63083    Direction loss: nan        Consistency loss: 0.00000    Sim loss: 1.63083   
+Epoch 1, step 1 / 5. Update No.1 attribute: Male            Total loss: 1.13054    Direction loss: 0.90831    Consistency loss: 0.22223    Sim loss: 1.61666   
+Epoch 1, step 2 / 5. Update No.1 attribute: Male            Total loss: 0.78576    Direction loss: 0.78576    Consistency loss: 0.00000    Sim loss: 1.60756   
+Epoch 1, step 3 / 5. Update No.1 attribute: Male            Total loss: 0.66494    Direction loss: 0.59949    Consistency loss: 0.06545    Sim loss: 1.60558   
+Epoch 1, step 4 / 5. Update No.1 attribute: Male            Total loss: 0.51790    Direction loss: 0.48019    Consistency loss: 0.03771    Sim loss: 1.58329   
+Adjusting learning rate of group 0 to 1.0000e-02.
+Epoch 2, step 0 / 5. Update No.1 attribute: Male            Total loss: 0.42616    Direction loss: 0.40304    Consistency loss: 0.02313    Sim loss: 1.58610   
+Epoch 2, step 1 / 5. Update No.1 attribute: Male            Total loss: 0.39004    Direction loss: 0.38229    Consistency loss: 0.00775    Sim loss: 1.58864   
+Epoch 2, step 2 / 5. Update No.1 attribute: Male            Total loss: 0.34643    Direction loss: 0.34643    Consistency loss: 0.00000    Sim loss: 1.58982   
+Epoch 2, step 3 / 5. Update No.1 attribute: Male            Total loss: 0.31962    Direction loss: 0.31962    Consistency loss: 0.00000    Sim loss: 1.59000   
+Epoch 2, step 4 / 5. Update No.1 attribute: Male            Total loss: 0.28190    Direction loss: 0.28190    Consistency loss: 0.00000    Sim loss: 1.59287   
+Adjusting learning rate of group 0 to 1.0000e-02.
+Epoch 3, step 0 / 5. Update No.1 attribute: Male            Total loss: 0.29030    Direction loss: 0.28756    Consistency loss: 0.00275    Sim loss: 1.59256   
+Epoch 3, step 1 / 5. Update No.1 attribute: Male            Total loss: 0.26509    Direction loss: 0.26134    Consistency loss: 0.00375    Sim loss: 1.58840   
+Epoch 3, step 2 / 5. Update No.1 attribute: Male            Total loss: 0.24788    Direction loss: 0.24716    Consistency loss: 0.00073    Sim loss: 1.59299   
+Epoch 3, step 3 / 5. Update No.1 attribute: Male            Total loss: 0.25693    Direction loss: 0.25693    Consistency loss: 0.00000    Sim loss: 1.58820   
+Epoch 3, step 4 / 5. Update No.1 attribute: Male            Total loss: 0.26014    Direction loss: 0.26014    Consistency loss: 0.00000    Sim loss: 1.59500   
+Adjusting learning rate of group 0 to 1.0000e-02.
+Epoch 4, step 0 / 5. Update No.1 attribute: Male            Total loss: 0.24302    Direction loss: 0.24302    Consistency loss: 0.00000    Sim loss: 1.59616   
+Epoch 4, step 1 / 5. Update No.1 attribute: Male            Total loss: 0.26883    Direction loss: 0.26883    Consistency loss: 0.00000    Sim loss: 1.59775   
+Epoch 4, step 2 / 5. Update No.1 attribute: Male            Total loss: 0.22123    Direction loss: 0.22123    Consistency loss: 0.00000    Sim loss: 1.59495   
+Epoch 4, step 3 / 5. Update No.1 attribute: Male            Total loss: 0.21131    Direction loss: 0.21131    Consistency loss: 0.00000    Sim loss: 1.59819   
+Epoch 4, step 4 / 5. Update No.1 attribute: Male            Total loss: 0.23571    Direction loss: 0.23571    Consistency loss: 0.00000    Sim loss: 1.60087   
+Adjusting learning rate of group 0 to 1.0000e-02.
+Epoch 5, step 0 / 5. Update No.1 attribute: Male            Total loss: 0.19824    Direction loss: 0.19824    Consistency loss: 0.00000    Sim loss: 1.60064   
+Epoch 5, step 1 / 5. Update No.1 attribute: Male            Total loss: 0.20348    Direction loss: 0.20348    Consistency loss: 0.00000    Sim loss: 1.59175   
+Epoch 5, step 2 / 5. Update No.1 attribute: Male            Total loss: 0.22008    Direction loss: 0.22008    Consistency loss: 0.00000    Sim loss: 1.60074   
+Epoch 5, step 3 / 5. Update No.1 attribute: Male            Total loss: 0.19010    Direction loss: 0.18960    Consistency loss: 0.00050    Sim loss: 1.60162   
+Epoch 5, step 4 / 5. Update No.1 attribute: Male            Total loss: 0.22388    Direction loss: 0.22388    Consistency loss: 0.00000    Sim loss: 1.59993   
+Adjusting learning rate of group 0 to 1.0000e-02.
+Epoch 6, step 0 / 5. Update No.1 attribute: Male            Total loss: 0.19136    Direction loss: 0.19136    Consistency loss: 0.00000    Sim loss: 1.60533   
+Epoch 6, step 1 / 5. Update No.1 attribute: Male            Total loss: 0.19432    Direction loss: 0.19432    Consistency loss: 0.00000    Sim loss: 1.60170   
+Epoch 6, step 2 / 5. Update No.1 attribute: Male            Total loss: 0.19109    Direction loss: 0.19109    Consistency loss: 0.00000    Sim loss: 1.60097   
+Epoch 6, step 3 / 5. Update No.1 attribute: Male            Total loss: 0.18400    Direction loss: 0.18400    Consistency loss: 0.00000    Sim loss: 1.59370   
+Epoch 6, step 4 / 5. Update No.1 attribute: Male            Total loss: 0.17877    Direction loss: 0.17877    Consistency loss: 0.00000    Sim loss: 1.59357   
+Adjusting learning rate of group 0 to 1.0000e-02.
+Epoch 7, step 0 / 5. Update No.1 attribute: Male            Total loss: 0.17725    Direction loss: 0.17725    Consistency loss: 0.00000    Sim loss: 1.60043   
+Epoch 7, step 1 / 5. Update No.1 attribute: Male            Total loss: 0.16666    Direction loss: 0.16666    Consistency loss: 0.00000    Sim loss: 1.60433   
+Epoch 7, step 2 / 5. Update No.1 attribute: Male            Total loss: 0.16841    Direction loss: 0.16841    Consistency loss: 0.00000    Sim loss: 1.59939   
+Epoch 7, step 3 / 5. Update No.1 attribute: Male            Total loss: 0.17431    Direction loss: 0.17426    Consistency loss: 0.00005    Sim loss: 1.60249   
+Epoch 7, step 4 / 5. Update No.1 attribute: Male            Total loss: 0.19352    Direction loss: 0.19352    Consistency loss: 0.00000    Sim loss: 1.59945   
+Adjusting learning rate of group 0 to 1.0000e-02.
+Epoch 8, step 0 / 5. Update No.1 attribute: Male            Total loss: 0.16673    Direction loss: 0.16673    Consistency loss: 0.00000    Sim loss: 1.59982   
+Epoch 8, step 1 / 5. Update No.1 attribute: Male            Total loss: 0.16784    Direction loss: 0.16784    Consistency loss: 0.00000    Sim loss: 1.60293   
+Epoch 8, step 2 / 5. Update No.1 attribute: Male            Total loss: 0.16712    Direction loss: 0.16712    Consistency loss: 0.00000    Sim loss: 1.60194   
+Epoch 8, step 3 / 5. Update No.1 attribute: Male            Total loss: 0.16587    Direction loss: 0.16587    Consistency loss: 0.00000    Sim loss: 1.60054   
+Epoch 8, step 4 / 5. Update No.1 attribute: Male            Total loss: 0.16115    Direction loss: 0.16115    Consistency loss: 0.00000    Sim loss: 1.60242   
+Adjusting learning rate of group 0 to 1.0000e-02.
+Epoch 9, step 0 / 5. Update No.1 attribute: Male            Total loss: 0.16514    Direction loss: 0.16514    Consistency loss: 0.00000    Sim loss: 1.60358   
+Epoch 9, step 1 / 5. Update No.1 attribute: Male            Total loss: 0.16442    Direction loss: 0.16442    Consistency loss: 0.00000    Sim loss: 1.60257   
+Epoch 9, step 2 / 5. Update No.1 attribute: Male            Total loss: 0.16124    Direction loss: 0.16124    Consistency loss: 0.00000    Sim loss: 1.60329   
+Epoch 9, step 3 / 5. Update No.1 attribute: Male            Total loss: 0.15184    Direction loss: 0.15164    Consistency loss: 0.00020    Sim loss: 1.60163   
+Epoch 9, step 4 / 5. Update No.1 attribute: Male            Total loss: 0.15897    Direction loss: 0.15897    Consistency loss: 0.00000    Sim loss: 1.59542   
+Adjusting learning rate of group 0 to 1.0000e-02.
+Epoch 10, step 0 / 5. Update No.1 attribute: Male            Total loss: 0.14472    Direction loss: 0.14472    Consistency loss: 0.00000    Sim loss: 1.59745   
+Epoch 10, step 1 / 5. Update No.1 attribute: Male            Total loss: 0.16881    Direction loss: 0.16881    Consistency loss: 0.00000    Sim loss: 1.60248   
+Epoch 10, step 2 / 5. Update No.1 attribute: Male            Total loss: 0.14133    Direction loss: 0.14133    Consistency loss: 0.00000    Sim loss: 1.60716   
+Epoch 10, step 3 / 5. Update No.1 attribute: Male            Total loss: 0.14798    Direction loss: 0.14798    Consistency loss: 0.00000    Sim loss: 1.59538   
+Epoch 10, step 4 / 5. Update No.1 attribute: Male            Total loss: 0.14482    Direction loss: 0.14482    Consistency loss: 0.00000    Sim loss: 1.60270   
+Adjusting learning rate of group 0 to 5.0000e-03.
+Successfully save FairTokens!
+Successfully save Models!
+Epoch 11, step 0 / 5. Update No.1 attribute: Male            Total loss: 0.16463    Direction loss: 0.16463    Consistency loss: 0.00000    Sim loss: 1.60024   
+Epoch 11, step 1 / 5. Update No.1 attribute: Male            Total loss: 0.15660    Direction loss: 0.15660    Consistency loss: 0.00000    Sim loss: 1.60216   
+Epoch 11, step 2 / 5. Update No.1 attribute: Male            Total loss: 0.14213    Direction loss: 0.14204    Consistency loss: 0.00009    Sim loss: 1.59805   
+Epoch 11, step 3 / 5. Update No.1 attribute: Male            Total loss: 0.14499    Direction loss: 0.14499    Consistency loss: 0.00000    Sim loss: 1.59917   
+Epoch 11, step 4 / 5. Update No.1 attribute: Male            Total loss: 0.13699    Direction loss: 0.13699    Consistency loss: 0.00000    Sim loss: 1.59455   
+Adjusting learning rate of group 0 to 5.0000e-03.
+Epoch 12, step 0 / 5. Update No.1 attribute: Male            Total loss: 0.14382    Direction loss: 0.14382    Consistency loss: 0.00000    Sim loss: 1.59979   
+Epoch 12, step 1 / 5. Update No.1 attribute: Male            Total loss: 0.14474    Direction loss: 0.14474    Consistency loss: 0.00000    Sim loss: 1.59717   
+Epoch 12, step 2 / 5. Update No.1 attribute: Male            Total loss: 0.16112    Direction loss: 0.16112    Consistency loss: 0.00000    Sim loss: 1.60250   
+Epoch 12, step 3 / 5. Update No.1 attribute: Male            Total loss: 0.13499    Direction loss: 0.13499    Consistency loss: 0.00000    Sim loss: 1.59592   
+Epoch 12, step 4 / 5. Update No.1 attribute: Male            Total loss: 0.14033    Direction loss: 0.14033    Consistency loss: 0.00000    Sim loss: 1.60044   
+Adjusting learning rate of group 0 to 5.0000e-03.
+Epoch 13, step 0 / 5. Update No.1 attribute: Male            Total loss: 0.13835    Direction loss: 0.13835    Consistency loss: 0.00000    Sim loss: 1.59323   
+Epoch 13, step 1 / 5. Update No.1 attribute: Male            Total loss: 0.12817    Direction loss: 0.12817    Consistency loss: 0.00000    Sim loss: 1.60046   
+Epoch 13, step 2 / 5. Update No.1 attribute: Male            Total loss: 0.12734    Direction loss: 0.12734    Consistency loss: 0.00000    Sim loss: 1.60351   
+Epoch 13, step 3 / 5. Update No.1 attribute: Male            Total loss: 0.14940    Direction loss: 0.14940    Consistency loss: 0.00000    Sim loss: 1.59913   
+Epoch 13, step 4 / 5. Update No.1 attribute: Male            Total loss: 0.15887    Direction loss: 0.15887    Consistency loss: 0.00000    Sim loss: 1.59888   
+Adjusting learning rate of group 0 to 5.0000e-03.
+Epoch 14, step 0 / 5. Update No.1 attribute: Male            Total loss: 0.14544    Direction loss: 0.14544    Consistency loss: 0.00000    Sim loss: 1.59887   
+Epoch 14, step 1 / 5. Update No.1 attribute: Male            Total loss: 0.14412    Direction loss: 0.14412    Consistency loss: 0.00000    Sim loss: 1.59876   
+Epoch 14, step 2 / 5. Update No.1 attribute: Male            Total loss: 0.13472    Direction loss: 0.13472    Consistency loss: 0.00000    Sim loss: 1.59932   
+Epoch 14, step 3 / 5. Update No.1 attribute: Male            Total loss: 0.11419    Direction loss: 0.11381    Consistency loss: 0.00038    Sim loss: 1.60019   
+Epoch 14, step 4 / 5. Update No.1 attribute: Male            Total loss: 0.14174    Direction loss: 0.14174    Consistency loss: 0.00000    Sim loss: 1.59037   
+Adjusting learning rate of group 0 to 5.0000e-03.
+Epoch 15, step 0 / 5. Update No.1 attribute: Male            Total loss: 0.13131    Direction loss: 0.13131    Consistency loss: 0.00000    Sim loss: 1.59560   
+Epoch 15, step 1 / 5. Update No.1 attribute: Male            Total loss: 0.11713    Direction loss: 0.11713    Consistency loss: 0.00000    Sim loss: 1.59230   
+Epoch 15, step 2 / 5. Update No.1 attribute: Male            Total loss: 0.14046    Direction loss: 0.14046    Consistency loss: 0.00000    Sim loss: 1.59913   
+Epoch 15, step 3 / 5. Update No.1 attribute: Male            Total loss: 0.13220    Direction loss: 0.13220    Consistency loss: 0.00000    Sim loss: 1.59962   
+Epoch 15, step 4 / 5. Update No.1 attribute: Male            Total loss: 0.15422    Direction loss: 0.15422    Consistency loss: 0.00000    Sim loss: 1.59881   
+Adjusting learning rate of group 0 to 5.0000e-03.
+Epoch 16, step 0 / 5. Update No.1 attribute: Male            Total loss: 0.13853    Direction loss: 0.13853    Consistency loss: 0.00000    Sim loss: 1.59963   
+Epoch 16, step 1 / 5. Update No.1 attribute: Male            Total loss: 0.13119    Direction loss: 0.13119    Consistency loss: 0.00000    Sim loss: 1.59717   
+Epoch 16, step 2 / 5. Update No.1 attribute: Male            Total loss: 0.13210    Direction loss: 0.13210    Consistency loss: 0.00000    Sim loss: 1.60180   
+Epoch 16, step 3 / 5. Update No.1 attribute: Male            Total loss: 0.13215    Direction loss: 0.13215    Consistency loss: 0.00000    Sim loss: 1.58980   
+Epoch 16, step 4 / 5. Update No.1 attribute: Male            Total loss: 0.11365    Direction loss: 0.11365    Consistency loss: 0.00000    Sim loss: 1.59167   
+Adjusting learning rate of group 0 to 5.0000e-03.
+Epoch 17, step 0 / 5. Update No.1 attribute: Male            Total loss: 0.12053    Direction loss: 0.12053    Consistency loss: 0.00000    Sim loss: 1.59570   
+Epoch 17, step 1 / 5. Update No.1 attribute: Male            Total loss: 0.14216    Direction loss: 0.14216    Consistency loss: 0.00000    Sim loss: 1.59508   
+Epoch 17, step 2 / 5. Update No.1 attribute: Male            Total loss: 0.13577    Direction loss: 0.13577    Consistency loss: 0.00000    Sim loss: 1.59704   
+Epoch 17, step 3 / 5. Update No.1 attribute: Male            Total loss: 0.11739    Direction loss: 0.11739    Consistency loss: 0.00000    Sim loss: 1.59812   
+Epoch 17, step 4 / 5. Update No.1 attribute: Male            Total loss: 0.12920    Direction loss: 0.12920    Consistency loss: 0.00000    Sim loss: 1.59212   
+Adjusting learning rate of group 0 to 5.0000e-03.
+Epoch 18, step 0 / 5. Update No.1 attribute: Male            Total loss: 0.12802    Direction loss: 0.12802    Consistency loss: 0.00000    Sim loss: 1.59455   
+Epoch 18, step 1 / 5. Update No.1 attribute: Male            Total loss: 0.11315    Direction loss: 0.11315    Consistency loss: 0.00000    Sim loss: 1.59565   
+Epoch 18, step 2 / 5. Update No.1 attribute: Male            Total loss: 0.12680    Direction loss: 0.12680    Consistency loss: 0.00000    Sim loss: 1.59492   
+Epoch 18, step 3 / 5. Update No.1 attribute: Male            Total loss: 0.11436    Direction loss: 0.11436    Consistency loss: 0.00000    Sim loss: 1.59380   
+Epoch 18, step 4 / 5. Update No.1 attribute: Male            Total loss: 0.12691    Direction loss: 0.12691    Consistency loss: 0.00000    Sim loss: 1.59906   
+Adjusting learning rate of group 0 to 5.0000e-03.
+Epoch 19, step 0 / 5. Update No.1 attribute: Male            Total loss: 0.12941    Direction loss: 0.12941    Consistency loss: 0.00000    Sim loss: 1.59991   
+Epoch 19, step 1 / 5. Update No.1 attribute: Male            Total loss: 0.13069    Direction loss: 0.13069    Consistency loss: 0.00000    Sim loss: 1.58695   
+Epoch 19, step 2 / 5. Update No.1 attribute: Male            Total loss: 0.13458    Direction loss: 0.13385    Consistency loss: 0.00073    Sim loss: 1.59834   
+Epoch 19, step 3 / 5. Update No.1 attribute: Male            Total loss: 0.12527    Direction loss: 0.12527    Consistency loss: 0.00000    Sim loss: 1.59667   
+Epoch 19, step 4 / 5. Update No.1 attribute: Male            Total loss: 0.13202    Direction loss: 0.13202    Consistency loss: 0.00000    Sim loss: 1.59200   
+Adjusting learning rate of group 0 to 5.0000e-03.
+Epoch 20, step 0 / 5. Update No.1 attribute: Male            Total loss: 0.12195    Direction loss: 0.12195    Consistency loss: 0.00000    Sim loss: 1.59301   
+Epoch 20, step 1 / 5. Update No.1 attribute: Male            Total loss: 0.12290    Direction loss: 0.12290    Consistency loss: 0.00000    Sim loss: 1.59461   
+Epoch 20, step 2 / 5. Update No.1 attribute: Male            Total loss: 0.13674    Direction loss: 0.13674    Consistency loss: 0.00000    Sim loss: 1.59390   
+Epoch 20, step 3 / 5. Update No.1 attribute: Male            Total loss: 0.10463    Direction loss: 0.10463    Consistency loss: 0.00000    Sim loss: 1.59343   
+Epoch 20, step 4 / 5. Update No.1 attribute: Male            Total loss: 0.11949    Direction loss: 0.11949    Consistency loss: 0.00000    Sim loss: 1.59632   
+Adjusting learning rate of group 0 to 5.0000e-03.
+Successfully save FairTokens!
+Successfully save Models!
+Epoch 21, step 0 / 5. Update No.1 attribute: Male            Total loss: 0.12414    Direction loss: 0.12414    Consistency loss: 0.00000    Sim loss: 1.60039   
+Epoch 21, step 1 / 5. Update No.1 attribute: Male            Total loss: 0.10826    Direction loss: 0.10826    Consistency loss: 0.00000    Sim loss: 1.59875   
+Epoch 21, step 2 / 5. Update No.1 attribute: Male            Total loss: 0.11073    Direction loss: 0.11073    Consistency loss: 0.00000    Sim loss: 1.58855   
+Epoch 21, step 3 / 5. Update No.1 attribute: Male            Total loss: 0.10171    Direction loss: 0.10171    Consistency loss: 0.00000    Sim loss: 1.59343   
+Epoch 21, step 4 / 5. Update No.1 attribute: Male            Total loss: 0.12291    Direction loss: 0.12291    Consistency loss: 0.00000    Sim loss: 1.59321   
+Adjusting learning rate of group 0 to 5.0000e-03.
+Epoch 22, step 0 / 5. Update No.1 attribute: Male            Total loss: 0.10476    Direction loss: 0.10476    Consistency loss: 0.00000    Sim loss: 1.59121   
+Epoch 22, step 1 / 5. Update No.1 attribute: Male            Total loss: 0.12493    Direction loss: 0.12493    Consistency loss: 0.00000    Sim loss: 1.59081   
+Epoch 22, step 2 / 5. Update No.1 attribute: Male            Total loss: 0.13467    Direction loss: 0.13467    Consistency loss: 0.00000    Sim loss: 1.59742   
+Epoch 22, step 3 / 5. Update No.1 attribute: Male            Total loss: 0.10205    Direction loss: 0.10205    Consistency loss: 0.00000    Sim loss: 1.59619   
+Epoch 22, step 4 / 5. Update No.1 attribute: Male            Total loss: 0.09473    Direction loss: 0.09473    Consistency loss: 0.00000    Sim loss: 1.59520   
+Adjusting learning rate of group 0 to 5.0000e-03.
+Epoch 23, step 0 / 5. Update No.1 attribute: Male            Total loss: 0.11999    Direction loss: 0.11999    Consistency loss: 0.00000    Sim loss: 1.59007   
+Epoch 23, step 1 / 5. Update No.1 attribute: Male            Total loss: 0.10431    Direction loss: 0.10431    Consistency loss: 0.00000    Sim loss: 1.58948   
+Epoch 23, step 2 / 5. Update No.1 attribute: Male            Total loss: 0.10967    Direction loss: 0.10967    Consistency loss: 0.00000    Sim loss: 1.59612   
+Epoch 23, step 3 / 5. Update No.1 attribute: Male            Total loss: 0.11704    Direction loss: 0.11704    Consistency loss: 0.00000    Sim loss: 1.59497   
+Epoch 23, step 4 / 5. Update No.1 attribute: Male            Total loss: 0.10722    Direction loss: 0.10722    Consistency loss: 0.00000    Sim loss: 1.59649   
+Adjusting learning rate of group 0 to 5.0000e-03.
+Epoch 24, step 0 / 5. Update No.1 attribute: Male            Total loss: 0.11108    Direction loss: 0.11108    Consistency loss: 0.00000    Sim loss: 1.60055   
+Epoch 24, step 1 / 5. Update No.1 attribute: Male            Total loss: 0.13166    Direction loss: 0.13166    Consistency loss: 0.00000    Sim loss: 1.59771   
+Epoch 24, step 2 / 5. Update No.1 attribute: Male            Total loss: 0.11464    Direction loss: 0.11464    Consistency loss: 0.00000    Sim loss: 1.59121   
+Epoch 24, step 3 / 5. Update No.1 attribute: Male            Total loss: 0.10563    Direction loss: 0.10563    Consistency loss: 0.00000    Sim loss: 1.59336   
+Epoch 24, step 4 / 5. Update No.1 attribute: Male            Total loss: 0.11568    Direction loss: 0.11568    Consistency loss: 0.00000    Sim loss: 1.59230   
+Adjusting learning rate of group 0 to 5.0000e-03.
+Epoch 25, step 0 / 5. Update No.1 attribute: Male            Total loss: 0.10659    Direction loss: 0.10659    Consistency loss: 0.00000    Sim loss: 1.58683   
+Epoch 25, step 1 / 5. Update No.1 attribute: Male            Total loss: 0.10963    Direction loss: 0.10963    Consistency loss: 0.00000    Sim loss: 1.59766   
+Epoch 25, step 2 / 5. Update No.1 attribute: Male            Total loss: 0.10558    Direction loss: 0.10558    Consistency loss: 0.00000    Sim loss: 1.59604   
+Epoch 25, step 3 / 5. Update No.1 attribute: Male            Total loss: 0.13749    Direction loss: 0.13749    Consistency loss: 0.00000    Sim loss: 1.59479   
+Epoch 25, step 4 / 5. Update No.1 attribute: Male            Total loss: 0.10707    Direction loss: 0.10707    Consistency loss: 0.00000    Sim loss: 1.59145   
+Adjusting learning rate of group 0 to 5.0000e-03.
+Epoch 26, step 0 / 5. Update No.1 attribute: Male            Total loss: 0.09116    Direction loss: 0.09116    Consistency loss: 0.00000    Sim loss: 1.59432   
+Epoch 26, step 1 / 5. Update No.1 attribute: Male            Total loss: 0.09775    Direction loss: 0.09775    Consistency loss: 0.00000    Sim loss: 1.58991   
+Epoch 26, step 2 / 5. Update No.1 attribute: Male            Total loss: 0.11113    Direction loss: 0.11113    Consistency loss: 0.00000    Sim loss: 1.59367   
+Epoch 26, step 3 / 5. Update No.1 attribute: Male            Total loss: 0.10849    Direction loss: 0.10849    Consistency loss: 0.00000    Sim loss: 1.59282   
+Epoch 26, step 4 / 5. Update No.1 attribute: Male            Total loss: 0.12465    Direction loss: 0.12465    Consistency loss: 0.00000    Sim loss: 1.59934   
+Adjusting learning rate of group 0 to 5.0000e-03.
+Epoch 27, step 0 / 5. Update No.1 attribute: Male            Total loss: 0.12002    Direction loss: 0.12002    Consistency loss: 0.00000    Sim loss: 1.59278   
+Epoch 27, step 1 / 5. Update No.1 attribute: Male            Total loss: 0.09885    Direction loss: 0.09885    Consistency loss: 0.00000    Sim loss: 1.59083   
+Epoch 27, step 2 / 5. Update No.1 attribute: Male            Total loss: 0.08997    Direction loss: 0.08997    Consistency loss: 0.00000    Sim loss: 1.59380   
+Epoch 27, step 3 / 5. Update No.1 attribute: Male            Total loss: 0.10427    Direction loss: 0.10427    Consistency loss: 0.00000    Sim loss: 1.59295   
+Epoch 27, step 4 / 5. Update No.1 attribute: Male            Total loss: 0.12607    Direction loss: 0.12607    Consistency loss: 0.00000    Sim loss: 1.59776   
+Adjusting learning rate of group 0 to 5.0000e-03.
+Epoch 28, step 0 / 5. Update No.1 attribute: Male            Total loss: 0.10650    Direction loss: 0.10650    Consistency loss: 0.00000    Sim loss: 1.58580   
+Epoch 28, step 1 / 5. Update No.1 attribute: Male            Total loss: 0.10981    Direction loss: 0.10981    Consistency loss: 0.00000    Sim loss: 1.59225   
+Epoch 28, step 2 / 5. Update No.1 attribute: Male            Total loss: 0.11835    Direction loss: 0.11835    Consistency loss: 0.00000    Sim loss: 1.59529   
+Epoch 28, step 3 / 5. Update No.1 attribute: Male            Total loss: 0.13682    Direction loss: 0.13682    Consistency loss: 0.00000    Sim loss: 1.59140   
+Epoch 28, step 4 / 5. Update No.1 attribute: Male            Total loss: 0.12073    Direction loss: 0.12073    Consistency loss: 0.00000    Sim loss: 1.59566   
+Adjusting learning rate of group 0 to 5.0000e-03.
+Epoch 29, step 0 / 5. Update No.1 attribute: Male            Total loss: 0.12252    Direction loss: 0.12252    Consistency loss: 0.00000    Sim loss: 1.59351   
+Epoch 29, step 1 / 5. Update No.1 attribute: Male            Total loss: 0.11891    Direction loss: 0.11891    Consistency loss: 0.00000    Sim loss: 1.59852   
+Epoch 29, step 2 / 5. Update No.1 attribute: Male            Total loss: 0.09729    Direction loss: 0.09729    Consistency loss: 0.00000    Sim loss: 1.58919   
+Epoch 29, step 3 / 5. Update No.1 attribute: Male            Total loss: 0.09642    Direction loss: 0.09642    Consistency loss: 0.00000    Sim loss: 1.59072   
+Epoch 29, step 4 / 5. Update No.1 attribute: Male            Total loss: 0.10684    Direction loss: 0.10684    Consistency loss: 0.00000    Sim loss: 1.59682   
+Adjusting learning rate of group 0 to 5.0000e-03.
+Epoch 30, step 0 / 5. Update No.1 attribute: Male            Total loss: 0.09059    Direction loss: 0.09059    Consistency loss: 0.00000    Sim loss: 1.59256   
+Epoch 30, step 1 / 5. Update No.1 attribute: Male            Total loss: 0.11344    Direction loss: 0.11344    Consistency loss: 0.00000    Sim loss: 1.59773   
+Epoch 30, step 2 / 5. Update No.1 attribute: Male            Total loss: 0.10088    Direction loss: 0.10088    Consistency loss: 0.00000    Sim loss: 1.59451   
+Epoch 30, step 3 / 5. Update No.1 attribute: Male            Total loss: 0.12856    Direction loss: 0.12856    Consistency loss: 0.00000    Sim loss: 1.59593   
+Epoch 30, step 4 / 5. Update No.1 attribute: Male            Total loss: 0.12766    Direction loss: 0.12766    Consistency loss: 0.00000    Sim loss: 1.59161   
+Adjusting learning rate of group 0 to 5.0000e-03.
+Successfully save FairTokens!
+Successfully save Models!
+
+JOB STATISTICS
+==============
+Job ID: 4823816
+Cluster: snellius
+User/Group: scur1031/scur1031
+State: RUNNING
+Nodes: 1
+Cores per node: 9
+CPU Utilized: 00:00:00
+CPU Efficiency: 0.00% of 01:18:45 core-walltime
+Job Wall-clock time: 00:08:45
+Memory Utilized: 0.00 MB (estimated maximum)
+Memory Efficiency: 0.00% of 31.25 GB (31.25 GB/node)
+WARNING: Efficiency statistics may be misleading for RUNNING jobs.

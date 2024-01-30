@@ -76,6 +76,7 @@ class ITI_GEN(object):
                 refer_img_path.append(os.path.join(attr_path, cate))
 
             self.trainset.append(ImgDataset(root_dir=refer_img_path, label=label_type, upper_bound=self.args.refer_size_per_category))
+        
 
     def init_dataloader(self):
         """
@@ -97,7 +98,11 @@ class ITI_GEN(object):
 
     def setup_clip_model(self):
         self.clip_model, _ = clip.load("ViT-L/14", device="cpu")
-        self.clip_model.to(device=self.args.device)
+        try: # Added to make compatible with Snellius
+            self.clip_model.to(device=self.args.device)
+        except:
+            self.args.device = "cuda".format(self.args.device) if torch.cuda.is_available() else "cpu"
+            self.clip_model.to(device=self.args.device)
         self.clip_model.eval()
 
     def prompt_tokenization(self, prompt):

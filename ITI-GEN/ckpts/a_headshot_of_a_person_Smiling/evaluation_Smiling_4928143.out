@@ -1,0 +1,31 @@
+
+Found 200 generated images.
+a headshot of a person smiling: total pred: 102 | ratio: 0.51
+a headshot of a person: total pred: 98 | ratio: 0.49
+For Class ['a headshot of a person smiling', 'a headshot of a person'], KL Divergence is 0.000200
+compute FID of a folder with FFHQ statistics
+
+FID sample_results :   0%|          | 0/7 [00:00<?, ?it/s]
+FID sample_results :  14%|█▍        | 1/7 [00:02<00:16,  2.72s/it]
+FID sample_results :  29%|██▊       | 2/7 [00:22<01:03, 12.69s/it]
+FID sample_results :  43%|████▎     | 3/7 [00:22<00:27,  6.98s/it]
+FID sample_results :  57%|█████▋    | 4/7 [00:22<00:12,  4.30s/it]
+FID sample_results :  71%|███████▏  | 5/7 [00:22<00:05,  2.82s/it]
+FID sample_results :  86%|████████▌ | 6/7 [00:23<00:01,  1.92s/it]
+FID sample_results : 100%|██████████| 7/7 [00:23<00:00,  3.33s/it]
+FID Score is 124.17072632881036
+
+JOB STATISTICS
+==============
+Job ID: 4928143
+Cluster: snellius
+User/Group: scur1031/scur1031
+State: RUNNING
+Nodes: 1
+Cores per node: 9
+CPU Utilized: 00:01:34
+CPU Efficiency: 18.99% of 00:08:15 core-walltime
+Job Wall-clock time: 00:00:55
+Memory Utilized: 5.00 GB
+Memory Efficiency: 16.00% of 31.25 GB
+WARNING: Efficiency statistics may be misleading for RUNNING jobs.

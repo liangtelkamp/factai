@@ -5,7 +5,7 @@
 #SBATCH --cpus-per-task=18
 #SBATCH --gpus=1
 #SBATCH --partition=gpu_mig
-#SBATCH --time=00:15:00
+#SBATCH --time=00:01:00
 #SBATCH --output=HPS_EVALUATE_%A.out
 
 module purge

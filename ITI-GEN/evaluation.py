@@ -36,7 +36,11 @@ class ImgDataset(Dataset):
         self.root_dir = root_dir
         self.file_list = glob.glob(os.path.join(self.root_dir, '*.png'))
         self.file_list += glob.glob(os.path.join(self.root_dir, '*.jpg'))
-
+        # If there is a subfolder, add it to the file list
+        subfolders = [f.path for f in os.scandir(self.root_dir) if f.is_dir()] # Liang
+        for subfolder in subfolders: # Liang
+            self.file_list += glob.glob(os.path.join(subfolder, '*.png')) # Liang
+            self.file_list += glob.glob(os.path.join(subfolder, '*.jpg')) # Liang
         print('Found {} generated images.'.format(len(self.file_list)))
 
         self.transforms = Compose([
@@ -97,7 +101,7 @@ if __name__ == '__main__':
 
     CLASSES_prompts = args.class_list
     length = len(CLASSES_prompts)
-    device_ = "cuda:{}".format(args.device) if torch.cuda.is_available() else "cpu"
+    device_ = "cuda".format(args.device) if torch.cuda.is_available() else "cpu" # Liang
 
     # evaluate
     num_each_cls_list = eval(args.img_folder, CLASSES_prompts, device_)

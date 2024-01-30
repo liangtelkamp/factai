@@ -2,6 +2,8 @@ import os
 import torch
 import argparse
 from iti_gen.model import ITI_GEN
+from tqdm import tqdm # Added to track time
+import time # Added to track time
 torch.backends.cudnn.enabled = True
 
 def parse_args():
@@ -38,5 +40,5 @@ if __name__ == '__main__':
     os.makedirs(folder_path, exist_ok=True)
 
     epoch_saving_list = [(i + 1) * args.save_ckpt_per_epochs for i in range(int(args.epochs // args.save_ckpt_per_epochs))]
-    for epoch in range(args.epochs):
+    for epoch in tqdm(range(args.epochs)): # Added to track time
         iti_gen.train(epoch, epoch_saving_list, folder_path)
