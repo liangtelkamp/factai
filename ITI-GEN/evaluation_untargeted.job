@@ -1,0 +1,69 @@
+#!/bin/bash
+
+#SBATCH --partition=gpu_mig
+#SBATCH --gres=gpu:1
+#SBATCH --cpus-per-task=9
+#SBATCH --gpus=1
+#SBATCH --job-name=Eval
+#SBATCH --ntasks=1
+#SBATCH --time=00:15:00
+#SBATCH --mem=32000M
+#SBATCH --output=evaluation_untargeted_%A.out
+
+module purge
+module load 2022
+module load Anaconda3/2022.05
+
+# Activate your environment
+source activate iti_gen
+
+# Evaluation of untargeted attributes, trained on young/old, results for young
+srun python -u /home/scur1303/fact/factai/ITI-GEN/evaluation.py \
+    --img-folder '/home/scur1303/fact/factai/ITI-GEN/ckpts/a_headshot_of_a_person_Young/original_prompt_embedding/sample_results/Young_positive' \
+    --class-list 'a headshot of a man' 'a headshot of a woman'
+
+srun python -u /home/scur1303/fact/factai/ITI-GEN/evaluation.py \
+    --img-folder '/home/scur1303/fact/factai/ITI-GEN/ckpts/a_headshot_of_a_person_Young/original_prompt_embedding/sample_results/Young_positive' \
+    --class-list 'a headshot of a young person' 'a headshot of an old person'
+
+srun python -u /home/scur1303/fact/factai/ITI-GEN/evaluation.py \
+    --img-folder '/home/scur1303/fact/factai/ITI-GEN/ckpts/a_headshot_of_a_person_Young/original_prompt_embedding/sample_results/Young_positive' \
+    --class-list 'a headshot of a person with pale skin' 'a headshot of a person with dark skin'
+
+srun python -u /home/scur1303/fact/factai/ITI-GEN/evaluation.py \
+    --img-folder '/home/scur1303/fact/factai/ITI-GEN/ckpts/a_headshot_of_a_person_Young/original_prompt_embedding/sample_results/Young_positive' \
+    --class-list 'a headshot of a person with eyeglasses' 'a headshot of a person'
+
+srun python -u /home/scur1303/fact/factai/ITI-GEN/evaluation.py \
+    --img-folder '/home/scur1303/fact/factai/ITI-GEN/ckpts/a_headshot_of_a_person_Young/original_prompt_embedding/sample_results/Young_positive' \
+    --class-list 'a headshot of a person with mustache' 'a headshot of a person'
+
+srun python -u /home/scur1303/fact/factai/ITI-GEN/evaluation.py \
+    --img-folder '/home/scur1303/fact/factai/ITI-GEN/ckpts/a_headshot_of_a_person_Young/original_prompt_embedding/sample_results/Young_positive' \
+    --class-list 'a headshot of a person with smiling' 'a headshot of a person'
+
+
+# Evaluation of untargeted attributes, trained on young/old, results for old
+srun python -u /home/scur1303/fact/factai/ITI-GEN/evaluation.py \
+    --img-folder '/home/scur1303/fact/factai/ITI-GEN/ckpts/a_headshot_of_a_person_Young/original_prompt_embedding/sample_results/Young_negative' \
+    --class-list 'a headshot of a man' 'a headshot of a woman'
+
+srun python -u /home/scur1303/fact/factai/ITI-GEN/evaluation.py \
+    --img-folder '/home/scur1303/fact/factai/ITI-GEN/ckpts/a_headshot_of_a_person_Young/original_prompt_embedding/sample_results/Young_negative' \
+    --class-list 'a headshot of a young person' 'a headshot of an old person'
+
+srun python -u /home/scur1303/fact/factai/ITI-GEN/evaluation.py \
+    --img-folder '/home/scur1303/fact/factai/ITI-GEN/ckpts/a_headshot_of_a_person_Young/original_prompt_embedding/sample_results/Young_negative' \
+    --class-list 'a headshot of a person with pale skin' 'a headshot of a person with dark skin'
+
+srun python -u /home/scur1303/fact/factai/ITI-GEN/evaluation.py \
+    --img-folder '/home/scur1303/fact/factai/ITI-GEN/ckpts/a_headshot_of_a_person_Young/original_prompt_embedding/sample_results/Young_negative' \
+    --class-list 'a headshot of a person with eyeglasses' 'a headshot of a person'
+
+srun python -u /home/scur1303/fact/factai/ITI-GEN/evaluation.py \
+    --img-folder '/home/scur1303/fact/factai/ITI-GEN/ckpts/a_headshot_of_a_person_Young/original_prompt_embedding/sample_results/Young_negative' \
+    --class-list 'a headshot of a person with mustache' 'a headshot of a person'
+
+srun python -u /home/scur1303/fact/factai/ITI-GEN/evaluation.py \
+    --img-folder '/home/scur1303/fact/factai/ITI-GEN/ckpts/a_headshot_of_a_person_Young/original_prompt_embedding/sample_results/Young_negative' \
+    --class-list 'a headshot of a person with smiling' 'a headshot of a person'
