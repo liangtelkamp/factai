@@ -1,0 +1,21 @@
+compute FID of a folder with FFHQ statistics
+Found 100 images in the folder /home/scur1031/fid_check/Male_positive
+FID Score is of Male_positive 165.73932103084297
+compute FID of a folder with FFHQ statistics
+Found 100 images in the folder /home/scur1031/fid_check/Male_negative
+FID Score is of Male_negative 159.48877066500376
+
+JOB STATISTICS
+==============
+Job ID: 4834532
+Cluster: snellius
+User/Group: scur1031/scur1031
+State: RUNNING
+Nodes: 1
+Cores per node: 9
+CPU Utilized: 00:00:00
+CPU Efficiency: 0.00% of 00:10:48 core-walltime
+Job Wall-clock time: 00:01:12
+Memory Utilized: 0.00 MB (estimated maximum)
+Memory Efficiency: 0.00% of 31.25 GB (31.25 GB/node)
+WARNING: Efficiency statistics may be misleading for RUNNING jobs.

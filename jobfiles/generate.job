@@ -1,0 +1,43 @@
+#!/bin/bash
+
+#SBATCH --partition=gpu_mig
+#SBATCH --gres=gpu:1
+#SBATCH --cpus-per-task=9
+#SBATCH --gpus=1
+#SBATCH --job-name=GEN
+#SBATCH --ntasks=1
+#SBATCH --time=00:01:00
+#SBATCH --mem=32000M
+#SBATCH --output=generate_M_Y_Eye_%A.out
+
+module purge
+module load 2022
+module load Anaconda3/2022.05
+
+# Activate your environment
+source activate iti_gen
+
+# Run your code
+srun python -u /home/scur1031/ITI-GEN/generation.py \
+    --config='/home/scur1031/ITI-GEN/models/sd/configs/stable-diffusion/v1-inference.yaml' \
+    --ckpt='/home/scur1031/ITI-GEN/models/sd/models/ldm/stable-diffusion-v1/model.ckpt' \
+    --plms \
+    --prompt-path='/home/scur1031/ITI-GEN/ckpts/a_headshot_of_a_person_Male_Young_Eyeglasses/original_prompt_embedding/basis_final_embed_29.pt'\
+    --attr-list='Male,Young,Eyeglasses' \
+    --outdir='/home/scur1031/ITI-GEN/ckpts/test/a_headshot_of_a_person_Male_Young_Eyeglasses/original_prompt_embedding/sample_results' \
+    --n_iter=1 \
+    --n_rows=1 \
+    --n_samples=1 \
+    --prompt="a headshot of a person"
+
+# srun python -u /home/scur1031/ITI-GEN/generation.py \
+#     --config='/home/scur1031/ITI-GEN/models/sd/configs/stable-diffusion/v1-inference.yaml' \
+#     --ckpt='/home/scur1031/ITI-GEN/models/sd/models/ldm/stable-diffusion-v1/model.ckpt' \
+#     --plms \
+#     --prompt-path='/home/scur1031/ITI-GEN/ckpts/a_headshot_of_a_person_Male_Young_Eyeglasses_Smiling/original_prompt_embedding/basis_final_embed_29.pt'\
+#     --attr-list='Male,Young,Eyeglasses,Smiling' \
+#     --outdir='/home/scur1031/ITI-GEN/ckpts/a_headshot_of_a_person_Male_Young_Eyeglasses_Smiling/original_prompt_embedding/sample_results' \
+#     --n_iter=100 \
+#     --n_rows=10 \
+#     --n_samples=1 \
+#     --prompt="a headshot of a person"

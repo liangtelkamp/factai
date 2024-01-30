@@ -1,0 +1,27 @@
+#!/bin/bash
+
+#SBATCH --partition=gpu_mig
+#SBATCH --gres=gpu:1
+#SBATCH --cpus-per-task=9
+#SBATCH --gpus=1
+#SBATCH --job-name=Train
+#SBATCH --ntasks=1
+#SBATCH --time=00:05:00
+#SBATCH --mem=32000M
+#SBATCH --output=logs/embed/train_test_sien_%A.out
+
+module purge
+module load 2022
+module load Anaconda3/2022.05
+
+# Activate your environment
+source activate iti_gen
+
+# Run your code
+srun python -u /home/scur1031/ITI-GEN/sien_train_iti_gen.py \
+    --prompt='a headshot of a person' \
+    --attr-list='Male' \
+    --epochs=1 \
+    --save-ckpt-per-epochs=10 \
+    --data-path='/home/scur1031/ITI-GEN/data' \
+    --ckpt-path='/home/scur1031/ITI-GEN/ckpts'

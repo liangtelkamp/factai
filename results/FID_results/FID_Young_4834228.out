@@ -1,0 +1,21 @@
+compute FID of a folder with FFHQ statistics
+Found 100 images in the folder /home/scur1031/ITI-GEN/ckpts/a_headshot_of_a_person_Young/original_prompt_embedding/sample_results/Young_positive
+FID Score is of Young_positive 192.38702855730133
+compute FID of a folder with FFHQ statistics
+Found 100 images in the folder /home/scur1031/ITI-GEN/ckpts/a_headshot_of_a_person_Young/original_prompt_embedding/sample_results/Young_negative
+FID Score is of Young_negative 174.67794549140268
+
+JOB STATISTICS
+==============
+Job ID: 4834228
+Cluster: snellius
+User/Group: scur1031/scur1031
+State: RUNNING
+Nodes: 1
+Cores per node: 9
+CPU Utilized: 00:00:00
+CPU Efficiency: 0.00% of 00:11:51 core-walltime
+Job Wall-clock time: 00:01:19
+Memory Utilized: 0.00 MB (estimated maximum)
+Memory Efficiency: 0.00% of 31.25 GB (31.25 GB/node)
+WARNING: Efficiency statistics may be misleading for RUNNING jobs.

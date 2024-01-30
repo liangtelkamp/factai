@@ -1,0 +1,27 @@
+compute FID of a folder with FFHQ statistics
+Found 100 images in the folder /home/scur1031/ITI-GEN/ckpts/a_headshot_of_a_person_Male_Young/original_prompt_embedding/sample_results/Male_negative_Young_negative
+FID Score is of Male_negative_Young_negative 149.80283794916318
+compute FID of a folder with FFHQ statistics
+Found 100 images in the folder /home/scur1031/ITI-GEN/ckpts/a_headshot_of_a_person_Male_Young/original_prompt_embedding/sample_results/Male_positive_Young_negative
+FID Score is of Male_positive_Young_negative 192.70665869765045
+compute FID of a folder with FFHQ statistics
+Found 100 images in the folder /home/scur1031/ITI-GEN/ckpts/a_headshot_of_a_person_Male_Young/original_prompt_embedding/sample_results/Male_positive_Young_positive
+FID Score is of Male_positive_Young_positive 161.01333577346918
+compute FID of a folder with FFHQ statistics
+Found 100 images in the folder /home/scur1031/ITI-GEN/ckpts/a_headshot_of_a_person_Male_Young/original_prompt_embedding/sample_results/Male_negative_Young_positive
+FID Score is of Male_negative_Young_positive 175.54058998196254
+
+JOB STATISTICS
+==============
+Job ID: 4833952
+Cluster: snellius
+User/Group: scur1031/scur1031
+State: RUNNING
+Nodes: 1
+Cores per node: 9
+CPU Utilized: 00:00:00
+CPU Efficiency: 0.00% of 00:18:27 core-walltime
+Job Wall-clock time: 00:02:03
+Memory Utilized: 0.00 MB (estimated maximum)
+Memory Efficiency: 0.00% of 31.25 GB (31.25 GB/node)
+WARNING: Efficiency statistics may be misleading for RUNNING jobs.
