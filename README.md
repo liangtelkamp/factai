@@ -40,7 +40,7 @@ srun python -u /ITI-GEN/train_iti_gen.py \
 ```
 
 
-3. Generating images with ITI-GEN models
+2. Generating images with ITI-GEN models
 ```
 srun python -u /ITI-GEN/generation.py \
     --config='/ITI-GEN/models/sd/configs/stable-diffusion/v1-inference.yaml' \
@@ -55,7 +55,7 @@ srun python -u /ITI-GEN/generation.py \
     --prompt="a headshot of a person"
 ```
 
-4. Evaluating images KL Divergence and FID score
+3. Evaluating images KL Divergence and FID score
 ```
 # Do keep in mind to remove the grids from the sample_results folder to exclude the grids from evaluation
 srun python -u /ITI-GEN/evaluation.py \
