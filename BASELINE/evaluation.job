@@ -1,15 +1,12 @@
 #!/bin/bash
 
-#SBATCH --partition=gpu_mig
-#SBATCH --gres=gpu:1
-#SBATCH --cpus-per-task=9
-#SBATCH --gpus=1
-#SBATCH --job-name=Eval
+#SBATCH --nodes=1
 #SBATCH --ntasks=1
+#SBATCH --cpus-per-task=18
+#SBATCH --gpus=1
+#SBATCH --partition=gpu_mig
 #SBATCH --time=00:15:00
-#SBATCH --mem=32000M
-#SBATCH --output=/home/scur1031/Vanilla_SD/logs/evaluation_SD_%A.out
-#SBATCH --error=/home/scur1031/Vanilla_SD/logs/evaluation_%A_error.out
+#SBATCH --output=BASELINE_EVALUATE_%A.out
 
 module purge
 module load 2022
@@ -18,5 +15,33 @@ module load Anaconda3/2022.05
 # Activate your environment
 source activate iti_gen
 
-srun python -u /home/scur1031/Vanilla_SD/evaluation_baseline.py \
-    --img-folder '/home/scur1031/Vanilla_SD/total_1000'\
+# Define the base image folder and the additional folder
+base_img_folder='/home/scur1031/BASELINE/headshots'
+additional_folder='a_headshot_of_a_person_200'
+
+# Define the class lists
+class_lists=(
+    "'a headshot of a man' 'a headshot of a woman'"
+    "'a headshot of a young person' 'a headshot of an old person'"
+    "'a headshot of a person with pale skin' 'a headshot of a person with dark skin'"
+    "'a headshot of a person with eyeglasses' 'a headshot of a person'"
+    "'a headshot of a person with mustache' 'a headshot of a person'"
+    "'a headshot of a person with smiling' 'a headshot of a person'"
+    "'a headshot of a young man', 'a headshot of an old man', 'a headshot of a young woman', 'a headshot of an old woman'"
+    "'a headshot of a young man with eyeglasses' 'a headshot of an old man with eyeglasses' 'a headshot of a young man' 'a headshot of an old man' 'a headshot of a young woman with eyeglasses' 'a headshot of an old woman with eyeglasses' 'a headshot of a young woman' 'a headshot of an old woman'"
+    "'a headshot of a young man with eyeglasses with smiling' 'a headshot of an old man with eyeglasses with smiling' 'a headshot of a young man with smiling' 'a headshot of an old man with smiling' 'a headshot of a young woman with eyeglasses with smiling', 'a headshot of an old woman with eyeglasses with smiling' 'a headshot of a young woman with smiling' 'a headshot of an old woman with smiling' 'a headshot of a young man with eyeglasses', 'a headshot of an old man with eyeglasses' 'a headshot of a young man' 'a headshot of an old man' 'a headshot of a young woman with eyeglasses', 'a headshot of an old woman with eyeglasses' 'a headshot of a young woman' 'a headshot of an old woman'"
+)
+
+# Loop over each class list for the base image folder
+for class_list in "${class_lists[@]}"; do
+    srun python -u /home/scur1031/ITI-GEN/evaluation.py \
+        --img-folder "$base_img_folder" \
+        --class-list $class_list
+done
+
+# Loop over each class list for the additional folder
+for class_list in "${class_lists[@]}"; do
+    srun python -u /home/scur1031/ITI-GEN/evaluation.py \
+        --img-folder "$base_img_folder/$additional_folder" \
+        --class-list $class_list
+done
