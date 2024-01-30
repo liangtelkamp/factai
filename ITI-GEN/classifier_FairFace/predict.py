@@ -213,11 +213,11 @@ if __name__ == "__main__":
     dlib.DLIB_USE_CUDA = True
     print("using CUDA?: %s" % dlib.DLIB_USE_CUDA)
     args = parser.parse_args()
-    SAVE_DETECTED_AT = "path/to/detected_images" 
+    SAVE_DETECTED_AT = "path/to/detected_images" # change this accordingly
     ensure_dir(SAVE_DETECTED_AT)
 
 
-    # p is the directory of the images needed to be classified
+    # p is the directory of the images needed to be classified, change this accordingly
     p = 'path/to/images'
     file_list = glob.glob(os.path.join(p, '*.png'))
     file_list += glob.glob(os.path.join(p, '*.jpg'))
@@ -230,7 +230,7 @@ if __name__ == "__main__":
 
     df = pd.DataFrame(file_list, columns=['img_path'])
 
-    csv_file_path = 'path/to/csv_with_image_paths'
+    csv_file_path = 'path/to/csv_with_image_paths' # change this accordingly
 
     # Write the DataFrame with the image paths to a csv file 
     df.to_csv(csv_file_path, index=False)
@@ -241,4 +241,4 @@ if __name__ == "__main__":
     detect_face(imgs, SAVE_DETECTED_AT)
     print("detected faces are saved at ", SAVE_DETECTED_AT)
     #Please change test_outputs.csv to actual name of output csv. 
-    predidct_age_gender_race("path/to/output_csv", SAVE_DETECTED_AT)
+    predidct_age_gender_race("output.csv", SAVE_DETECTED_AT)
