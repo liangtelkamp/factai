@@ -17,4 +17,4 @@ module load Anaconda3/2022.05
 # Activate your environment
 source activate iti_gen
 
-srun python -u classifier_FairFace/predict.py --csv "img_paths.csv"
+srun python -u FairFace/predict.py --input_csv "FairFace/img_paths.csv" --output_csv "FairFace/outputs.csv" --image_path "ckpts/a_headshot_of_a_person_Male_Skin_tone/original_prompt_embedding/sample_results"

@@ -12,6 +12,7 @@ import dlib
 import os
 import argparse
 import glob
+import os.path
 
 def rect_to_bb(rect):
 	# take a bounding predicted by dlib and convert it
@@ -25,8 +26,8 @@ def rect_to_bb(rect):
 	return (x, y, w, h)
 
 def detect_face(image_paths,  SAVE_DETECTED_AT, default_max_size=800,size = 300, padding = 0.25):
-    cnn_face_detector = dlib.cnn_face_detection_model_v1('dlib_models/mmod_human_face_detector.dat')
-    sp = dlib.shape_predictor('dlib_models/shape_predictor_5_face_landmarks.dat')
+    cnn_face_detector = dlib.cnn_face_detection_model_v1('FairFace/dlib_models/mmod_human_face_detector.dat')
+    sp = dlib.shape_predictor('FairFace/dlib_models/shape_predictor_5_face_landmarks.dat')
     base = 2000  # largest width and height
     for index, image_path in enumerate(image_paths):
         if index % 1000 == 0:
@@ -66,13 +67,13 @@ def predidct_age_gender_race(save_prediction_at, imgs_path = 'cropped_faces/'):
 
     model_fair_7 = torchvision.models.resnet34(pretrained=True)
     model_fair_7.fc = nn.Linear(model_fair_7.fc.in_features, 18)
-    model_fair_7.load_state_dict(torch.load('res34_fair_align_multi_7_20190809.pt'))
+    model_fair_7.load_state_dict(torch.load('FairFace/res34_fair_align_multi_7_20190809.pt'))
     model_fair_7 = model_fair_7.to(device)
     model_fair_7.eval()
 
     model_fair_4 = torchvision.models.resnet34(pretrained=True)
     model_fair_4.fc = nn.Linear(model_fair_4.fc.in_features, 18)
-    model_fair_4.load_state_dict(torch.load('res34_fair_align_multi_4_20190809.pt'))
+    model_fair_4.load_state_dict(torch.load('FairFace/res34_fair_align_multi_4_20190809.pt'))
     model_fair_4 = model_fair_4.to(device)
     model_fair_4.eval()
 
@@ -94,7 +95,6 @@ def predidct_age_gender_race(save_prediction_at, imgs_path = 'cropped_faces/'):
     race_scores_fair_4 = []
     race_preds_fair_4 = []
 
-    print('length img names', len(img_names))
     for index, img_name in enumerate(img_names):
         if index % 1000 == 0:
             print("Predicting... {}/{}".format(index, len(img_names)))
@@ -208,37 +208,41 @@ if __name__ == "__main__":
     #Please create a csv with one column 'img_path', contains the full paths of all images to be analyzed.
     #Also please change working directory to this file.
     parser = argparse.ArgumentParser()
-    parser.add_argument('--csv', dest='input_csv', action='store',
+    parser.add_argument('--input_csv', dest='input_csv', action='store',
                         help='csv file of image path where col name for image path is "img_path')
+    parser.add_argument('--output_csv', dest='output_csv', action='store',
+                        help='csv file for the output of the classifier')
+    parser.add_argument('--image_path', dest='image_path', action='store',
+                        help='directory where the images are stored')
     dlib.DLIB_USE_CUDA = True
     print("using CUDA?: %s" % dlib.DLIB_USE_CUDA)
     args = parser.parse_args()
-    SAVE_DETECTED_AT = "path/to/detected_images" # change this accordingly
+    SAVE_DETECTED_AT = "FairFace/detected_images" 
     ensure_dir(SAVE_DETECTED_AT)
 
+    # To create a csv file with image paths if file does not exist already
+    if not os.path.exists(args.input_csv):
+        print('Creating the input csv file with image paths')
 
-    # p is the directory of the images needed to be classified, change this accordingly
-    p = 'path/to/images'
-    file_list = glob.glob(os.path.join(p, '*.png'))
-    file_list += glob.glob(os.path.join(p, '*.jpg'))
+        p = args.image_path
+        file_list = glob.glob(os.path.join(p, '*.png'))
+        file_list += glob.glob(os.path.join(p, '*.jpg'))
 
-    # If there is a subfolder, add it to the file list
-    subfolders = [f.path for f in os.scandir(p) if f.is_dir()] 
-    for subfolder in subfolders: 
-        file_list += glob.glob(os.path.join(subfolder, '*.png')) 
-        file_list += glob.glob(os.path.join(subfolder, '*.jpg')) 
+        # If there is a subfolder, add it to the file list
+        subfolders = [f.path for f in os.scandir(p) if f.is_dir()] 
+        for subfolder in subfolders: 
+            file_list += glob.glob(os.path.join(subfolder, '*.png')) 
+            file_list += glob.glob(os.path.join(subfolder, '*.jpg')) 
 
-    df = pd.DataFrame(file_list, columns=['img_path'])
-
-    csv_file_path = 'path/to/csv_with_image_paths' # change this accordingly
-
-    # Write the DataFrame with the image paths to a csv file 
-    df.to_csv(csv_file_path, index=False)
+        df = pd.DataFrame(file_list, columns=['img_path'])
+        csv_file_path = args.input_csv 
+        df.to_csv(csv_file_path, index=False)
+    else:
+        print('Input csv file with image paths already exists')
 
     imgs = pd.read_csv(args.input_csv)['img_path']
-
 
     detect_face(imgs, SAVE_DETECTED_AT)
     print("detected faces are saved at ", SAVE_DETECTED_AT)
     #Please change test_outputs.csv to actual name of output csv. 
-    predidct_age_gender_race("output.csv", SAVE_DETECTED_AT)
+    predidct_age_gender_race(args.output_csv, SAVE_DETECTED_AT)
