@@ -1,0 +1,38 @@
+#!/bin/bash
+
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=18
+#SBATCH --gpus=1
+#SBATCH --partition=gpu_mig
+#SBATCH --time=00:15:00
+#SBATCH --output=HPS_EVALUATE_%A.out
+
+module purge
+module load 2022
+module load Anaconda3/2022.05
+
+# Activate your environment
+source activate iti_gen
+
+# Define an associative array where each key is the image folder path
+# and the corresponding value is the class list for that path
+declare -A img_folders_and_classes=(
+    ["/home/scur1031/HPS/HPS_Male"]="'a headshot of a man' 'a headshot of a woman'"
+    ["/home/scur1031/HPS/HPS_Young"]="'a headshot of a young person' 'a headshot of an old person'"
+    ["/home/scur1031/HPS/HPS_Pale_Skin"]="'a headshot of a person with pale skin' 'a headshot of a person with dark skin'"
+    ["/home/scur1031/HPS/HPS_Eyeglasses"]="'a headshot of a person with eyeglasses' 'a headshot of a person'"
+    ["/home/scur1031/HPS/HPS_Smiling"]="'a headshot of a person with mustache' 'a headshot of a person with smiling'"
+    ["/home/scur1031/HPS/HPS_Male_Young"]="'a headshot of a young man', 'a headshot of an old man', 'a headshot of a young woman', 'a headshot of an old woman'"
+    ["/home/scur1031/HPS/HPS_Male_Young_Eyeglasses"]="'a headshot of a young man with eyeglasses' 'a headshot of an old man with eyeglasses' 'a headshot of a young man' 'a headshot of an old man' 'a headshot of a young woman with eyeglasses' 'a headshot of an old woman with eyeglasses' 'a headshot of a young woman' 'a headshot of an old woman'"
+    ["/home/scur1031/HPS/HPS_Male_Young_Eyeglasses_Smiling"]="'a headshot of a young man with eyeglasses with smiling' 'a headshot of an old man with eyeglasses with smiling' 'a headshot of a young man with smiling' 'a headshot of an old man with smiling' 'a headshot of a young woman with eyeglasses with smiling', 'a headshot of an old woman with eyeglasses with smiling' 'a headshot of a young woman with smiling' 'a headshot of an old woman with smiling'"
+)
+
+# Iterate over the associative array
+for img_folder in "${!img_folders_and_classes[@]}"; do
+    class_list=${img_folders_and_classes[$img_folder]}
+    
+    srun python -u /home/scur1031/ITI-GEN/evaluation.py \
+        --img-folder "$img_folder" \
+        --class-list $class_list
+done
