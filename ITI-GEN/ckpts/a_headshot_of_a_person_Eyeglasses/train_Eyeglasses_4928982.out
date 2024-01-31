@@ -1,0 +1,219 @@
+============================================================================================== 
+Warning! Mixing Conda and module environments may lead to corruption of the
+user environment. 
+We do not recommend users mixing those two environments unless absolutely
+necessary. Note that 
+SURF does not provide any support for Conda environment.
+For more information, please refer to our software policy page:
+https://servicedesk.surf.nl/wiki/display/WIKI/Software+policy+Snellius+and+Lisa#SoftwarepolicySnelliusandLisa-UseofAnacondaandMinicondaenvironmentsonSnellius 
+
+Remember that many packages have already been installed on the system and can
+be loaded using 
+the 'module load <package__name>' command. If you are uncertain if a package is
+already available 
+on the system, please use 'module avail' or 'module spider' to search for it.
+============================================================================================== 
+Device used for training the model cuda
+Adjusting learning rate of group 0 to 1.0000e-02.
+Epoch 1, step 0 / 5. Update No.1 attribute: Eyeglasses      Total loss: 1.63570    Direction loss: nan        Consistency loss: 0.00000    Sim loss: 1.63570   
+Epoch 1, step 1 / 5. Update No.1 attribute: Eyeglasses      Total loss: 1.35292    Direction loss: 1.02278    Consistency loss: 0.33014    Sim loss: 1.66837   
+Epoch 1, step 2 / 5. Update No.1 attribute: Eyeglasses      Total loss: 1.16247    Direction loss: 0.97884    Consistency loss: 0.18364    Sim loss: 1.67961   
+Epoch 1, step 3 / 5. Update No.1 attribute: Eyeglasses      Total loss: 1.18357    Direction loss: 1.04248    Consistency loss: 0.14109    Sim loss: 1.66281   
+Epoch 1, step 4 / 5. Update No.1 attribute: Eyeglasses      Total loss: 1.04173    Direction loss: 0.86582    Consistency loss: 0.17591    Sim loss: 1.65980   
+Adjusting learning rate of group 0 to 1.0000e-02.
+Epoch 2, step 0 / 5. Update No.1 attribute: Eyeglasses      Total loss: 0.91600    Direction loss: 0.78598    Consistency loss: 0.13002    Sim loss: 1.65355   
+Epoch 2, step 1 / 5. Update No.1 attribute: Eyeglasses      Total loss: 0.85344    Direction loss: 0.75766    Consistency loss: 0.09578    Sim loss: 1.65312   
+Epoch 2, step 2 / 5. Update No.1 attribute: Eyeglasses      Total loss: 0.86200    Direction loss: 0.78777    Consistency loss: 0.07423    Sim loss: 1.66255   
+Epoch 2, step 3 / 5. Update No.1 attribute: Eyeglasses      Total loss: 0.77088    Direction loss: 0.71605    Consistency loss: 0.05483    Sim loss: 1.66005   
+Epoch 2, step 4 / 5. Update No.1 attribute: Eyeglasses      Total loss: 0.72352    Direction loss: 0.68819    Consistency loss: 0.03533    Sim loss: 1.65596   
+Adjusting learning rate of group 0 to 1.0000e-02.
+Epoch 3, step 0 / 5. Update No.1 attribute: Eyeglasses      Total loss: 0.67576    Direction loss: 0.66201    Consistency loss: 0.01375    Sim loss: 1.64895   
+Epoch 3, step 1 / 5. Update No.1 attribute: Eyeglasses      Total loss: 0.59125    Direction loss: 0.59125    Consistency loss: 0.00000    Sim loss: 1.64252   
+Epoch 3, step 2 / 5. Update No.1 attribute: Eyeglasses      Total loss: 0.60354    Direction loss: 0.59918    Consistency loss: 0.00436    Sim loss: 1.65013   
+Epoch 3, step 3 / 5. Update No.1 attribute: Eyeglasses      Total loss: 0.59815    Direction loss: 0.59252    Consistency loss: 0.00563    Sim loss: 1.64859   
+Epoch 3, step 4 / 5. Update No.1 attribute: Eyeglasses      Total loss: 0.56192    Direction loss: 0.56137    Consistency loss: 0.00055    Sim loss: 1.65331   
+Adjusting learning rate of group 0 to 1.0000e-02.
+Epoch 4, step 0 / 5. Update No.1 attribute: Eyeglasses      Total loss: 0.56524    Direction loss: 0.56524    Consistency loss: 0.00000    Sim loss: 1.65070   
+Epoch 4, step 1 / 5. Update No.1 attribute: Eyeglasses      Total loss: 0.45054    Direction loss: 0.45054    Consistency loss: 0.00000    Sim loss: 1.65222   
+Epoch 4, step 2 / 5. Update No.1 attribute: Eyeglasses      Total loss: 0.48330    Direction loss: 0.48330    Consistency loss: 0.00000    Sim loss: 1.65707   
+Epoch 4, step 3 / 5. Update No.1 attribute: Eyeglasses      Total loss: 0.59691    Direction loss: 0.59691    Consistency loss: 0.00000    Sim loss: 1.67139   
+Epoch 4, step 4 / 5. Update No.1 attribute: Eyeglasses      Total loss: 0.43082    Direction loss: 0.42671    Consistency loss: 0.00411    Sim loss: 1.65807   
+Adjusting learning rate of group 0 to 1.0000e-02.
+Epoch 5, step 0 / 5. Update No.1 attribute: Eyeglasses      Total loss: 0.42914    Direction loss: 0.42489    Consistency loss: 0.00425    Sim loss: 1.66009   
+Epoch 5, step 1 / 5. Update No.1 attribute: Eyeglasses      Total loss: 0.47779    Direction loss: 0.47779    Consistency loss: 0.00000    Sim loss: 1.66629   
+Epoch 5, step 2 / 5. Update No.1 attribute: Eyeglasses      Total loss: 0.58204    Direction loss: 0.58204    Consistency loss: 0.00000    Sim loss: 1.66651   
+Epoch 5, step 3 / 5. Update No.1 attribute: Eyeglasses      Total loss: 0.35289    Direction loss: 0.35289    Consistency loss: 0.00000    Sim loss: 1.63628   
+Epoch 5, step 4 / 5. Update No.1 attribute: Eyeglasses      Total loss: 0.38910    Direction loss: 0.38910    Consistency loss: 0.00000    Sim loss: 1.65115   
+Adjusting learning rate of group 0 to 1.0000e-02.
+Epoch 6, step 0 / 5. Update No.1 attribute: Eyeglasses      Total loss: 0.38103    Direction loss: 0.38103    Consistency loss: 0.00000    Sim loss: 1.65337   
+Epoch 6, step 1 / 5. Update No.1 attribute: Eyeglasses      Total loss: 0.42897    Direction loss: 0.42536    Consistency loss: 0.00361    Sim loss: 1.65557   
+Epoch 6, step 2 / 5. Update No.1 attribute: Eyeglasses      Total loss: 0.40896    Direction loss: 0.40668    Consistency loss: 0.00228    Sim loss: 1.65332   
+Epoch 6, step 3 / 5. Update No.1 attribute: Eyeglasses      Total loss: 0.38543    Direction loss: 0.38543    Consistency loss: 0.00000    Sim loss: 1.64521   
+Epoch 6, step 4 / 5. Update No.1 attribute: Eyeglasses      Total loss: 0.32218    Direction loss: 0.32218    Consistency loss: 0.00000    Sim loss: 1.63930   
+Adjusting learning rate of group 0 to 1.0000e-02.
+Epoch 7, step 0 / 5. Update No.1 attribute: Eyeglasses      Total loss: 0.34540    Direction loss: 0.34540    Consistency loss: 0.00000    Sim loss: 1.63705   
+Epoch 7, step 1 / 5. Update No.1 attribute: Eyeglasses      Total loss: 0.34339    Direction loss: 0.34339    Consistency loss: 0.00000    Sim loss: 1.64028   
+Epoch 7, step 2 / 5. Update No.1 attribute: Eyeglasses      Total loss: 0.44917    Direction loss: 0.44909    Consistency loss: 0.00009    Sim loss: 1.65716   
+Epoch 7, step 3 / 5. Update No.1 attribute: Eyeglasses      Total loss: 0.34052    Direction loss: 0.34052    Consistency loss: 0.00000    Sim loss: 1.64545   
+Epoch 7, step 4 / 5. Update No.1 attribute: Eyeglasses      Total loss: 0.37966    Direction loss: 0.37966    Consistency loss: 0.00000    Sim loss: 1.64752   
+Adjusting learning rate of group 0 to 1.0000e-02.
+Epoch 8, step 0 / 5. Update No.1 attribute: Eyeglasses      Total loss: 0.28275    Direction loss: 0.27981    Consistency loss: 0.00294    Sim loss: 1.62949   
+Epoch 8, step 1 / 5. Update No.1 attribute: Eyeglasses      Total loss: 0.39959    Direction loss: 0.39959    Consistency loss: 0.00000    Sim loss: 1.65503   
+Epoch 8, step 2 / 5. Update No.1 attribute: Eyeglasses      Total loss: 0.31176    Direction loss: 0.31176    Consistency loss: 0.00000    Sim loss: 1.64037   
+Epoch 8, step 3 / 5. Update No.1 attribute: Eyeglasses      Total loss: 0.33430    Direction loss: 0.33430    Consistency loss: 0.00000    Sim loss: 1.64111   
+Epoch 8, step 4 / 5. Update No.1 attribute: Eyeglasses      Total loss: 0.30040    Direction loss: 0.30040    Consistency loss: 0.00000    Sim loss: 1.63265   
+Adjusting learning rate of group 0 to 1.0000e-02.
+Epoch 9, step 0 / 5. Update No.1 attribute: Eyeglasses      Total loss: 0.27294    Direction loss: 0.27294    Consistency loss: 0.00000    Sim loss: 1.63472   
+Epoch 9, step 1 / 5. Update No.1 attribute: Eyeglasses      Total loss: 0.27572    Direction loss: 0.27234    Consistency loss: 0.00338    Sim loss: 1.62774   
+Epoch 9, step 2 / 5. Update No.1 attribute: Eyeglasses      Total loss: 0.33255    Direction loss: 0.33255    Consistency loss: 0.00000    Sim loss: 1.63776   
+Epoch 9, step 3 / 5. Update No.1 attribute: Eyeglasses      Total loss: 0.26390    Direction loss: 0.26390    Consistency loss: 0.00000    Sim loss: 1.63311   
+Epoch 9, step 4 / 5. Update No.1 attribute: Eyeglasses      Total loss: 0.30360    Direction loss: 0.30360    Consistency loss: 0.00000    Sim loss: 1.63843   
+Adjusting learning rate of group 0 to 1.0000e-02.
+Epoch 10, step 0 / 5. Update No.1 attribute: Eyeglasses      Total loss: 0.28690    Direction loss: 0.28690    Consistency loss: 0.00000    Sim loss: 1.63337   
+Epoch 10, step 1 / 5. Update No.1 attribute: Eyeglasses      Total loss: 0.33908    Direction loss: 0.33135    Consistency loss: 0.00773    Sim loss: 1.63728   
+Epoch 10, step 2 / 5. Update No.1 attribute: Eyeglasses      Total loss: 0.28135    Direction loss: 0.28135    Consistency loss: 0.00000    Sim loss: 1.62174   
+Epoch 10, step 3 / 5. Update No.1 attribute: Eyeglasses      Total loss: 0.28173    Direction loss: 0.28173    Consistency loss: 0.00000    Sim loss: 1.61050   
+Epoch 10, step 4 / 5. Update No.1 attribute: Eyeglasses      Total loss: 0.39009    Direction loss: 0.39009    Consistency loss: 0.00000    Sim loss: 1.62967   
+Adjusting learning rate of group 0 to 5.0000e-03.
+Successfully save FairTokens!
+Successfully save Models!
+Epoch 11, step 0 / 5. Update No.1 attribute: Eyeglasses      Total loss: 0.24407    Direction loss: 0.24407    Consistency loss: 0.00000    Sim loss: 1.62452   
+Epoch 11, step 1 / 5. Update No.1 attribute: Eyeglasses      Total loss: 0.42757    Direction loss: 0.42757    Consistency loss: 0.00000    Sim loss: 1.63513   
+Epoch 11, step 2 / 5. Update No.1 attribute: Eyeglasses      Total loss: 0.24386    Direction loss: 0.24386    Consistency loss: 0.00000    Sim loss: 1.61619   
+Epoch 11, step 3 / 5. Update No.1 attribute: Eyeglasses      Total loss: 0.28451    Direction loss: 0.28451    Consistency loss: 0.00000    Sim loss: 1.62984   
+Epoch 11, step 4 / 5. Update No.1 attribute: Eyeglasses      Total loss: 0.26075    Direction loss: 0.26075    Consistency loss: 0.00000    Sim loss: 1.62128   
+Adjusting learning rate of group 0 to 5.0000e-03.
+Epoch 12, step 0 / 5. Update No.1 attribute: Eyeglasses      Total loss: 0.47020    Direction loss: 0.47020    Consistency loss: 0.00000    Sim loss: 1.64492   
+Epoch 12, step 1 / 5. Update No.1 attribute: Eyeglasses      Total loss: 0.22691    Direction loss: 0.22663    Consistency loss: 0.00028    Sim loss: 1.61576   
+Epoch 12, step 2 / 5. Update No.1 attribute: Eyeglasses      Total loss: 0.21406    Direction loss: 0.21406    Consistency loss: 0.00000    Sim loss: 1.62108   
+Epoch 12, step 3 / 5. Update No.1 attribute: Eyeglasses      Total loss: 0.25690    Direction loss: 0.25690    Consistency loss: 0.00000    Sim loss: 1.62987   
+Epoch 12, step 4 / 5. Update No.1 attribute: Eyeglasses      Total loss: 0.23187    Direction loss: 0.23187    Consistency loss: 0.00000    Sim loss: 1.62134   
+Adjusting learning rate of group 0 to 5.0000e-03.
+Epoch 13, step 0 / 5. Update No.1 attribute: Eyeglasses      Total loss: 0.21475    Direction loss: 0.21475    Consistency loss: 0.00000    Sim loss: 1.61520   
+Epoch 13, step 1 / 5. Update No.1 attribute: Eyeglasses      Total loss: 0.28371    Direction loss: 0.28371    Consistency loss: 0.00000    Sim loss: 1.63518   
+Epoch 13, step 2 / 5. Update No.1 attribute: Eyeglasses      Total loss: 0.34474    Direction loss: 0.34474    Consistency loss: 0.00000    Sim loss: 1.63723   
+Epoch 13, step 3 / 5. Update No.1 attribute: Eyeglasses      Total loss: 0.20725    Direction loss: 0.20725    Consistency loss: 0.00000    Sim loss: 1.62010   
+Epoch 13, step 4 / 5. Update No.1 attribute: Eyeglasses      Total loss: 0.29883    Direction loss: 0.29883    Consistency loss: 0.00000    Sim loss: 1.63371   
+Adjusting learning rate of group 0 to 5.0000e-03.
+Epoch 14, step 0 / 5. Update No.1 attribute: Eyeglasses      Total loss: 0.26318    Direction loss: 0.26318    Consistency loss: 0.00000    Sim loss: 1.63423   
+Epoch 14, step 1 / 5. Update No.1 attribute: Eyeglasses      Total loss: 0.26968    Direction loss: 0.26955    Consistency loss: 0.00012    Sim loss: 1.62949   
+Epoch 14, step 2 / 5. Update No.1 attribute: Eyeglasses      Total loss: 0.20809    Direction loss: 0.20809    Consistency loss: 0.00000    Sim loss: 1.62531   
+Epoch 14, step 3 / 5. Update No.1 attribute: Eyeglasses      Total loss: 0.26007    Direction loss: 0.26007    Consistency loss: 0.00000    Sim loss: 1.62782   
+Epoch 14, step 4 / 5. Update No.1 attribute: Eyeglasses      Total loss: 0.23203    Direction loss: 0.23203    Consistency loss: 0.00000    Sim loss: 1.61262   
+Adjusting learning rate of group 0 to 5.0000e-03.
+Epoch 15, step 0 / 5. Update No.1 attribute: Eyeglasses      Total loss: 0.20784    Direction loss: 0.20784    Consistency loss: 0.00000    Sim loss: 1.61265   
+Epoch 15, step 1 / 5. Update No.1 attribute: Eyeglasses      Total loss: 0.23114    Direction loss: 0.23114    Consistency loss: 0.00000    Sim loss: 1.62286   
+Epoch 15, step 2 / 5. Update No.1 attribute: Eyeglasses      Total loss: 0.27519    Direction loss: 0.27519    Consistency loss: 0.00000    Sim loss: 1.62837   
+Epoch 15, step 3 / 5. Update No.1 attribute: Eyeglasses      Total loss: 0.31870    Direction loss: 0.31870    Consistency loss: 0.00000    Sim loss: 1.62912   
+Epoch 15, step 4 / 5. Update No.1 attribute: Eyeglasses      Total loss: 0.23130    Direction loss: 0.23130    Consistency loss: 0.00000    Sim loss: 1.63004   
+Adjusting learning rate of group 0 to 5.0000e-03.
+Epoch 16, step 0 / 5. Update No.1 attribute: Eyeglasses      Total loss: 0.18981    Direction loss: 0.18981    Consistency loss: 0.00000    Sim loss: 1.61611   
+Epoch 16, step 1 / 5. Update No.1 attribute: Eyeglasses      Total loss: 0.23281    Direction loss: 0.23281    Consistency loss: 0.00000    Sim loss: 1.63247   
+Epoch 16, step 2 / 5. Update No.1 attribute: Eyeglasses      Total loss: 0.24770    Direction loss: 0.24770    Consistency loss: 0.00000    Sim loss: 1.63481   
+Epoch 16, step 3 / 5. Update No.1 attribute: Eyeglasses      Total loss: 0.23992    Direction loss: 0.23992    Consistency loss: 0.00000    Sim loss: 1.62589   
+Epoch 16, step 4 / 5. Update No.1 attribute: Eyeglasses      Total loss: 0.22960    Direction loss: 0.22960    Consistency loss: 0.00000    Sim loss: 1.62351   
+Adjusting learning rate of group 0 to 5.0000e-03.
+Epoch 17, step 0 / 5. Update No.1 attribute: Eyeglasses      Total loss: 0.20243    Direction loss: 0.20243    Consistency loss: 0.00000    Sim loss: 1.61859   
+Epoch 17, step 1 / 5. Update No.1 attribute: Eyeglasses      Total loss: 0.25495    Direction loss: 0.25495    Consistency loss: 0.00000    Sim loss: 1.62267   
+Epoch 17, step 2 / 5. Update No.1 attribute: Eyeglasses      Total loss: 0.23606    Direction loss: 0.23606    Consistency loss: 0.00000    Sim loss: 1.63420   
+Epoch 17, step 3 / 5. Update No.1 attribute: Eyeglasses      Total loss: 0.24611    Direction loss: 0.24464    Consistency loss: 0.00147    Sim loss: 1.62948   
+Epoch 17, step 4 / 5. Update No.1 attribute: Eyeglasses      Total loss: 0.21431    Direction loss: 0.21431    Consistency loss: 0.00000    Sim loss: 1.62275   
+Adjusting learning rate of group 0 to 5.0000e-03.
+Epoch 18, step 0 / 5. Update No.1 attribute: Eyeglasses      Total loss: 0.20963    Direction loss: 0.20963    Consistency loss: 0.00000    Sim loss: 1.62605   
+Epoch 18, step 1 / 5. Update No.1 attribute: Eyeglasses      Total loss: 0.23660    Direction loss: 0.23660    Consistency loss: 0.00000    Sim loss: 1.61883   
+Epoch 18, step 2 / 5. Update No.1 attribute: Eyeglasses      Total loss: 0.18649    Direction loss: 0.18649    Consistency loss: 0.00000    Sim loss: 1.60430   
+Epoch 18, step 3 / 5. Update No.1 attribute: Eyeglasses      Total loss: 0.34408    Direction loss: 0.34408    Consistency loss: 0.00000    Sim loss: 1.62687   
+Epoch 18, step 4 / 5. Update No.1 attribute: Eyeglasses      Total loss: 0.23012    Direction loss: 0.23012    Consistency loss: 0.00000    Sim loss: 1.61911   
+Adjusting learning rate of group 0 to 5.0000e-03.
+Epoch 19, step 0 / 5. Update No.1 attribute: Eyeglasses      Total loss: 0.18929    Direction loss: 0.18929    Consistency loss: 0.00000    Sim loss: 1.61381   
+Epoch 19, step 1 / 5. Update No.1 attribute: Eyeglasses      Total loss: 0.21609    Direction loss: 0.21609    Consistency loss: 0.00000    Sim loss: 1.62712   
+Epoch 19, step 2 / 5. Update No.1 attribute: Eyeglasses      Total loss: 0.23165    Direction loss: 0.23165    Consistency loss: 0.00000    Sim loss: 1.62074   
+Epoch 19, step 3 / 5. Update No.1 attribute: Eyeglasses      Total loss: 0.26144    Direction loss: 0.26144    Consistency loss: 0.00000    Sim loss: 1.62761   
+Epoch 19, step 4 / 5. Update No.1 attribute: Eyeglasses      Total loss: 0.21950    Direction loss: 0.21950    Consistency loss: 0.00000    Sim loss: 1.62108   
+Adjusting learning rate of group 0 to 5.0000e-03.
+  0%|          | 0/30 [00:00<?, ?it/s]  3%|▎         | 1/30 [00:03<01:53,  3.92s/it]  7%|▋         | 2/30 [00:07<01:41,  3.64s/it] 10%|█         | 3/30 [00:10<01:35,  3.54s/it] 13%|█▎        | 4/30 [00:14<01:31,  3.50s/it] 17%|█▋        | 5/30 [00:17<01:27,  3.48s/it] 20%|██        | 6/30 [00:21<01:23,  3.47s/it] 23%|██▎       | 7/30 [00:24<01:19,  3.46s/it] 27%|██▋       | 8/30 [00:27<01:15,  3.45s/it] 30%|███       | 9/30 [00:31<01:12,  3.45s/it] 33%|███▎      | 10/30 [00:34<01:09,  3.45s/it] 37%|███▋      | 11/30 [00:38<01:05,  3.45s/it] 40%|████      | 12/30 [00:41<01:02,  3.45s/it] 43%|████▎     | 13/30 [00:45<00:58,  3.44s/it] 47%|████▋     | 14/30 [00:48<00:55,  3.44s/it] 50%|█████     | 15/30 [00:52<00:51,  3.44s/it] 53%|█████▎    | 16/30 [00:55<00:48,  3.44s/it] 57%|█████▋    | 17/30 [00:58<00:44,  3.44s/it] 60%|██████    | 18/30 [01:02<00:41,  3.44s/it] 63Epoch 20, step 0 / 5. Update No.1 attribute: Eyeglasses      Total loss: 0.20391    Direction loss: 0.20391    Consistency loss: 0.00000    Sim loss: 1.62212   
+Epoch 20, step 1 / 5. Update No.1 attribute: Eyeglasses      Total loss: 0.30626    Direction loss: 0.30626    Consistency loss: 0.00000    Sim loss: 1.62695   
+Epoch 20, step 2 / 5. Update No.1 attribute: Eyeglasses      Total loss: 0.22192    Direction loss: 0.22192    Consistency loss: 0.00000    Sim loss: 1.62253   
+Epoch 20, step 3 / 5. Update No.1 attribute: Eyeglasses      Total loss: 0.20647    Direction loss: 0.20647    Consistency loss: 0.00000    Sim loss: 1.61059   
+Epoch 20, step 4 / 5. Update No.1 attribute: Eyeglasses      Total loss: 0.24784    Direction loss: 0.24784    Consistency loss: 0.00000    Sim loss: 1.63233   
+Adjusting learning rate of group 0 to 5.0000e-03.
+Successfully save FairTokens!
+Successfully save Models!
+Epoch 21, step 0 / 5. Update No.1 attribute: Eyeglasses      Total loss: 0.18504    Direction loss: 0.18504    Consistency loss: 0.00000    Sim loss: 1.61537   
+Epoch 21, step 1 / 5. Update No.1 attribute: Eyeglasses      Total loss: 0.21693    Direction loss: 0.21693    Consistency loss: 0.00000    Sim loss: 1.61109   
+Epoch 21, step 2 / 5. Update No.1 attribute: Eyeglasses      Total loss: 0.27638    Direction loss: 0.27638    Consistency loss: 0.00000    Sim loss: 1.62481   
+Epoch 21, step 3 / 5. Update No.1 attribute: Eyeglasses      Total loss: 0.16589    Direction loss: 0.16589    Consistency loss: 0.00000    Sim loss: 1.61853   
+Epoch 21, step 4 / 5. Update No.1 attribute: Eyeglasses      Total loss: 0.33466    Direction loss: 0.33466    Consistency loss: 0.00000    Sim loss: 1.63956   
+Adjusting learning rate of group 0 to 5.0000e-03.
+Epoch 22, step 0 / 5. Update No.1 attribute: Eyeglasses      Total loss: 0.20290    Direction loss: 0.20290    Consistency loss: 0.00000    Sim loss: 1.61568   
+Epoch 22, step 1 / 5. Update No.1 attribute: Eyeglasses      Total loss: 0.30989    Direction loss: 0.30989    Consistency loss: 0.00000    Sim loss: 1.63879   
+Epoch 22, step 2 / 5. Update No.1 attribute: Eyeglasses      Total loss: 0.27317    Direction loss: 0.27317    Consistency loss: 0.00000    Sim loss: 1.63718   
+Epoch 22, step 3 / 5. Update No.1 attribute: Eyeglasses      Total loss: 0.19860    Direction loss: 0.19632    Consistency loss: 0.00228    Sim loss: 1.61571   
+Epoch 22, step 4 / 5. Update No.1 attribute: Eyeglasses      Total loss: 0.19417    Direction loss: 0.19417    Consistency loss: 0.00000    Sim loss: 1.62435   
+Adjusting learning rate of group 0 to 5.0000e-03.
+Epoch 23, step 0 / 5. Update No.1 attribute: Eyeglasses      Total loss: 0.21948    Direction loss: 0.21948    Consistency loss: 0.00000    Sim loss: 1.62381   
+Epoch 23, step 1 / 5. Update No.1 attribute: Eyeglasses      Total loss: 0.22783    Direction loss: 0.22783    Consistency loss: 0.00000    Sim loss: 1.61711   
+Epoch 23, step 2 / 5. Update No.1 attribute: Eyeglasses      Total loss: 0.20513    Direction loss: 0.20513    Consistency loss: 0.00000    Sim loss: 1.62046   
+Epoch 23, step 3 / 5. Update No.1 attribute: Eyeglasses      Total loss: 0.17377    Direction loss: 0.17377    Consistency loss: 0.00000    Sim loss: 1.61677   
+Epoch 23, step 4 / 5. Update No.1 attribute: Eyeglasses      Total loss: 0.31081    Direction loss: 0.31081    Consistency loss: 0.00000    Sim loss: 1.62516   
+Adjusting learning rate of group 0 to 5.0000e-03.
+Epoch 24, step 0 / 5. Update No.1 attribute: Eyeglasses      Total loss: 0.18677    Direction loss: 0.18677    Consistency loss: 0.00000    Sim loss: 1.61286   
+Epoch 24, step 1 / 5. Update No.1 attribute: Eyeglasses      Total loss: 0.16644    Direction loss: 0.16644    Consistency loss: 0.00000    Sim loss: 1.60571   
+Epoch 24, step 2 / 5. Update No.1 attribute: Eyeglasses      Total loss: 0.23397    Direction loss: 0.23397    Consistency loss: 0.00000    Sim loss: 1.62934   
+Epoch 24, step 3 / 5. Update No.1 attribute: Eyeglasses      Total loss: 0.23676    Direction loss: 0.23676    Consistency loss: 0.00000    Sim loss: 1.62171   
+Epoch 24, step 4 / 5. Update No.1 attribute: Eyeglasses      Total loss: 0.25272    Direction loss: 0.25272    Consistency loss: 0.00000    Sim loss: 1.62815   
+Adjusting learning rate of group 0 to 5.0000e-03.
+Epoch 25, step 0 / 5. Update No.1 attribute: Eyeglasses      Total loss: 0.19823    Direction loss: 0.19823    Consistency loss: 0.00000    Sim loss: 1.61833   
+Epoch 25, step 1 / 5. Update No.1 attribute: Eyeglasses      Total loss: 0.22154    Direction loss: 0.22154    Consistency loss: 0.00000    Sim loss: 1.62277   
+Epoch 25, step 2 / 5. Update No.1 attribute: Eyeglasses      Total loss: 0.22602    Direction loss: 0.22602    Consistency loss: 0.00000    Sim loss: 1.62233   
+Epoch 25, step 3 / 5. Update No.1 attribute: Eyeglasses      Total loss: 0.21343    Direction loss: 0.21343    Consistency loss: 0.00000    Sim loss: 1.62281   
+Epoch 25, step 4 / 5. Update No.1 attribute: Eyeglasses      Total loss: 0.27104    Direction loss: 0.27104    Consistency loss: 0.00000    Sim loss: 1.61686   
+Adjusting learning rate of group 0 to 5.0000e-03.
+Epoch 26, step 0 / 5. Update No.1 attribute: Eyeglasses      Total loss: 0.25056    Direction loss: 0.25056    Consistency loss: 0.00000    Sim loss: 1.62874   
+Epoch 26, step 1 / 5. Update No.1 attribute: Eyeglasses      Total loss: 0.17314    Direction loss: 0.17314    Consistency loss: 0.00000    Sim loss: 1.62067   
+Epoch 26, step 2 / 5. Update No.1 attribute: Eyeglasses      Total loss: 0.30692    Direction loss: 0.30692    Consistency loss: 0.00000    Sim loss: 1.62895   
+Epoch 26, step 3 / 5. Update No.1 attribute: Eyeglasses      Total loss: 0.21451    Direction loss: 0.21451    Consistency loss: 0.00000    Sim loss: 1.61913   
+Epoch 26, step 4 / 5. Update No.1 attribute: Eyeglasses      Total loss: 0.24604    Direction loss: 0.24604    Consistency loss: 0.00000    Sim loss: 1.61749   
+Adjusting learning rate of group 0 to 5.0000e-03.
+Epoch 27, step 0 / 5. Update No.1 attribute: Eyeglasses      Total loss: 0.30478    Direction loss: 0.30478    Consistency loss: 0.00000    Sim loss: 1.62304   
+Epoch 27, step 1 / 5. Update No.1 attribute: Eyeglasses      Total loss: 0.18766    Direction loss: 0.18766    Consistency loss: 0.00000    Sim loss: 1.61658   
+Epoch 27, step 2 / 5. Update No.1 attribute: Eyeglasses      Total loss: 0.18125    Direction loss: 0.18125    Consistency loss: 0.00000    Sim loss: 1.61500   
+Epoch 27, step 3 / 5. Update No.1 attribute: Eyeglasses      Total loss: 0.24332    Direction loss: 0.24332    Consistency loss: 0.00000    Sim loss: 1.62710   
+Epoch 27, step 4 / 5. Update No.1 attribute: Eyeglasses      Total loss: 0.21114    Direction loss: 0.21114    Consistency loss: 0.00000    Sim loss: 1.62299   
+Adjusting learning rate of group 0 to 5.0000e-03.
+Epoch 28, step 0 / 5. Update No.1 attribute: Eyeglasses      Total loss: 0.18249    Direction loss: 0.18249    Consistency loss: 0.00000    Sim loss: 1.61111   
+Epoch 28, step 1 / 5. Update No.1 attribute: Eyeglasses      Total loss: 0.16018    Direction loss: 0.16018    Consistency loss: 0.00000    Sim loss: 1.61002   
+Epoch 28, step 2 / 5. Update No.1 attribute: Eyeglasses      Total loss: 0.24366    Direction loss: 0.24366    Consistency loss: 0.00000    Sim loss: 1.62933   
+Epoch 28, step 3 / 5. Update No.1 attribute: Eyeglasses      Total loss: 0.29376    Direction loss: 0.29376    Consistency loss: 0.00000    Sim loss: 1.63144   
+Epoch 28, step 4 / 5. Update No.1 attribute: Eyeglasses      Total loss: 0.23588    Direction loss: 0.23588    Consistency loss: 0.00000    Sim loss: 1.63700   
+Adjusting learning rate of group 0 to 5.0000e-03.
+Epoch 29, step 0 / 5. Update No.1 attribute: Eyeglasses      Total loss: 0.23792    Direction loss: 0.23792    Consistency loss: 0.00000    Sim loss: 1.61812   
+Epoch 29, step 1 / 5. Update No.1 attribute: Eyeglasses      Total loss: 0.28310    Direction loss: 0.28310    Consistency loss: 0.00000    Sim loss: 1.63482   
+Epoch 29, step 2 / 5. Update No.1 attribute: Eyeglasses      Total loss: 0.18719    Direction loss: 0.18719    Consistency loss: 0.00000    Sim loss: 1.61167   
+Epoch 29, step 3 / 5. Update No.1 attribute: Eyeglasses      Total loss: 0.24820    Direction loss: 0.24820    Consistency loss: 0.00000    Sim loss: 1.62536   
+Epoch 29, step 4 / 5. Update No.1 attribute: Eyeglasses      Total loss: 0.22060    Direction loss: 0.22060    Consistency loss: 0.00000    Sim loss: 1.61535   
+Adjusting learning rate of group 0 to 5.0000e-03.
+Epoch 30, step 0 / 5. Update No.1 attribute: Eyeglasses      Total loss: 0.19305    Direction loss: 0.19305    Consistency loss: 0.00000    Sim loss: 1.62005   
+Epoch 30, step 1 / 5. Update No.1 attribute: Eyeglasses      Total loss: 0.20088    Direction loss: 0.20088    Consistency loss: 0.00000    Sim loss: 1.62309   
+Epoch 30, step 2 / 5. Update No.1 attribute: Eyeglasses      Total loss: 0.19609    Direction loss: 0.19609    Consistency loss: 0.00000    Sim loss: 1.62081   
+Epoch 30, step 3 / 5. Update No.1 attribute: Eyeglasses      Total loss: 0.18492    Direction loss: 0.18492    Consistency loss: 0.00000    Sim loss: 1.61837   
+Epoch 30, step 4 / 5. Update No.1 attribute: Eyeglasses      Total loss: 0.23618    Direction loss: 0.23618    Consistency loss: 0.00000    Sim loss: 1.63185   
+Adjusting learning rate of group 0 to 5.0000e-03.
+Successfully save FairTokens!
+Successfully save Models!
+%|██████▎   | 19/30 [01:05<00:37,  3.44s/it] 67%|██████▋   | 20/30 [01:09<00:34,  3.44s/it] 70%|███████   | 21/30 [01:12<00:30,  3.44s/it] 73%|███████▎  | 22/30 [01:16<00:27,  3.44s/it] 77%|███████▋  | 23/30 [01:19<00:24,  3.44s/it] 80%|████████  | 24/30 [01:23<00:20,  3.44s/it] 83%|████████▎ | 25/30 [01:26<00:17,  3.44s/it] 87%|████████▋ | 26/30 [01:29<00:13,  3.44s/it] 90%|█████████ | 27/30 [01:33<00:10,  3.44s/it] 93%|█████████▎| 28/30 [01:36<00:06,  3.44s/it] 97%|█████████▋| 29/30 [01:40<00:03,  3.44s/it]100%|██████████| 30/30 [01:43<00:00,  3.44s/it]100%|██████████| 30/30 [01:43<00:00,  3.46s/it]
+
+JOB STATISTICS
+==============
+Job ID: 4928982
+Cluster: snellius
+User/Group: scur1031/scur1031
+State: RUNNING
+Nodes: 1
+Cores per node: 9
+CPU Utilized: 00:02:21
+CPU Efficiency: 12.53% of 00:18:45 core-walltime
+Job Wall-clock time: 00:02:05
+Memory Utilized: 4.81 GB
+Memory Efficiency: 15.38% of 31.25 GB
+WARNING: Efficiency statistics may be misleading for RUNNING jobs.

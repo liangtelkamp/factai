@@ -1,0 +1,203 @@
+Device used for training the model cuda
+Adjusting learning rate of group 0 to 1.0000e-02.
+Epoch 1, step 0 / 5. Update No.1 attribute: Young           Total loss: 1.63159    Direction loss: nan        Consistency loss: 0.00000    Sim loss: 1.63159   
+Epoch 1, step 1 / 5. Update No.1 attribute: Young           Total loss: 1.25755    Direction loss: 0.98342    Consistency loss: 0.27413    Sim loss: 1.66133   
+Epoch 1, step 2 / 5. Update No.1 attribute: Young           Total loss: 0.92254    Direction loss: 0.87500    Consistency loss: 0.04754    Sim loss: 1.62270   
+Epoch 1, step 3 / 5. Update No.1 attribute: Young           Total loss: 0.76790    Direction loss: 0.70386    Consistency loss: 0.06404    Sim loss: 1.63404   
+Epoch 1, step 4 / 5. Update No.1 attribute: Young           Total loss: 0.71925    Direction loss: 0.71925    Consistency loss: 0.00000    Sim loss: 1.61889   
+Adjusting learning rate of group 0 to 1.0000e-02.
+Epoch 2, step 0 / 5. Update No.1 attribute: Young           Total loss: 0.57639    Direction loss: 0.57639    Consistency loss: 0.00000    Sim loss: 1.62727   
+Epoch 2, step 1 / 5. Update No.1 attribute: Young           Total loss: 0.55357    Direction loss: 0.52363    Consistency loss: 0.02994    Sim loss: 1.64012   
+Epoch 2, step 2 / 5. Update No.1 attribute: Young           Total loss: 0.51356    Direction loss: 0.50882    Consistency loss: 0.00474    Sim loss: 1.62718   
+Epoch 2, step 3 / 5. Update No.1 attribute: Young           Total loss: 0.50716    Direction loss: 0.50716    Consistency loss: 0.00000    Sim loss: 1.62541   
+Epoch 2, step 4 / 5. Update No.1 attribute: Young           Total loss: 0.41819    Direction loss: 0.41819    Consistency loss: 0.00000    Sim loss: 1.61497   
+Adjusting learning rate of group 0 to 1.0000e-02.
+Epoch 3, step 0 / 5. Update No.1 attribute: Young           Total loss: 0.46163    Direction loss: 0.46163    Consistency loss: 0.00000    Sim loss: 1.62392   
+Epoch 3, step 1 / 5. Update No.1 attribute: Young           Total loss: 0.40770    Direction loss: 0.40770    Consistency loss: 0.00000    Sim loss: 1.62622   
+Epoch 3, step 2 / 5. Update No.1 attribute: Young           Total loss: 0.36366    Direction loss: 0.36069    Consistency loss: 0.00297    Sim loss: 1.61797   
+Epoch 3, step 3 / 5. Update No.1 attribute: Young           Total loss: 0.40572    Direction loss: 0.40572    Consistency loss: 0.00000    Sim loss: 1.62808   
+Epoch 3, step 4 / 5. Update No.1 attribute: Young           Total loss: 0.37020    Direction loss: 0.37020    Consistency loss: 0.00000    Sim loss: 1.63164   
+Adjusting learning rate of group 0 to 1.0000e-02.
+Epoch 4, step 0 / 5. Update No.1 attribute: Young           Total loss: 0.33483    Direction loss: 0.33483    Consistency loss: 0.00000    Sim loss: 1.64002   
+Epoch 4, step 1 / 5. Update No.1 attribute: Young           Total loss: 0.38775    Direction loss: 0.38775    Consistency loss: 0.00000    Sim loss: 1.64256   
+Epoch 4, step 2 / 5. Update No.1 attribute: Young           Total loss: 0.31875    Direction loss: 0.31627    Consistency loss: 0.00249    Sim loss: 1.62176   
+Epoch 4, step 3 / 5. Update No.1 attribute: Young           Total loss: 0.35207    Direction loss: 0.35207    Consistency loss: 0.00000    Sim loss: 1.63768   
+Epoch 4, step 4 / 5. Update No.1 attribute: Young           Total loss: 0.32911    Direction loss: 0.32911    Consistency loss: 0.00000    Sim loss: 1.64599   
+Adjusting learning rate of group 0 to 1.0000e-02.
+Epoch 5, step 0 / 5. Update No.1 attribute: Young           Total loss: 0.30769    Direction loss: 0.30769    Consistency loss: 0.00000    Sim loss: 1.63532   
+Epoch 5, step 1 / 5. Update No.1 attribute: Young           Total loss: 0.31848    Direction loss: 0.31847    Consistency loss: 0.00001    Sim loss: 1.64606   
+Epoch 5, step 2 / 5. Update No.1 attribute: Young           Total loss: 0.34942    Direction loss: 0.34942    Consistency loss: 0.00000    Sim loss: 1.65292   
+Epoch 5, step 3 / 5. Update No.1 attribute: Young           Total loss: 0.26512    Direction loss: 0.26512    Consistency loss: 0.00000    Sim loss: 1.64534   
+Epoch 5, step 4 / 5. Update No.1 attribute: Young           Total loss: 0.32330    Direction loss: 0.32330    Consistency loss: 0.00000    Sim loss: 1.64116   
+Adjusting learning rate of group 0 to 1.0000e-02.
+Epoch 6, step 0 / 5. Update No.1 attribute: Young           Total loss: 0.24143    Direction loss: 0.24143    Consistency loss: 0.00000    Sim loss: 1.64017   
+Epoch 6, step 1 / 5. Update No.1 attribute: Young           Total loss: 0.28323    Direction loss: 0.28323    Consistency loss: 0.00000    Sim loss: 1.63740   
+Epoch 6, step 2 / 5. Update No.1 attribute: Young           Total loss: 0.23613    Direction loss: 0.23613    Consistency loss: 0.00000    Sim loss: 1.65260   
+Epoch 6, step 3 / 5. Update No.1 attribute: Young           Total loss: 0.30568    Direction loss: 0.30568    Consistency loss: 0.00000    Sim loss: 1.64581   
+Epoch 6, step 4 / 5. Update No.1 attribute: Young           Total loss: 0.37288    Direction loss: 0.37288    Consistency loss: 0.00000    Sim loss: 1.66518   
+Adjusting learning rate of group 0 to 1.0000e-02.
+Epoch 7, step 0 / 5. Update No.1 attribute: Young           Total loss: 0.32599    Direction loss: 0.32366    Consistency loss: 0.00233    Sim loss: 1.66612   
+Epoch 7, step 1 / 5. Update No.1 attribute: Young           Total loss: 0.23570    Direction loss: 0.23542    Consistency loss: 0.00028    Sim loss: 1.65734   
+Epoch 7, step 2 / 5. Update No.1 attribute: Young           Total loss: 0.25780    Direction loss: 0.25780    Consistency loss: 0.00000    Sim loss: 1.63487   
+Epoch 7, step 3 / 5. Update No.1 attribute: Young           Total loss: 0.30733    Direction loss: 0.30733    Consistency loss: 0.00000    Sim loss: 1.65268   
+Epoch 7, step 4 / 5. Update No.1 attribute: Young           Total loss: 0.23353    Direction loss: 0.23353    Consistency loss: 0.00000    Sim loss: 1.62705   
+Adjusting learning rate of group 0 to 1.0000e-02.
+Epoch 8, step 0 / 5. Update No.1 attribute: Young           Total loss: 0.26616    Direction loss: 0.26616    Consistency loss: 0.00000    Sim loss: 1.64854   
+Epoch 8, step 1 / 5. Update No.1 attribute: Young           Total loss: 0.25665    Direction loss: 0.25665    Consistency loss: 0.00000    Sim loss: 1.63957   
+Epoch 8, step 2 / 5. Update No.1 attribute: Young           Total loss: 0.20388    Direction loss: 0.20388    Consistency loss: 0.00000    Sim loss: 1.62695   
+Epoch 8, step 3 / 5. Update No.1 attribute: Young           Total loss: 0.24913    Direction loss: 0.24913    Consistency loss: 0.00000    Sim loss: 1.64371   
+Epoch 8, step 4 / 5. Update No.1 attribute: Young           Total loss: 0.26551    Direction loss: 0.26551    Consistency loss: 0.00000    Sim loss: 1.64844   
+Adjusting learning rate of group 0 to 1.0000e-02.
+Epoch 9, step 0 / 5. Update No.1 attribute: Young           Total loss: 0.26550    Direction loss: 0.26550    Consistency loss: 0.00000    Sim loss: 1.64040   
+Epoch 9, step 1 / 5. Update No.1 attribute: Young           Total loss: 0.24339    Direction loss: 0.24339    Consistency loss: 0.00000    Sim loss: 1.64523   
+Epoch 9, step 2 / 5. Update No.1 attribute: Young           Total loss: 0.30558    Direction loss: 0.30558    Consistency loss: 0.00000    Sim loss: 1.64471   
+Epoch 9, step 3 / 5. Update No.1 attribute: Young           Total loss: 0.24083    Direction loss: 0.24083    Consistency loss: 0.00000    Sim loss: 1.64888   
+Epoch 9, step 4 / 5. Update No.1 attribute: Young           Total loss: 0.20361    Direction loss: 0.20361    Consistency loss: 0.00000    Sim loss: 1.63797   
+Adjusting learning rate of group 0 to 1.0000e-02.
+Epoch 10, step 0 / 5. Update No.1 attribute: Young           Total loss: 0.20869    Direction loss: 0.20729    Consistency loss: 0.00140    Sim loss: 1.64372   
+Epoch 10, step 1 / 5. Update No.1 attribute: Young           Total loss: 0.25819    Direction loss: 0.25819    Consistency loss: 0.00000    Sim loss: 1.64821   
+Epoch 10, step 2 / 5. Update No.1 attribute: Young           Total loss: 0.23764    Direction loss: 0.23764    Consistency loss: 0.00000    Sim loss: 1.64812   
+Epoch 10, step 3 / 5. Update No.1 attribute: Young           Total loss: 0.21808    Direction loss: 0.21808    Consistency loss: 0.00000    Sim loss: 1.62877   
+Epoch 10, step 4 / 5. Update No.1 attribute: Young           Total loss: 0.21366    Direction loss: 0.21366    Consistency loss: 0.00000    Sim loss: 1.63603   
+Adjusting learning rate of group 0 to 5.0000e-03.
+Successfully save FairTokens!
+Successfully save Models!
+Epoch 11, step 0 / 5. Update No.1 attribute: Young           Total loss: 0.29523    Direction loss: 0.29523    Consistency loss: 0.00000    Sim loss: 1.65321   
+Epoch 11, step 1 / 5. Update No.1 attribute: Young           Total loss: 0.24797    Direction loss: 0.24797    Consistency loss: 0.00000    Sim loss: 1.63484   
+Epoch 11, step 2 / 5. Update No.1 attribute: Young           Total loss: 0.20625    Direction loss: 0.20625    Consistency loss: 0.00000    Sim loss: 1.63525   
+Epoch 11, step 3 / 5. Update No.1 attribute: Young           Total loss: 0.20650    Direction loss: 0.20650    Consistency loss: 0.00000    Sim loss: 1.63484   
+Epoch 11, step 4 / 5. Update No.1 attribute: Young           Total loss: 0.19299    Direction loss: 0.19299    Consistency loss: 0.00000    Sim loss: 1.64990   
+Adjusting learning rate of group 0 to 5.0000e-03.
+Epoch 12, step 0 / 5. Update No.1 attribute: Young           Total loss: 0.23310    Direction loss: 0.23310    Consistency loss: 0.00000    Sim loss: 1.63783   
+Epoch 12, step 1 / 5. Update No.1 attribute: Young           Total loss: 0.21831    Direction loss: 0.21831    Consistency loss: 0.00000    Sim loss: 1.65064   
+Epoch 12, step 2 / 5. Update No.1 attribute: Young           Total loss: 0.23800    Direction loss: 0.23800    Consistency loss: 0.00000    Sim loss: 1.64451   
+Epoch 12, step 3 / 5. Update No.1 attribute: Young           Total loss: 0.18708    Direction loss: 0.18708    Consistency loss: 0.00000    Sim loss: 1.63865   
+Epoch 12, step 4 / 5. Update No.1 attribute: Young           Total loss: 0.20278    Direction loss: 0.20278    Consistency loss: 0.00000    Sim loss: 1.64403   
+Adjusting learning rate of group 0 to 5.0000e-03.
+Epoch 13, step 0 / 5. Update No.1 attribute: Young           Total loss: 0.18574    Direction loss: 0.18574    Consistency loss: 0.00000    Sim loss: 1.63028   
+Epoch 13, step 1 / 5. Update No.1 attribute: Young           Total loss: 0.17685    Direction loss: 0.17685    Consistency loss: 0.00000    Sim loss: 1.63825   
+Epoch 13, step 2 / 5. Update No.1 attribute: Young           Total loss: 0.21648    Direction loss: 0.21648    Consistency loss: 0.00000    Sim loss: 1.64032   
+Epoch 13, step 3 / 5. Update No.1 attribute: Young           Total loss: 0.23635    Direction loss: 0.23635    Consistency loss: 0.00000    Sim loss: 1.65316   
+Epoch 13, step 4 / 5. Update No.1 attribute: Young           Total loss: 0.28374    Direction loss: 0.28358    Consistency loss: 0.00016    Sim loss: 1.65274   
+Adjusting learning rate of group 0 to 5.0000e-03.
+Epoch 14, step 0 / 5. Update No.1 attribute: Young           Total loss: 0.24262    Direction loss: 0.24262    Consistency loss: 0.00000    Sim loss: 1.65718   
+Epoch 14, step 1 / 5. Update No.1 attribute: Young           Total loss: 0.20092    Direction loss: 0.20092    Consistency loss: 0.00000    Sim loss: 1.61559   
+Epoch 14, step 2 / 5. Update No.1 attribute: Young           Total loss: 0.30371    Direction loss: 0.30371    Consistency loss: 0.00000    Sim loss: 1.65235   
+Epoch 14, step 3 / 5. Update No.1 attribute: Young           Total loss: 0.17797    Direction loss: 0.17797    Consistency loss: 0.00000    Sim loss: 1.63288   
+Epoch 14, step 4 / 5. Update No.1 attribute: Young           Total loss: 0.20139    Direction loss: 0.20139    Consistency loss: 0.00000    Sim loss: 1.63321   
+Adjusting learning rate of group 0 to 5.0000e-03.
+Epoch 15, step 0 / 5. Update No.1 attribute: Young           Total loss: 0.27132    Direction loss: 0.27132    Consistency loss: 0.00000    Sim loss: 1.64394   
+Epoch 15, step 1 / 5. Update No.1 attribute: Young           Total loss: 0.17670    Direction loss: 0.17670    Consistency loss: 0.00000    Sim loss: 1.63257   
+Epoch 15, step 2 / 5. Update No.1 attribute: Young           Total loss: 0.21034    Direction loss: 0.21034    Consistency loss: 0.00000    Sim loss: 1.64828   
+Epoch 15, step 3 / 5. Update No.1 attribute: Young           Total loss: 0.25743    Direction loss: 0.25743    Consistency loss: 0.00000    Sim loss: 1.64342   
+Epoch 15, step 4 / 5. Update No.1 attribute: Young           Total loss: 0.17801    Direction loss: 0.17801    Consistency loss: 0.00000    Sim loss: 1.62587   
+Adjusting learning rate of group 0 to 5.0000e-03.
+Epoch 16, step 0 / 5. Update No.1 attribute: Young           Total loss: 0.19345    Direction loss: 0.19345    Consistency loss: 0.00000    Sim loss: 1.64230   
+Epoch 16, step 1 / 5. Update No.1 attribute: Young           Total loss: 0.20343    Direction loss: 0.20343    Consistency loss: 0.00000    Sim loss: 1.62971   
+Epoch 16, step 2 / 5. Update No.1 attribute: Young           Total loss: 0.21027    Direction loss: 0.21027    Consistency loss: 0.00000    Sim loss: 1.64434   
+Epoch 16, step 3 / 5. Update No.1 attribute: Young           Total loss: 0.21893    Direction loss: 0.21893    Consistency loss: 0.00000    Sim loss: 1.63469   
+Epoch 16, step 4 / 5. Update No.1 attribute: Young           Total loss: 0.18059    Direction loss: 0.18059    Consistency loss: 0.00000    Sim loss: 1.63593   
+Adjusting learning rate of group 0 to 5.0000e-03.
+Epoch 17, step 0 / 5. Update No.1 attribute: Young           Total loss: 0.17674    Direction loss: 0.17674    Consistency loss: 0.00000    Sim loss: 1.63601   
+Epoch 17, step 1 / 5. Update No.1 attribute: Young           Total loss: 0.20755    Direction loss: 0.20755    Consistency loss: 0.00000    Sim loss: 1.63566   
+Epoch 17, step 2 / 5. Update No.1 attribute: Young           Total loss: 0.18050    Direction loss: 0.18050    Consistency loss: 0.00000    Sim loss: 1.63045   
+Epoch 17, step 3 / 5. Update No.1 attribute: Young           Total loss: 0.23451    Direction loss: 0.23451    Consistency loss: 0.00000    Sim loss: 1.63514   
+Epoch 17, step 4 / 5. Update No.1 attribute: Young           Total loss: 0.20239    Direction loss: 0.20239    Consistency loss: 0.00000    Sim loss: 1.63993   
+Adjusting learning rate of group 0 to 5.0000e-03.
+Epoch 18, step 0 / 5. Update No.1 attribute: Young           Total loss: 0.22051    Direction loss: 0.22051    Consistency loss: 0.00000    Sim loss: 1.65292   
+Epoch 18, step 1 / 5. Update No.1 attribute: Young           Total loss: 0.17228    Direction loss: 0.17228    Consistency loss: 0.00000    Sim loss: 1.62417   
+Epoch 18, step 2 / 5. Update No.1 attribute: Young           Total loss: 0.19338    Direction loss: 0.19336    Consistency loss: 0.00002    Sim loss: 1.63738   
+Epoch 18, step 3 / 5. Update No.1 attribute: Young           Total loss: 0.16817    Direction loss: 0.16817    Consistency loss: 0.00000    Sim loss: 1.63466   
+Epoch 18, step 4 / 5. Update No.1 attribute: Young           Total loss: 0.23594    Direction loss: 0.23594    Consistency loss: 0.00000    Sim loss: 1.63291   
+Adjusting learning rate of group 0 to 5.0000e-03.
+Epoch 19, step 0 / 5. Update No.1 attribute: Young           Total loss: 0.17806    Direction loss: 0.17806    Consistency loss: 0.00000    Sim loss: 1.63396   
+Epoch 19, step 1 / 5. Update No.1 attribute: Young           Total loss: 0.19866    Direction loss: 0.19866    Consistency loss: 0.00000    Sim loss: 1.63156   
+Epoch 19, step 2 / 5. Update No.1 attribute: Young           Total loss: 0.18171    Direction loss: 0.18171    Consistency loss: 0.00000    Sim loss: 1.62793   
+Epoch 19, step 3 / 5. Update No.1 attribute: Young           Total loss: 0.20194    Direction loss: 0.20194    Consistency loss: 0.00000    Sim loss: 1.62107   
+Epoch 19, step 4 / 5. Update No.1 attribute: Young           Total loss: 0.17741    Direction loss: 0.17741    Consistency loss: 0.00000    Sim loss: 1.62626   
+Adjusting learning rate of group 0 to 5.0000e-03.
+Epoch 20, step 0 / 5. Update No.1 attribute: Young           Total loss: 0.17173    Direction loss: 0.17173    Consistency loss: 0.00000    Sim loss: 1.62477   
+Epoch 20, step 1 / 5. Update No.1 attribute: Young           Total loss: 0.21874    Direction loss: 0.21874    Consistency loss: 0.00000    Sim loss: 1.62094   
+Epoch 20, step 2 / 5. Update No.1 attribute: Young           Total loss: 0.24579    Direction loss: 0.24579    Consistency loss: 0.00000    Sim loss: 1.64095   
+Epoch 20, step 3 / 5. Update No.1 attribute: Young           Total loss: 0.20521    Direction loss: 0.20521    Consistency loss: 0.00000    Sim loss: 1.62415   
+Epoch 20, step 4 / 5. Update No.1 attribute: Young           Total loss: 0.23119    Direction loss: 0.23119    Consistency loss: 0.00000    Sim loss: 1.63840   
+Adjusting learning rate of group 0 to 5.0000e-03.
+Successfully save FairTokens!
+Successfully save Models!
+Epoch 21, step 0 / 5. Update No.1 attribute: Young           Total loss: 0.19512    Direction loss: 0.19512    Consistency loss: 0.00000    Sim loss: 1.62980   
+Epoch 21, step 1 / 5. Update No.1 attribute: Young           Total loss: 0.16395    Direction loss: 0.16395    Consistency loss: 0.00000    Sim loss: 1.63748   
+Epoch 21, step 2 / 5. Update No.1 attribute: Young           Total loss: 0.20090    Direction loss: 0.20090    Consistency loss: 0.00000    Sim loss: 1.62150   
+Epoch 21, step 3 / 5. Update No.1 attribute: Young           Total loss: 0.24057    Direction loss: 0.24057    Consistency loss: 0.00000    Sim loss: 1.64298   
+Epoch 21, step 4 / 5. Update No.1 attribute: Young           Total loss: 0.21039    Direction loss: 0.21039    Consistency loss: 0.00000    Sim loss: 1.62770   
+Adjusting learning rate of group 0 to 5.0000e-03.
+Epoch 22, step 0 / 5. Update No.1 attribute: Young           Total loss: 0.18767    Direction loss: 0.18767    Consistency loss: 0.00000    Sim loss: 1.61995   
+Epoch 22, step 1 / 5. Update No.1 attribute: Young           Total loss: 0.22270    Direction loss: 0.22270    Consistency loss: 0.00000    Sim loss: 1.63761   
+Epoch 22, step 2 / 5. Update No.1 attribute: Young           Total loss: 0.17719    Direction loss: 0.17719    Consistency loss: 0.00000    Sim loss: 1.63467   
+Epoch 22, step 3 / 5. Update No.1 attribute: Young           Total loss: 0.20449    Direction loss: 0.20449    Consistency loss: 0.00000    Sim loss: 1.62959   
+Epoch 22, step 4 / 5. Update No.1 attribute: Young           Total loss: 0.16191    Direction loss: 0.16191    Consistency loss: 0.00000    Sim loss: 1.61263   
+Adjusting learning rate of group 0 to 5.0000e-03.
+Epoch 23, step 0 / 5. Update No.1 attribute: Young           Total loss: 0.24353    Direction loss: 0.24353    Consistency loss: 0.00000    Sim loss: 1.63362   
+Epoch 23, step 1 / 5. Update No.1 attribute: Young           Total loss: 0.15922    Direction loss: 0.15922    Consistency loss: 0.00000    Sim loss: 1.61865   
+Epoch 23, step 2 / 5. Update No.1 attribute: Young           Total loss: 0.18726    Direction loss: 0.18726    Consistency loss: 0.00000    Sim loss: 1.63583   
+Epoch 23, step 3 / 5. Update No.1 attribute: Young           Total loss: 0.15879    Direction loss: 0.15879    Consistency loss: 0.00000    Sim loss: 1.62743   
+Epoch 23, step 4 / 5. Update No.1 attribute: Young           Total loss: 0.18602    Direction loss: 0.18602    Consistency loss: 0.00000    Sim loss: 1.61541   
+Adjusting learning rate of group 0 to 5.0000e-03.
+Epoch 24, step 0 / 5. Update No.1 attribute: Young           Total loss: 0.17448    Direction loss: 0.17448    Consistency loss: 0.00000    Sim loss: 1.62271   
+Epoch 24, step 1 / 5. Update No.1 attribute: Young           Total loss: 0.17398    Direction loss: 0.17268    Consistency loss: 0.00129    Sim loss: 1.61884   
+Epoch 24, step 2 / 5. Update No.1 attribute: Young           Total loss: 0.17993    Direction loss: 0.17993    Consistency loss: 0.00000    Sim loss: 1.62988   
+Epoch 24, step 3 / 5. Update No.1 attribute: Young           Total loss: 0.18033    Direction loss: 0.18033    Consistency loss: 0.00000    Sim loss: 1.62946   
+Epoch 24, step 4 / 5. Update No.1 attribute: Young           Total loss: 0.33391    Direction loss: 0.33391    Consistency loss: 0.00000    Sim loss: 1.64440   
+Adjusting learning rate of group 0 to 5.0000e-03.
+Epoch 25, step 0 / 5. Update No.1 attribute: Young           Total loss: 0.15788    Direction loss: 0.15788    Consistency loss: 0.00000    Sim loss: 1.61946   
+Epoch 25, step 1 / 5. Update No.1 attribute: Young           Total loss: 0.22132    Direction loss: 0.22132    Consistency loss: 0.00000    Sim loss: 1.62989   
+Epoch 25, step 2 / 5. Update No.1 attribute: Young           Total loss: 0.17441    Direction loss: 0.17441    Consistency loss: 0.00000    Sim loss: 1.62386   
+Epoch 25, step 3 / 5. Update No.1 attribute: Young           Total loss: 0.14962    Direction loss: 0.14962    Consistency loss: 0.00000    Sim loss: 1.61466   
+Epoch 25, step 4 / 5. Update No.1 attribute: Young           Total loss: 0.21517    Direction loss: 0.21517    Consistency loss: 0.00000    Sim loss: 1.61861   
+Adjusting learning rate of group 0 to 5.0000e-03.
+Epoch 26, step 0 / 5. Update No.1 attribute: Young           Total loss: 0.18215    Direction loss: 0.18215    Consistency loss: 0.00000    Sim loss: 1.62795   
+Epoch 26, step 1 / 5. Update No.1 attribute: Young           Total loss: 0.12744    Direction loss: 0.12744    Consistency loss: 0.00000    Sim loss: 1.60850   
+Epoch 26, step 2 / 5. Update No.1 attribute: Young           Total loss: 0.20271    Direction loss: 0.20271    Consistency loss: 0.00000    Sim loss: 1.62997   
+Epoch 26, step 3 / 5. Update No.1 attribute: Young           Total loss: 0.22638    Direction loss: 0.22638    Consistency loss: 0.00000    Sim loss: 1.62552   
+Epoch 26, step 4 / 5. Update No.1 attribute: Young           Total loss: 0.20315    Direction loss: 0.20315    Consistency loss: 0.00000    Sim loss: 1.61899   
+Adjusting learning rate of group 0 to 5.0000e-03.
+Epoch 27, step 0 / 5. Update No.1 attribute: Young           Total loss: 0.19641    Direction loss: 0.19641    Consistency loss: 0.00000    Sim loss: 1.63076   
+Epoch 27, step 1 / 5. Update No.1 attribute: Young           Total loss: 0.18318    Direction loss: 0.18318    Consistency loss: 0.00000    Sim loss: 1.62532   
+Epoch 27, step 2 / 5. Update No.1 attribute: Young           Total loss: 0.16816    Direction loss: 0.16816    Consistency loss: 0.00000    Sim loss: 1.61925   
+Epoch 27, step 3 / 5. Update No.1 attribute: Young           Total loss: 0.22442    Direction loss: 0.22442    Consistency loss: 0.00000    Sim loss: 1.61230   
+Epoch 27, step 4 / 5. Update No.1 attribute: Young           Total loss: 0.18491    Direction loss: 0.18491    Consistency loss: 0.00000    Sim loss: 1.63476   
+Adjusting learning rate of group 0 to 5.0000e-03.
+Epoch 28, step 0 / 5. Update No.1 attribute: Young           Total loss: 0.14927    Direction loss: 0.14927    Consistency loss: 0.00000    Sim loss: 1.62470   
+Epoch 28, step 1 / 5. Update No.1 attribute: Young           Total loss: 0.17215    Direction loss: 0.17215    Consistency loss: 0.00000    Sim loss: 1.62469   
+Epoch 28, step 2 / 5. Update No.1 attribute: Young           Total loss: 0.18769    Direction loss: 0.18769    Consistency loss: 0.00000    Sim loss: 1.61956   
+Epoch 28, step 3 / 5. Update No.1 attribute: Young           Total loss: 0.16386    Direction loss: 0.16386    Consistency loss: 0.00000    Sim loss: 1.61425   
+Epoch 28, step 4 / 5. Update No.1 attribute: Young           Total loss: 0.22156    Direction loss: 0.22156    Consistency loss: 0.00000    Sim loss: 1.63909   
+Adjusting learning rate of group 0 to 5.0000e-03.
+Epoch 29, step 0 / 5. Update No.1 attribute: Young           Total loss: 0.14891    Direction loss: 0.14891    Consistency loss: 0.00000    Sim loss: 1.61486   
+Epoch 29, step 1 / 5. Update No.1 attribute: Young           Total loss: 0.23840    Direction loss: 0.23840    Consistency loss: 0.00000    Sim loss: 1.63423   
+Epoch 29, step 2 / 5. Update No.1 attribute: Young           Total loss: 0.18950    Direction loss: 0.18950    Consistency loss: 0.00000    Sim loss: 1.62381   
+Epoch 29, step 3 / 5. Update No.1 attribute: Young           Total loss: 0.17069    Direction loss: 0.17069    Consistency loss: 0.00000    Sim loss: 1.62332   
+Epoch 29, step 4 / 5. Update No.1 attribute: Young           Total loss: 0.18684    Direction loss: 0.18684    Consistency loss: 0.00000    Sim loss: 1.62021   
+Adjusting learning rate of group 0 to 5.0000e-03.
+Epoch 30, step 0 / 5. Update No.1 attribute: Young           Total loss: 0.21131    Direction loss: 0.21131    Consistency loss: 0.00000    Sim loss: 1.62182   
+Epoch 30, step 1 / 5. Update No.1 attribute: Young           Total loss: 0.13320    Direction loss: 0.13320    Consistency loss: 0.00000    Sim loss: 1.61181   
+Epoch 30, step 2 / 5. Update No.1 attribute: Young           Total loss: 0.15045    Direction loss: 0.15045    Consistency loss: 0.00000    Sim loss: 1.61735   
+Epoch 30, step 3 / 5. Update No.1 attribute: Young           Total loss: 0.19818    Direction loss: 0.19818    Consistency loss: 0.00000    Sim loss: 1.62490   
+Epoch 30, step 4 / 5. Update No.1 attribute: Young           Total loss: 0.20497    Direction loss: 0.20497    Consistency loss: 0.00000    Sim loss: 1.61882   
+Adjusting learning rate of group 0 to 5.0000e-03.
+Successfully save FairTokens!
+Successfully save Models!
+
+JOB STATISTICS
+==============
+Job ID: 4830520
+Cluster: snellius
+User/Group: scur1031/scur1031
+State: RUNNING
+Nodes: 1
+Cores per node: 9
+CPU Utilized: 00:00:00
+CPU Efficiency: 0.00% of 00:19:39 core-walltime
+Job Wall-clock time: 00:02:11
+Memory Utilized: 0.00 MB (estimated maximum)
+Memory Efficiency: 0.00% of 31.25 GB (31.25 GB/node)
+WARNING: Efficiency statistics may be misleading for RUNNING jobs.
