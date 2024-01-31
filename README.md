@@ -27,7 +27,7 @@ srun python -u "/ITI-GEN/generate_baseline.py"\
 
 - The 'jobfiles' directory contains a set of scripts ready for execution. However, it is necessary to customize the paths to align them with your specific environment. Here is a glimpse of what is available:
 
-1. Training is possible, here is an example (as a warning, you might have to download the used reference data sets and alter the path to ITI-GEN in the train_iti_gen.py file)
+## 1. Training is possible, here is an example (as a warning, you might have to download the used reference data sets and alter the path to ITI-GEN in the train_iti_gen.py file)
 ```
 # Run your code
 srun python -u /ITI-GEN/train_iti_gen.py \
@@ -40,7 +40,7 @@ srun python -u /ITI-GEN/train_iti_gen.py \
 ```
 
 
-2. Generating images with ITI-GEN models (warning: you might have to change the path to the ITI-GEN folder within the generation.py file)
+## 2. Generating images with ITI-GEN models (warning: you might have to change the path to the ITI-GEN folder within the generation.py file)
 ```
 srun python -u /ITI-GEN/generation.py \
     --config='/ITI-GEN/models/sd/configs/stable-diffusion/v1-inference.yaml' \
@@ -55,11 +55,27 @@ srun python -u /ITI-GEN/generation.py \
     --prompt="a headshot of a person"
 ```
 
-3. Evaluating images KL Divergence and FID score
+## 3. Evaluating images KL Divergence and FID score
 ```
 # Do keep in mind to remove the grids from the sample_results folder to exclude the grids from evaluation
 srun python -u /ITI-GEN/evaluation.py \
     --img-folder '/ITI-GEN/ckpts/a_headshot_of_a_person_Male/original_prompt_embedding/sample_results' \
     --class-list 'a headshot of a man' 'a headshot of a woman'
 ```
+## 4. FairFace classifier
+The FairFace classifier is used to classify the multi-category attributes 'age' and 'skin tone'.
+
+The job file to run the code of the FairFace classifier is called classifier_fairface.job:
+```
+srun python -u classifier_FairFace/predict.py \
+    --input_csv "classifier_FairFace/img_paths.csv" \
+    --output_csv "classifier_FairFace/outputs.csv" \
+    --image_path "ckpts/a_headshot_of_a_person_Male_Skin_tone/original_prompt_embedding/sample_results"
+```
+- '--input_csv': csv file of image paths where col name for image path is "img_path'.
+- '--output_csv': csv file for the output of the classifier.
+- '--image_path': directory where the images are stored.
+
+The github page from the paper with the original code can be found here: https://github.com/dchen236/FairFace
+
 
