@@ -1,218 +1,0 @@
-============================================================================================== 
-Warning! Mixing Conda and module environments may lead to corruption of the
-user environment. 
-We do not recommend users mixing those two environments unless absolutely
-necessary. Note that 
-SURF does not provide any support for Conda environment.
-For more information, please refer to our software policy page:
-https://servicedesk.surf.nl/wiki/display/WIKI/Software+policy+Snellius+and+Lisa#SoftwarepolicySnelliusandLisa-UseofAnacondaandMinicondaenvironmentsonSnellius 
-
-Remember that many packages have already been installed on the system and can
-be loaded using 
-the 'module load <package__name>' command. If you are uncertain if a package is
-already available 
-on the system, please use 'module avail' or 'module spider' to search for it.
-============================================================================================== 
-Device used for training the model cuda
-Adjusting learning rate of group 0 to 1.0000e-02.
-Epoch 1, step 0 / 5. Update No.1 attribute: Pale_Skin       Total loss: 1.62475    Direction loss: nan        Consistency loss: 0.00000    Sim loss: 1.62475   
-Epoch 1, step 1 / 5. Update No.1 attribute: Pale_Skin       Total loss: 1.29737    Direction loss: 0.97277    Consistency loss: 0.32460    Sim loss: 1.64911   
-Epoch 1, step 2 / 5. Update No.1 attribute: Pale_Skin       Total loss: 0.94908    Direction loss: 0.81695    Consistency loss: 0.13213    Sim loss: 1.64060   
-Epoch 1, step 3 / 5. Update No.1 attribute: Pale_Skin       Total loss: 0.94558    Direction loss: 0.78274    Consistency loss: 0.16284    Sim loss: 1.66951   
-Epoch 1, step 4 / 5. Update No.1 attribute: Pale_Skin       Total loss: 0.96535    Direction loss: 0.80372    Consistency loss: 0.16163    Sim loss: 1.68159   
-Adjusting learning rate of group 0 to 1.0000e-02.
-Epoch 2, step 0 / 5. Update No.1 attribute: Pale_Skin       Total loss: 0.82755    Direction loss: 0.73707    Consistency loss: 0.09049    Sim loss: 1.67207   
-Epoch 2, step 1 / 5. Update No.1 attribute: Pale_Skin       Total loss: 0.66819    Direction loss: 0.61875    Consistency loss: 0.04944    Sim loss: 1.65986   
-Epoch 2, step 2 / 5. Update No.1 attribute: Pale_Skin       Total loss: 0.65402    Direction loss: 0.62889    Consistency loss: 0.02513    Sim loss: 1.65847   
-Epoch 2, step 3 / 5. Update No.1 attribute: Pale_Skin       Total loss: 0.62523    Direction loss: 0.61377    Consistency loss: 0.01146    Sim loss: 1.66487   
-Epoch 2, step 4 / 5. Update No.1 attribute: Pale_Skin       Total loss: 0.73657    Direction loss: 0.73478    Consistency loss: 0.00179    Sim loss: 1.66902   
-Adjusting learning rate of group 0 to 1.0000e-02.
-Epoch 3, step 0 / 5. Update No.1 attribute: Pale_Skin       Total loss: 0.65418    Direction loss: 0.65418    Consistency loss: 0.00000    Sim loss: 1.66430   
-Epoch 3, step 1 / 5. Update No.1 attribute: Pale_Skin       Total loss: 0.58289    Direction loss: 0.58289    Consistency loss: 0.00000    Sim loss: 1.65809   
-Epoch 3, step 2 / 5. Update No.1 attribute: Pale_Skin       Total loss: 0.52008    Direction loss: 0.51368    Consistency loss: 0.00640    Sim loss: 1.66218   
-Epoch 3, step 3 / 5. Update No.1 attribute: Pale_Skin       Total loss: 0.53647    Direction loss: 0.53052    Consistency loss: 0.00595    Sim loss: 1.65669   
-Epoch 3, step 4 / 5. Update No.1 attribute: Pale_Skin       Total loss: 0.69794    Direction loss: 0.69794    Consistency loss: 0.00000    Sim loss: 1.68084   
-Adjusting learning rate of group 0 to 1.0000e-02.
-Epoch 4, step 0 / 5. Update No.1 attribute: Pale_Skin       Total loss: 0.57563    Direction loss: 0.57563    Consistency loss: 0.00000    Sim loss: 1.67321   
-Epoch 4, step 1 / 5. Update No.1 attribute: Pale_Skin       Total loss: 0.47366    Direction loss: 0.47366    Consistency loss: 0.00000    Sim loss: 1.66439   
-Epoch 4, step 2 / 5. Update No.1 attribute: Pale_Skin       Total loss: 0.57749    Direction loss: 0.57739    Consistency loss: 0.00009    Sim loss: 1.67006   
-Epoch 4, step 3 / 5. Update No.1 attribute: Pale_Skin       Total loss: 0.45658    Direction loss: 0.45605    Consistency loss: 0.00053    Sim loss: 1.66901   
-Epoch 4, step 4 / 5. Update No.1 attribute: Pale_Skin       Total loss: 0.52014    Direction loss: 0.52014    Consistency loss: 0.00000    Sim loss: 1.66404   
-Adjusting learning rate of group 0 to 1.0000e-02.
-Epoch 5, step 0 / 5. Update No.1 attribute: Pale_Skin       Total loss: 0.71743    Direction loss: 0.71743    Consistency loss: 0.00000    Sim loss: 1.67804   
-Epoch 5, step 1 / 5. Update No.1 attribute: Pale_Skin       Total loss: 0.53134    Direction loss: 0.53134    Consistency loss: 0.00000    Sim loss: 1.66974   
-Epoch 5, step 2 / 5. Update No.1 attribute: Pale_Skin       Total loss: 0.43062    Direction loss: 0.43062    Consistency loss: 0.00000    Sim loss: 1.66438   
-Epoch 5, step 3 / 5. Update No.1 attribute: Pale_Skin       Total loss: 0.47444    Direction loss: 0.47444    Consistency loss: 0.00000    Sim loss: 1.65527   
-Epoch 5, step 4 / 5. Update No.1 attribute: Pale_Skin       Total loss: 0.42557    Direction loss: 0.41883    Consistency loss: 0.00675    Sim loss: 1.66167   
-Adjusting learning rate of group 0 to 1.0000e-02.
-Epoch 6, step 0 / 5. Update No.1 attribute: Pale_Skin       Total loss: 0.40934    Direction loss: 0.40057    Consistency loss: 0.00877    Sim loss: 1.66172   
-Epoch 6, step 1 / 5. Update No.1 attribute: Pale_Skin       Total loss: 0.50285    Direction loss: 0.49815    Consistency loss: 0.00470    Sim loss: 1.67392   
-Epoch 6, step 2 / 5. Update No.1 attribute: Pale_Skin       Total loss: 0.38412    Direction loss: 0.38412    Consistency loss: 0.00000    Sim loss: 1.66347   
-Epoch 6, step 3 / 5. Update No.1 attribute: Pale_Skin       Total loss: 0.56630    Direction loss: 0.56630    Consistency loss: 0.00000    Sim loss: 1.67981   
-Epoch 6, step 4 / 5. Update No.1 attribute: Pale_Skin       Total loss: 0.60728    Direction loss: 0.60728    Consistency loss: 0.00000    Sim loss: 1.67994   
-Adjusting learning rate of group 0 to 1.0000e-02.
-Epoch 7, step 0 / 5. Update No.1 attribute: Pale_Skin       Total loss: 0.38912    Direction loss: 0.38912    Consistency loss: 0.00000    Sim loss: 1.66713   
-Epoch 7, step 1 / 5. Update No.1 attribute: Pale_Skin       Total loss: 0.38304    Direction loss: 0.38304    Consistency loss: 0.00000    Sim loss: 1.66627   
-Epoch 7, step 2 / 5. Update No.1 attribute: Pale_Skin       Total loss: 0.58255    Direction loss: 0.58255    Consistency loss: 0.00000    Sim loss: 1.67809   
-Epoch 7, step 3 / 5. Update No.1 attribute: Pale_Skin       Total loss: 0.51696    Direction loss: 0.51696    Consistency loss: 0.00000    Sim loss: 1.68121   
-Epoch 7, step 4 / 5. Update No.1 attribute: Pale_Skin       Total loss: 0.35960    Direction loss: 0.35660    Consistency loss: 0.00300    Sim loss: 1.66398   
-Adjusting learning rate of group 0 to 1.0000e-02.
-Epoch 8, step 0 / 5. Update No.1 attribute: Pale_Skin       Total loss: 0.39776    Direction loss: 0.39461    Consistency loss: 0.00314    Sim loss: 1.67903   
-Epoch 8, step 1 / 5. Update No.1 attribute: Pale_Skin       Total loss: 0.46339    Direction loss: 0.46339    Consistency loss: 0.00000    Sim loss: 1.68092   
-Epoch 8, step 2 / 5. Update No.1 attribute: Pale_Skin       Total loss: 0.35750    Direction loss: 0.35750    Consistency loss: 0.00000    Sim loss: 1.65777   
-Epoch 8, step 3 / 5. Update No.1 attribute: Pale_Skin       Total loss: 0.46334    Direction loss: 0.46334    Consistency loss: 0.00000    Sim loss: 1.67727   
-Epoch 8, step 4 / 5. Update No.1 attribute: Pale_Skin       Total loss: 0.46838    Direction loss: 0.46838    Consistency loss: 0.00000    Sim loss: 1.67261   
-Adjusting learning rate of group 0 to 1.0000e-02.
-Epoch 9, step 0 / 5. Update No.1 attribute: Pale_Skin       Total loss: 0.35619    Direction loss: 0.35619    Consistency loss: 0.00000    Sim loss: 1.66218   
-Epoch 9, step 1 / 5. Update No.1 attribute: Pale_Skin       Total loss: 0.49980    Direction loss: 0.49980    Consistency loss: 0.00000    Sim loss: 1.68108   
-Epoch 9, step 2 / 5. Update No.1 attribute: Pale_Skin       Total loss: 0.34385    Direction loss: 0.33964    Consistency loss: 0.00421    Sim loss: 1.66975   
-Epoch 9, step 3 / 5. Update No.1 attribute: Pale_Skin       Total loss: 0.43223    Direction loss: 0.42672    Consistency loss: 0.00551    Sim loss: 1.67576   
-Epoch 9, step 4 / 5. Update No.1 attribute: Pale_Skin       Total loss: 0.40766    Direction loss: 0.40608    Consistency loss: 0.00158    Sim loss: 1.68076   
-Adjusting learning rate of group 0 to 1.0000e-02.
-Epoch 10, step 0 / 5. Update No.1 attribute: Pale_Skin       Total loss: 0.34194    Direction loss: 0.34194    Consistency loss: 0.00000    Sim loss: 1.66617   
-Epoch 10, step 1 / 5. Update No.1 attribute: Pale_Skin       Total loss: 0.39752    Direction loss: 0.39752    Consistency loss: 0.00000    Sim loss: 1.66528   
-Epoch 10, step 2 / 5. Update No.1 attribute: Pale_Skin       Total loss: 0.35811    Direction loss: 0.35811    Consistency loss: 0.00000    Sim loss: 1.65958   
-Epoch 10, step 3 / 5. Update No.1 attribute: Pale_Skin       Total loss: 0.48046    Direction loss: 0.48046    Consistency loss: 0.00000    Sim loss: 1.68087   
-Epoch 10, step 4 / 5. Update No.1 attribute: Pale_Skin       Total loss: 0.44496    Direction loss: 0.44496    Consistency loss: 0.00000    Sim loss: 1.67829   
-Adjusting learning rate of group 0 to 5.0000e-03.
-Successfully save FairTokens!
-Successfully save Models!
-Epoch 11, step 0 / 5. Update No.1 attribute: Pale_Skin       Total loss: 0.34130    Direction loss: 0.34130    Consistency loss: 0.00000    Sim loss: 1.66091   
-Epoch 11, step 1 / 5. Update No.1 attribute: Pale_Skin       Total loss: 0.41423    Direction loss: 0.41423    Consistency loss: 0.00000    Sim loss: 1.67429   
-Epoch 11, step 2 / 5. Update No.1 attribute: Pale_Skin       Total loss: 0.43701    Direction loss: 0.43701    Consistency loss: 0.00000    Sim loss: 1.67118   
-Epoch 11, step 3 / 5. Update No.1 attribute: Pale_Skin       Total loss: 0.41269    Direction loss: 0.41269    Consistency loss: 0.00000    Sim loss: 1.67560   
-Epoch 11, step 4 / 5. Update No.1 attribute: Pale_Skin       Total loss: 0.46189    Direction loss: 0.46189    Consistency loss: 0.00000    Sim loss: 1.67941   
-Adjusting learning rate of group 0 to 5.0000e-03.
-Epoch 12, step 0 / 5. Update No.1 attribute: Pale_Skin       Total loss: 0.28330    Direction loss: 0.28330    Consistency loss: 0.00000    Sim loss: 1.67254   
-Epoch 12, step 1 / 5. Update No.1 attribute: Pale_Skin       Total loss: 0.43369    Direction loss: 0.43369    Consistency loss: 0.00000    Sim loss: 1.67967   
-Epoch 12, step 2 / 5. Update No.1 attribute: Pale_Skin       Total loss: 0.39791    Direction loss: 0.39791    Consistency loss: 0.00000    Sim loss: 1.67873   
-Epoch 12, step 3 / 5. Update No.1 attribute: Pale_Skin       Total loss: 0.46988    Direction loss: 0.46750    Consistency loss: 0.00237    Sim loss: 1.68491   
-Epoch 12, step 4 / 5. Update No.1 attribute: Pale_Skin       Total loss: 0.36400    Direction loss: 0.36288    Consistency loss: 0.00112    Sim loss: 1.68396   
-Adjusting learning rate of group 0 to 5.0000e-03.
-Epoch 13, step 0 / 5. Update No.1 attribute: Pale_Skin       Total loss: 0.40411    Direction loss: 0.40411    Consistency loss: 0.00000    Sim loss: 1.67880   
-Epoch 13, step 1 / 5. Update No.1 attribute: Pale_Skin       Total loss: 0.39518    Direction loss: 0.39518    Consistency loss: 0.00000    Sim loss: 1.68091   
-Epoch 13, step 2 / 5. Update No.1 attribute: Pale_Skin       Total loss: 0.36692    Direction loss: 0.36692    Consistency loss: 0.00000    Sim loss: 1.67275   
-Epoch 13, step 3 / 5. Update No.1 attribute: Pale_Skin       Total loss: 0.29605    Direction loss: 0.29605    Consistency loss: 0.00000    Sim loss: 1.66006   
-Epoch 13, step 4 / 5. Update No.1 attribute: Pale_Skin       Total loss: 0.40908    Direction loss: 0.40908    Consistency loss: 0.00000    Sim loss: 1.68113   
-Adjusting learning rate of group 0 to 5.0000e-03.
-Epoch 14, step 0 / 5. Update No.1 attribute: Pale_Skin       Total loss: 0.41601    Direction loss: 0.41601    Consistency loss: 0.00000    Sim loss: 1.67894   
-Epoch 14, step 1 / 5. Update No.1 attribute: Pale_Skin       Total loss: 0.34872    Direction loss: 0.34872    Consistency loss: 0.00000    Sim loss: 1.66824   
-Epoch 14, step 2 / 5. Update No.1 attribute: Pale_Skin       Total loss: 0.40604    Direction loss: 0.40604    Consistency loss: 0.00000    Sim loss: 1.68222   
-Epoch 14, step 3 / 5. Update No.1 attribute: Pale_Skin       Total loss: 0.30886    Direction loss: 0.30886    Consistency loss: 0.00000    Sim loss: 1.66637   
-Epoch 14, step 4 / 5. Update No.1 attribute: Pale_Skin       Total loss: 0.38144    Direction loss: 0.38144    Consistency loss: 0.00000    Sim loss: 1.68434   
-Adjusting learning rate of group 0 to 5.0000e-03.
-Epoch 15, step 0 / 5. Update No.1 attribute: Pale_Skin       Total loss: 0.45770    Direction loss: 0.45701    Consistency loss: 0.00069    Sim loss: 1.68550   
-Epoch 15, step 1 / 5. Update No.1 attribute: Pale_Skin       Total loss: 0.27135    Direction loss: 0.27117    Consistency loss: 0.00018    Sim loss: 1.67200   
-Epoch 15, step 2 / 5. Update No.1 attribute: Pale_Skin       Total loss: 0.43170    Direction loss: 0.43170    Consistency loss: 0.00000    Sim loss: 1.67753   
-Epoch 15, step 3 / 5. Update No.1 attribute: Pale_Skin       Total loss: 0.29090    Direction loss: 0.29090    Consistency loss: 0.00000    Sim loss: 1.67195   
-Epoch 15, step 4 / 5. Update No.1 attribute: Pale_Skin       Total loss: 0.40734    Direction loss: 0.40734    Consistency loss: 0.00000    Sim loss: 1.67791   
-Adjusting learning rate of group 0 to 5.0000e-03.
-Epoch 16, step 0 / 5. Update No.1 attribute: Pale_Skin       Total loss: 0.33275    Direction loss: 0.33275    Consistency loss: 0.00000    Sim loss: 1.67224   
-Epoch 16, step 1 / 5. Update No.1 attribute: Pale_Skin       Total loss: 0.43279    Direction loss: 0.43279    Consistency loss: 0.00000    Sim loss: 1.67304   
-Epoch 16, step 2 / 5. Update No.1 attribute: Pale_Skin       Total loss: 0.28150    Direction loss: 0.28150    Consistency loss: 0.00000    Sim loss: 1.66557   
-Epoch 16, step 3 / 5. Update No.1 attribute: Pale_Skin       Total loss: 0.42403    Direction loss: 0.42403    Consistency loss: 0.00000    Sim loss: 1.67362   
-Epoch 16, step 4 / 5. Update No.1 attribute: Pale_Skin       Total loss: 0.39474    Direction loss: 0.39474    Consistency loss: 0.00000    Sim loss: 1.67809   
-Adjusting learning rate of group 0 to 5.0000e-03.
-Epoch 17, step 0 / 5. Update No.1 attribute: Pale_Skin       Total loss: 0.40858    Direction loss: 0.40858    Consistency loss: 0.00000    Sim loss: 1.68646   
-Epoch 17, step 1 / 5. Update No.1 attribute: Pale_Skin       Total loss: 0.33697    Direction loss: 0.33697    Consistency loss: 0.00000    Sim loss: 1.66875   
-Epoch 17, step 2 / 5. Update No.1 attribute: Pale_Skin       Total loss: 0.42873    Direction loss: 0.42873    Consistency loss: 0.00000    Sim loss: 1.68633   
-Epoch 17, step 3 / 5. Update No.1 attribute: Pale_Skin       Total loss: 0.28309    Direction loss: 0.28309    Consistency loss: 0.00000    Sim loss: 1.66844   
-Epoch 17, step 4 / 5. Update No.1 attribute: Pale_Skin       Total loss: 0.34350    Direction loss: 0.34350    Consistency loss: 0.00000    Sim loss: 1.67617   
-Adjusting learning rate of group 0 to 5.0000e-03.
-Epoch 18, step 0 / 5. Update No.1 attribute: Pale_Skin       Total loss: 0.42607    Direction loss: 0.42607    Consistency loss: 0.00000    Sim loss: 1.68783   
-Epoch 18, step 1 / 5. Update No.1 attribute: Pale_Skin       Total loss: 0.43006    Direction loss: 0.43006    Consistency loss: 0.00000    Sim loss: 1.68170   
-Epoch 18, step 2 / 5. Update No.1 attribute: Pale_Skin       Total loss: 0.28247    Direction loss: 0.28247    Consistency loss: 0.00000    Sim loss: 1.66732   
-Epoch 18, step 3 / 5. Update No.1 attribute: Pale_Skin       Total loss: 0.30149    Direction loss: 0.30149    Consistency loss: 0.00000    Sim loss: 1.67090   
-Epoch 18, step 4 / 5. Update No.1 attribute: Pale_Skin       Total loss: 0.43200    Direction loss: 0.43200    Consistency loss: 0.00000    Sim loss: 1.68337   
-Adjusting learning rate of group 0 to 5.0000e-03.
-Epoch 19, step 0 / 5. Update No.1 attribute: Pale_Skin       Total loss: 0.36178    Direction loss: 0.36178    Consistency loss: 0.00000    Sim loss: 1.67904   
-Epoch 19, step 1 / 5. Update No.1 attribute: Pale_Skin       Total loss: 0.33667    Direction loss: 0.33667    Consistency loss: 0.00000    Sim loss: 1.67230   
-Epoch 19, step 2 / 5. Update No.1 attribute: Pale_Skin       Total loss: 0.37832    Direction loss: 0.37832    Consistency loss: 0.00000    Sim loss: 1.67891   
-Epoch 19, step 3 / 5. Update No.1 attribute: Pale_Skin       Total loss: 0.26001    Direction loss: 0.26001    Consistency loss: 0.00000    Sim loss: 1.67010   
-Epoch 19, step 4 / 5. Update No.1 attribute: Pale_Skin       Total loss: 0.47972    Direction loss: 0.47972    Consistency loss: 0.00000    Sim loss: 1.68859   
-Adjusting learning rate of group 0 to 5.0000e-03.
-  0%|          | 0/30 [00:00<?, ?it/s]  3%|▎         | 1/30 [00:03<01:52,  3.89s/it]  7%|▋         | 2/30 [00:07<01:41,  3.62s/it] 10%|█         | 3/30 [00:10<01:35,  3.53s/it] 13%|█▎        | 4/30 [00:14<01:30,  3.49s/it] 17%|█▋        | 5/30 [00:17<01:26,  3.47s/it] 20%|██        | 6/30 [00:21<01:22,  3.45s/it] 23%|██▎       | 7/30 [00:24<01:19,  3.44s/it] 27%|██▋       | 8/30 [00:27<01:15,  3.44s/it] 30%|███       | 9/30 [00:31<01:12,  3.44s/it] 33%|███▎      | 10/30 [00:34<01:08,  3.44s/it] 37%|███▋      | 11/30 [00:38<01:05,  3.43s/it] 40%|████      | 12/30 [00:41<01:01,  3.43s/it] 43%|████▎     | 13/30 [00:45<00:58,  3.43s/it] 47%|████▋     | 14/30 [00:48<00:54,  3.43s/it] 50%|█████     | 15/30 [00:51<00:51,  3.43s/it] 53%|█████▎    | 16/30 [00:55<00:48,  3.43s/it] 57%|█████▋    | 17/30 [00:58<00:44,  3.43s/it] 60%|██████    | 18/30 [01:02<00:41,  3.43s/it] 63Epoch 20, step 0 / 5. Update No.1 attribute: Pale_Skin       Total loss: 0.29855    Direction loss: 0.29730    Consistency loss: 0.00126    Sim loss: 1.67581   
-Epoch 20, step 1 / 5. Update No.1 attribute: Pale_Skin       Total loss: 0.40082    Direction loss: 0.40082    Consistency loss: 0.00000    Sim loss: 1.68239   
-Epoch 20, step 2 / 5. Update No.1 attribute: Pale_Skin       Total loss: 0.32122    Direction loss: 0.32122    Consistency loss: 0.00000    Sim loss: 1.67204   
-Epoch 20, step 3 / 5. Update No.1 attribute: Pale_Skin       Total loss: 0.42087    Direction loss: 0.42087    Consistency loss: 0.00000    Sim loss: 1.68252   
-Epoch 20, step 4 / 5. Update No.1 attribute: Pale_Skin       Total loss: 0.27687    Direction loss: 0.27687    Consistency loss: 0.00000    Sim loss: 1.66932   
-Adjusting learning rate of group 0 to 5.0000e-03.
-Successfully save FairTokens!
-Successfully save Models!
-Epoch 21, step 0 / 5. Update No.1 attribute: Pale_Skin       Total loss: 0.38972    Direction loss: 0.38972    Consistency loss: 0.00000    Sim loss: 1.67670   
-Epoch 21, step 1 / 5. Update No.1 attribute: Pale_Skin       Total loss: 0.36428    Direction loss: 0.36428    Consistency loss: 0.00000    Sim loss: 1.68049   
-Epoch 21, step 2 / 5. Update No.1 attribute: Pale_Skin       Total loss: 0.24884    Direction loss: 0.24882    Consistency loss: 0.00002    Sim loss: 1.65552   
-Epoch 21, step 3 / 5. Update No.1 attribute: Pale_Skin       Total loss: 0.45768    Direction loss: 0.45768    Consistency loss: 0.00000    Sim loss: 1.68807   
-Epoch 21, step 4 / 5. Update No.1 attribute: Pale_Skin       Total loss: 0.42143    Direction loss: 0.42143    Consistency loss: 0.00000    Sim loss: 1.68195   
-Adjusting learning rate of group 0 to 5.0000e-03.
-Epoch 22, step 0 / 5. Update No.1 attribute: Pale_Skin       Total loss: 0.35312    Direction loss: 0.35312    Consistency loss: 0.00000    Sim loss: 1.66955   
-Epoch 22, step 1 / 5. Update No.1 attribute: Pale_Skin       Total loss: 0.30962    Direction loss: 0.30962    Consistency loss: 0.00000    Sim loss: 1.67351   
-Epoch 22, step 2 / 5. Update No.1 attribute: Pale_Skin       Total loss: 0.30131    Direction loss: 0.30131    Consistency loss: 0.00000    Sim loss: 1.67201   
-Epoch 22, step 3 / 5. Update No.1 attribute: Pale_Skin       Total loss: 0.28156    Direction loss: 0.28156    Consistency loss: 0.00000    Sim loss: 1.67254   
-Epoch 22, step 4 / 5. Update No.1 attribute: Pale_Skin       Total loss: 0.51210    Direction loss: 0.51210    Consistency loss: 0.00000    Sim loss: 1.69061   
-Adjusting learning rate of group 0 to 5.0000e-03.
-Epoch 23, step 0 / 5. Update No.1 attribute: Pale_Skin       Total loss: 0.28836    Direction loss: 0.28836    Consistency loss: 0.00000    Sim loss: 1.66614   
-Epoch 23, step 1 / 5. Update No.1 attribute: Pale_Skin       Total loss: 0.38462    Direction loss: 0.38462    Consistency loss: 0.00000    Sim loss: 1.69067   
-Epoch 23, step 2 / 5. Update No.1 attribute: Pale_Skin       Total loss: 0.25812    Direction loss: 0.25812    Consistency loss: 0.00000    Sim loss: 1.66861   
-Epoch 23, step 3 / 5. Update No.1 attribute: Pale_Skin       Total loss: 0.30952    Direction loss: 0.30952    Consistency loss: 0.00000    Sim loss: 1.67111   
-Epoch 23, step 4 / 5. Update No.1 attribute: Pale_Skin       Total loss: 0.45336    Direction loss: 0.45336    Consistency loss: 0.00000    Sim loss: 1.68107   
-Adjusting learning rate of group 0 to 5.0000e-03.
-Epoch 24, step 0 / 5. Update No.1 attribute: Pale_Skin       Total loss: 0.28634    Direction loss: 0.28634    Consistency loss: 0.00000    Sim loss: 1.66656   
-Epoch 24, step 1 / 5. Update No.1 attribute: Pale_Skin       Total loss: 0.30839    Direction loss: 0.30839    Consistency loss: 0.00000    Sim loss: 1.67094   
-Epoch 24, step 2 / 5. Update No.1 attribute: Pale_Skin       Total loss: 0.41278    Direction loss: 0.41278    Consistency loss: 0.00000    Sim loss: 1.67864   
-Epoch 24, step 3 / 5. Update No.1 attribute: Pale_Skin       Total loss: 0.39085    Direction loss: 0.39085    Consistency loss: 0.00000    Sim loss: 1.68440   
-Epoch 24, step 4 / 5. Update No.1 attribute: Pale_Skin       Total loss: 0.28576    Direction loss: 0.28576    Consistency loss: 0.00000    Sim loss: 1.67250   
-Adjusting learning rate of group 0 to 5.0000e-03.
-Epoch 25, step 0 / 5. Update No.1 attribute: Pale_Skin       Total loss: 0.37206    Direction loss: 0.36877    Consistency loss: 0.00329    Sim loss: 1.68244   
-Epoch 25, step 1 / 5. Update No.1 attribute: Pale_Skin       Total loss: 0.22736    Direction loss: 0.22506    Consistency loss: 0.00230    Sim loss: 1.66602   
-Epoch 25, step 2 / 5. Update No.1 attribute: Pale_Skin       Total loss: 0.30537    Direction loss: 0.30537    Consistency loss: 0.00000    Sim loss: 1.67781   
-Epoch 25, step 3 / 5. Update No.1 attribute: Pale_Skin       Total loss: 0.41412    Direction loss: 0.41412    Consistency loss: 0.00000    Sim loss: 1.67190   
-Epoch 25, step 4 / 5. Update No.1 attribute: Pale_Skin       Total loss: 0.46811    Direction loss: 0.46811    Consistency loss: 0.00000    Sim loss: 1.66841   
-Adjusting learning rate of group 0 to 5.0000e-03.
-Epoch 26, step 0 / 5. Update No.1 attribute: Pale_Skin       Total loss: 0.30320    Direction loss: 0.30320    Consistency loss: 0.00000    Sim loss: 1.66289   
-Epoch 26, step 1 / 5. Update No.1 attribute: Pale_Skin       Total loss: 0.38256    Direction loss: 0.38256    Consistency loss: 0.00000    Sim loss: 1.66694   
-Epoch 26, step 2 / 5. Update No.1 attribute: Pale_Skin       Total loss: 0.26490    Direction loss: 0.26490    Consistency loss: 0.00000    Sim loss: 1.66110   
-Epoch 26, step 3 / 5. Update No.1 attribute: Pale_Skin       Total loss: 0.36265    Direction loss: 0.36265    Consistency loss: 0.00000    Sim loss: 1.66022   
-Epoch 26, step 4 / 5. Update No.1 attribute: Pale_Skin       Total loss: 0.30689    Direction loss: 0.30689    Consistency loss: 0.00000    Sim loss: 1.66403   
-Adjusting learning rate of group 0 to 5.0000e-03.
-Epoch 27, step 0 / 5. Update No.1 attribute: Pale_Skin       Total loss: 0.33318    Direction loss: 0.33318    Consistency loss: 0.00000    Sim loss: 1.66675   
-Epoch 27, step 1 / 5. Update No.1 attribute: Pale_Skin       Total loss: 0.32048    Direction loss: 0.32048    Consistency loss: 0.00000    Sim loss: 1.67352   
-Epoch 27, step 2 / 5. Update No.1 attribute: Pale_Skin       Total loss: 0.36229    Direction loss: 0.36229    Consistency loss: 0.00000    Sim loss: 1.66864   
-Epoch 27, step 3 / 5. Update No.1 attribute: Pale_Skin       Total loss: 0.23889    Direction loss: 0.23889    Consistency loss: 0.00000    Sim loss: 1.65835   
-Epoch 27, step 4 / 5. Update No.1 attribute: Pale_Skin       Total loss: 0.52167    Direction loss: 0.52167    Consistency loss: 0.00000    Sim loss: 1.68486   
-Adjusting learning rate of group 0 to 5.0000e-03.
-Epoch 28, step 0 / 5. Update No.1 attribute: Pale_Skin       Total loss: 0.32880    Direction loss: 0.32880    Consistency loss: 0.00000    Sim loss: 1.67210   
-Epoch 28, step 1 / 5. Update No.1 attribute: Pale_Skin       Total loss: 0.33389    Direction loss: 0.33389    Consistency loss: 0.00000    Sim loss: 1.66649   
-Epoch 28, step 2 / 5. Update No.1 attribute: Pale_Skin       Total loss: 0.27201    Direction loss: 0.27201    Consistency loss: 0.00000    Sim loss: 1.65905   
-Epoch 28, step 3 / 5. Update No.1 attribute: Pale_Skin       Total loss: 0.33892    Direction loss: 0.33892    Consistency loss: 0.00000    Sim loss: 1.67773   
-Epoch 28, step 4 / 5. Update No.1 attribute: Pale_Skin       Total loss: 0.34033    Direction loss: 0.34033    Consistency loss: 0.00000    Sim loss: 1.67728   
-Adjusting learning rate of group 0 to 5.0000e-03.
-Epoch 29, step 0 / 5. Update No.1 attribute: Pale_Skin       Total loss: 0.33556    Direction loss: 0.33556    Consistency loss: 0.00000    Sim loss: 1.67633   
-Epoch 29, step 1 / 5. Update No.1 attribute: Pale_Skin       Total loss: 0.26421    Direction loss: 0.26381    Consistency loss: 0.00040    Sim loss: 1.66913   
-Epoch 29, step 2 / 5. Update No.1 attribute: Pale_Skin       Total loss: 0.27269    Direction loss: 0.27269    Consistency loss: 0.00000    Sim loss: 1.66899   
-Epoch 29, step 3 / 5. Update No.1 attribute: Pale_Skin       Total loss: 0.34502    Direction loss: 0.34502    Consistency loss: 0.00000    Sim loss: 1.67283   
-Epoch 29, step 4 / 5. Update No.1 attribute: Pale_Skin       Total loss: 0.40308    Direction loss: 0.40308    Consistency loss: 0.00000    Sim loss: 1.67197   
-Adjusting learning rate of group 0 to 5.0000e-03.
-Epoch 30, step 0 / 5. Update No.1 attribute: Pale_Skin       Total loss: 0.38941    Direction loss: 0.38941    Consistency loss: 0.00000    Sim loss: 1.66946   
-Epoch 30, step 1 / 5. Update No.1 attribute: Pale_Skin       Total loss: 0.26579    Direction loss: 0.26579    Consistency loss: 0.00000    Sim loss: 1.66534   
-Epoch 30, step 2 / 5. Update No.1 attribute: Pale_Skin       Total loss: 0.36016    Direction loss: 0.36016    Consistency loss: 0.00000    Sim loss: 1.66630   
-Epoch 30, step 3 / 5. Update No.1 attribute: Pale_Skin       Total loss: 0.30314    Direction loss: 0.30314    Consistency loss: 0.00000    Sim loss: 1.65680   
-Epoch 30, step 4 / 5. Update No.1 attribute: Pale_Skin       Total loss: 0.27703    Direction loss: 0.27703    Consistency loss: 0.00000    Sim loss: 1.65340   
-Adjusting learning rate of group 0 to 5.0000e-03.
-Successfully save FairTokens!
-Successfully save Models!
-%|██████▎   | 19/30 [01:05<00:37,  3.43s/it] 67%|██████▋   | 20/30 [01:09<00:34,  3.43s/it] 70%|███████   | 21/30 [01:12<00:30,  3.43s/it] 73%|███████▎  | 22/30 [01:15<00:27,  3.43s/it] 77%|███████▋  | 23/30 [01:19<00:23,  3.43s/it] 80%|████████  | 24/30 [01:22<00:20,  3.43s/it] 83%|████████▎ | 25/30 [01:26<00:17,  3.43s/it] 87%|████████▋ | 26/30 [01:29<00:13,  3.43s/it] 90%|█████████ | 27/30 [01:33<00:10,  3.43s/it] 93%|█████████▎| 28/30 [01:36<00:06,  3.43s/it] 97%|█████████▋| 29/30 [01:39<00:03,  3.43s/it]100%|██████████| 30/30 [01:43<00:00,  3.43s/it]100%|██████████| 30/30 [01:43<00:00,  3.44s/it]
-
-JOB STATISTICS
-==============
-Job ID: 4924510
-Cluster: snellius
-User/Group: scur1031/scur1031
-State: COMPLETED (exit code 0)
-Nodes: 1
-Cores per node: 9
-CPU Utilized: 00:02:22
-CPU Efficiency: 12.33% of 00:19:12 core-walltime
-Job Wall-clock time: 00:02:08
-Memory Utilized: 4.67 GB
-Memory Efficiency: 14.94% of 31.25 GB

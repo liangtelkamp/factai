@@ -1,219 +1,0 @@
-============================================================================================== 
-Warning! Mixing Conda and module environments may lead to corruption of the
-user environment. 
-We do not recommend users mixing those two environments unless absolutely
-necessary. Note that 
-SURF does not provide any support for Conda environment.
-For more information, please refer to our software policy page:
-https://servicedesk.surf.nl/wiki/display/WIKI/Software+policy+Snellius+and+Lisa#SoftwarepolicySnelliusandLisa-UseofAnacondaandMinicondaenvironmentsonSnellius 
-
-Remember that many packages have already been installed on the system and can
-be loaded using 
-the 'module load <package__name>' command. If you are uncertain if a package is
-already available 
-on the system, please use 'module avail' or 'module spider' to search for it.
-============================================================================================== 
-Device used for training the model cuda
-Adjusting learning rate of group 0 to 1.0000e-02.
-Epoch 1, step 0 / 5. Update No.1 attribute: Smiling         Total loss: 1.62689    Direction loss: nan        Consistency loss: 0.00000    Sim loss: 1.62689   
-Epoch 1, step 1 / 5. Update No.1 attribute: Smiling         Total loss: 1.31758    Direction loss: 0.98590    Consistency loss: 0.33167    Sim loss: 1.64052   
-Epoch 1, step 2 / 5. Update No.1 attribute: Smiling         Total loss: 0.91634    Direction loss: 0.91634    Consistency loss: 0.00000    Sim loss: 1.62994   
-Epoch 1, step 3 / 5. Update No.1 attribute: Smiling         Total loss: 0.77811    Direction loss: 0.72880    Consistency loss: 0.04931    Sim loss: 1.66601   
-Epoch 1, step 4 / 5. Update No.1 attribute: Smiling         Total loss: 0.81575    Direction loss: 0.81575    Consistency loss: 0.00000    Sim loss: 1.64010   
-Adjusting learning rate of group 0 to 1.0000e-02.
-Epoch 2, step 0 / 5. Update No.1 attribute: Smiling         Total loss: 0.76793    Direction loss: 0.75308    Consistency loss: 0.01485    Sim loss: 1.63026   
-Epoch 2, step 1 / 5. Update No.1 attribute: Smiling         Total loss: 0.65887    Direction loss: 0.63381    Consistency loss: 0.02506    Sim loss: 1.64512   
-Epoch 2, step 2 / 5. Update No.1 attribute: Smiling         Total loss: 0.62280    Direction loss: 0.61551    Consistency loss: 0.00728    Sim loss: 1.64400   
-Epoch 2, step 3 / 5. Update No.1 attribute: Smiling         Total loss: 0.60795    Direction loss: 0.60795    Consistency loss: 0.00000    Sim loss: 1.63871   
-Epoch 2, step 4 / 5. Update No.1 attribute: Smiling         Total loss: 0.58833    Direction loss: 0.58833    Consistency loss: 0.00000    Sim loss: 1.62886   
-Adjusting learning rate of group 0 to 1.0000e-02.
-Epoch 3, step 0 / 5. Update No.1 attribute: Smiling         Total loss: 0.63825    Direction loss: 0.63825    Consistency loss: 0.00000    Sim loss: 1.64206   
-Epoch 3, step 1 / 5. Update No.1 attribute: Smiling         Total loss: 0.56305    Direction loss: 0.56305    Consistency loss: 0.00000    Sim loss: 1.64173   
-Epoch 3, step 2 / 5. Update No.1 attribute: Smiling         Total loss: 0.60498    Direction loss: 0.60498    Consistency loss: 0.00000    Sim loss: 1.64420   
-Epoch 3, step 3 / 5. Update No.1 attribute: Smiling         Total loss: 0.53951    Direction loss: 0.53951    Consistency loss: 0.00000    Sim loss: 1.64477   
-Epoch 3, step 4 / 5. Update No.1 attribute: Smiling         Total loss: 0.50666    Direction loss: 0.50183    Consistency loss: 0.00483    Sim loss: 1.65499   
-Adjusting learning rate of group 0 to 1.0000e-02.
-Epoch 4, step 0 / 5. Update No.1 attribute: Smiling         Total loss: 0.53329    Direction loss: 0.52522    Consistency loss: 0.00806    Sim loss: 1.67200   
-Epoch 4, step 1 / 5. Update No.1 attribute: Smiling         Total loss: 0.47076    Direction loss: 0.46610    Consistency loss: 0.00466    Sim loss: 1.65974   
-Epoch 4, step 2 / 5. Update No.1 attribute: Smiling         Total loss: 0.47412    Direction loss: 0.47412    Consistency loss: 0.00000    Sim loss: 1.65976   
-Epoch 4, step 3 / 5. Update No.1 attribute: Smiling         Total loss: 0.47624    Direction loss: 0.47624    Consistency loss: 0.00000    Sim loss: 1.66073   
-Epoch 4, step 4 / 5. Update No.1 attribute: Smiling         Total loss: 0.42599    Direction loss: 0.42599    Consistency loss: 0.00000    Sim loss: 1.65233   
-Adjusting learning rate of group 0 to 1.0000e-02.
-Epoch 5, step 0 / 5. Update No.1 attribute: Smiling         Total loss: 0.49318    Direction loss: 0.49318    Consistency loss: 0.00000    Sim loss: 1.66386   
-Epoch 5, step 1 / 5. Update No.1 attribute: Smiling         Total loss: 0.42356    Direction loss: 0.42207    Consistency loss: 0.00148    Sim loss: 1.65065   
-Epoch 5, step 2 / 5. Update No.1 attribute: Smiling         Total loss: 0.41688    Direction loss: 0.41688    Consistency loss: 0.00000    Sim loss: 1.65873   
-Epoch 5, step 3 / 5. Update No.1 attribute: Smiling         Total loss: 0.58479    Direction loss: 0.58479    Consistency loss: 0.00000    Sim loss: 1.67048   
-Epoch 5, step 4 / 5. Update No.1 attribute: Smiling         Total loss: 0.43875    Direction loss: 0.43875    Consistency loss: 0.00000    Sim loss: 1.66138   
-Adjusting learning rate of group 0 to 1.0000e-02.
-Epoch 6, step 0 / 5. Update No.1 attribute: Smiling         Total loss: 0.36751    Direction loss: 0.36751    Consistency loss: 0.00000    Sim loss: 1.65171   
-Epoch 6, step 1 / 5. Update No.1 attribute: Smiling         Total loss: 0.55516    Direction loss: 0.55516    Consistency loss: 0.00000    Sim loss: 1.66676   
-Epoch 6, step 2 / 5. Update No.1 attribute: Smiling         Total loss: 0.48437    Direction loss: 0.48437    Consistency loss: 0.00000    Sim loss: 1.65562   
-Epoch 6, step 3 / 5. Update No.1 attribute: Smiling         Total loss: 0.38834    Direction loss: 0.38834    Consistency loss: 0.00000    Sim loss: 1.65193   
-Epoch 6, step 4 / 5. Update No.1 attribute: Smiling         Total loss: 0.47503    Direction loss: 0.47503    Consistency loss: 0.00000    Sim loss: 1.66889   
-Adjusting learning rate of group 0 to 1.0000e-02.
-Epoch 7, step 0 / 5. Update No.1 attribute: Smiling         Total loss: 0.37933    Direction loss: 0.37933    Consistency loss: 0.00000    Sim loss: 1.64994   
-Epoch 7, step 1 / 5. Update No.1 attribute: Smiling         Total loss: 0.40163    Direction loss: 0.40163    Consistency loss: 0.00000    Sim loss: 1.66043   
-Epoch 7, step 2 / 5. Update No.1 attribute: Smiling         Total loss: 0.46310    Direction loss: 0.46307    Consistency loss: 0.00003    Sim loss: 1.67180   
-Epoch 7, step 3 / 5. Update No.1 attribute: Smiling         Total loss: 0.39722    Direction loss: 0.39722    Consistency loss: 0.00000    Sim loss: 1.66365   
-Epoch 7, step 4 / 5. Update No.1 attribute: Smiling         Total loss: 0.46012    Direction loss: 0.46012    Consistency loss: 0.00000    Sim loss: 1.67226   
-Adjusting learning rate of group 0 to 1.0000e-02.
-Epoch 8, step 0 / 5. Update No.1 attribute: Smiling         Total loss: 0.44923    Direction loss: 0.44923    Consistency loss: 0.00000    Sim loss: 1.66758   
-Epoch 8, step 1 / 5. Update No.1 attribute: Smiling         Total loss: 0.40271    Direction loss: 0.40271    Consistency loss: 0.00000    Sim loss: 1.67016   
-Epoch 8, step 2 / 5. Update No.1 attribute: Smiling         Total loss: 0.42063    Direction loss: 0.42063    Consistency loss: 0.00000    Sim loss: 1.65653   
-Epoch 8, step 3 / 5. Update No.1 attribute: Smiling         Total loss: 0.32677    Direction loss: 0.32677    Consistency loss: 0.00000    Sim loss: 1.65388   
-Epoch 8, step 4 / 5. Update No.1 attribute: Smiling         Total loss: 0.42242    Direction loss: 0.42242    Consistency loss: 0.00000    Sim loss: 1.65851   
-Adjusting learning rate of group 0 to 1.0000e-02.
-Epoch 9, step 0 / 5. Update No.1 attribute: Smiling         Total loss: 0.36047    Direction loss: 0.36047    Consistency loss: 0.00000    Sim loss: 1.65545   
-Epoch 9, step 1 / 5. Update No.1 attribute: Smiling         Total loss: 0.40533    Direction loss: 0.40467    Consistency loss: 0.00066    Sim loss: 1.65680   
-Epoch 9, step 2 / 5. Update No.1 attribute: Smiling         Total loss: 0.41131    Direction loss: 0.41131    Consistency loss: 0.00000    Sim loss: 1.67057   
-Epoch 9, step 3 / 5. Update No.1 attribute: Smiling         Total loss: 0.34239    Direction loss: 0.34239    Consistency loss: 0.00000    Sim loss: 1.65699   
-Epoch 9, step 4 / 5. Update No.1 attribute: Smiling         Total loss: 0.41762    Direction loss: 0.41762    Consistency loss: 0.00000    Sim loss: 1.65622   
-Adjusting learning rate of group 0 to 1.0000e-02.
-Epoch 10, step 0 / 5. Update No.1 attribute: Smiling         Total loss: 0.31811    Direction loss: 0.31811    Consistency loss: 0.00000    Sim loss: 1.65499   
-Epoch 10, step 1 / 5. Update No.1 attribute: Smiling         Total loss: 0.30429    Direction loss: 0.30429    Consistency loss: 0.00000    Sim loss: 1.64186   
-Epoch 10, step 2 / 5. Update No.1 attribute: Smiling         Total loss: 0.29986    Direction loss: 0.29986    Consistency loss: 0.00000    Sim loss: 1.63782   
-Epoch 10, step 3 / 5. Update No.1 attribute: Smiling         Total loss: 0.43473    Direction loss: 0.43473    Consistency loss: 0.00000    Sim loss: 1.65712   
-Epoch 10, step 4 / 5. Update No.1 attribute: Smiling         Total loss: 0.47950    Direction loss: 0.47950    Consistency loss: 0.00000    Sim loss: 1.66502   
-Adjusting learning rate of group 0 to 5.0000e-03.
-Successfully save FairTokens!
-Successfully save Models!
-Epoch 11, step 0 / 5. Update No.1 attribute: Smiling         Total loss: 0.31860    Direction loss: 0.31860    Consistency loss: 0.00000    Sim loss: 1.64973   
-Epoch 11, step 1 / 5. Update No.1 attribute: Smiling         Total loss: 0.36906    Direction loss: 0.36906    Consistency loss: 0.00000    Sim loss: 1.64962   
-Epoch 11, step 2 / 5. Update No.1 attribute: Smiling         Total loss: 0.41078    Direction loss: 0.41078    Consistency loss: 0.00000    Sim loss: 1.65767   
-Epoch 11, step 3 / 5. Update No.1 attribute: Smiling         Total loss: 0.34419    Direction loss: 0.34419    Consistency loss: 0.00000    Sim loss: 1.64902   
-Epoch 11, step 4 / 5. Update No.1 attribute: Smiling         Total loss: 0.36917    Direction loss: 0.36917    Consistency loss: 0.00000    Sim loss: 1.65510   
-Adjusting learning rate of group 0 to 5.0000e-03.
-Epoch 12, step 0 / 5. Update No.1 attribute: Smiling         Total loss: 0.40105    Direction loss: 0.40105    Consistency loss: 0.00000    Sim loss: 1.65697   
-Epoch 12, step 1 / 5. Update No.1 attribute: Smiling         Total loss: 0.32595    Direction loss: 0.32595    Consistency loss: 0.00000    Sim loss: 1.65625   
-Epoch 12, step 2 / 5. Update No.1 attribute: Smiling         Total loss: 0.28569    Direction loss: 0.28569    Consistency loss: 0.00000    Sim loss: 1.64647   
-Epoch 12, step 3 / 5. Update No.1 attribute: Smiling         Total loss: 0.28915    Direction loss: 0.28709    Consistency loss: 0.00206    Sim loss: 1.64529   
-Epoch 12, step 4 / 5. Update No.1 attribute: Smiling         Total loss: 0.36654    Direction loss: 0.36654    Consistency loss: 0.00000    Sim loss: 1.65294   
-Adjusting learning rate of group 0 to 5.0000e-03.
-Epoch 13, step 0 / 5. Update No.1 attribute: Smiling         Total loss: 0.40579    Direction loss: 0.40579    Consistency loss: 0.00000    Sim loss: 1.65854   
-Epoch 13, step 1 / 5. Update No.1 attribute: Smiling         Total loss: 0.35446    Direction loss: 0.35446    Consistency loss: 0.00000    Sim loss: 1.64334   
-Epoch 13, step 2 / 5. Update No.1 attribute: Smiling         Total loss: 0.40679    Direction loss: 0.40679    Consistency loss: 0.00000    Sim loss: 1.64458   
-Epoch 13, step 3 / 5. Update No.1 attribute: Smiling         Total loss: 0.34284    Direction loss: 0.34284    Consistency loss: 0.00000    Sim loss: 1.63870   
-Epoch 13, step 4 / 5. Update No.1 attribute: Smiling         Total loss: 0.27693    Direction loss: 0.27693    Consistency loss: 0.00000    Sim loss: 1.63705   
-Adjusting learning rate of group 0 to 5.0000e-03.
-Epoch 14, step 0 / 5. Update No.1 attribute: Smiling         Total loss: 0.47309    Direction loss: 0.47309    Consistency loss: 0.00000    Sim loss: 1.65509   
-Epoch 14, step 1 / 5. Update No.1 attribute: Smiling         Total loss: 0.36448    Direction loss: 0.36448    Consistency loss: 0.00000    Sim loss: 1.63658   
-Epoch 14, step 2 / 5. Update No.1 attribute: Smiling         Total loss: 0.32350    Direction loss: 0.32350    Consistency loss: 0.00000    Sim loss: 1.64391   
-Epoch 14, step 3 / 5. Update No.1 attribute: Smiling         Total loss: 0.40732    Direction loss: 0.40732    Consistency loss: 0.00000    Sim loss: 1.65038   
-Epoch 14, step 4 / 5. Update No.1 attribute: Smiling         Total loss: 0.32457    Direction loss: 0.32457    Consistency loss: 0.00000    Sim loss: 1.64116   
-Adjusting learning rate of group 0 to 5.0000e-03.
-Epoch 15, step 0 / 5. Update No.1 attribute: Smiling         Total loss: 0.33046    Direction loss: 0.33046    Consistency loss: 0.00000    Sim loss: 1.63960   
-Epoch 15, step 1 / 5. Update No.1 attribute: Smiling         Total loss: 0.34389    Direction loss: 0.34389    Consistency loss: 0.00000    Sim loss: 1.64816   
-Epoch 15, step 2 / 5. Update No.1 attribute: Smiling         Total loss: 0.41668    Direction loss: 0.41668    Consistency loss: 0.00000    Sim loss: 1.64938   
-Epoch 15, step 3 / 5. Update No.1 attribute: Smiling         Total loss: 0.31690    Direction loss: 0.31690    Consistency loss: 0.00000    Sim loss: 1.65236   
-Epoch 15, step 4 / 5. Update No.1 attribute: Smiling         Total loss: 0.48700    Direction loss: 0.48700    Consistency loss: 0.00000    Sim loss: 1.65889   
-Adjusting learning rate of group 0 to 5.0000e-03.
-Epoch 16, step 0 / 5. Update No.1 attribute: Smiling         Total loss: 0.30506    Direction loss: 0.30506    Consistency loss: 0.00000    Sim loss: 1.64357   
-Epoch 16, step 1 / 5. Update No.1 attribute: Smiling         Total loss: 0.32421    Direction loss: 0.32177    Consistency loss: 0.00244    Sim loss: 1.65381   
-Epoch 16, step 2 / 5. Update No.1 attribute: Smiling         Total loss: 0.58803    Direction loss: 0.58781    Consistency loss: 0.00022    Sim loss: 1.67590   
-Epoch 16, step 3 / 5. Update No.1 attribute: Smiling         Total loss: 0.28735    Direction loss: 0.28735    Consistency loss: 0.00000    Sim loss: 1.64121   
-Epoch 16, step 4 / 5. Update No.1 attribute: Smiling         Total loss: 0.28010    Direction loss: 0.28010    Consistency loss: 0.00000    Sim loss: 1.63223   
-Adjusting learning rate of group 0 to 5.0000e-03.
-Epoch 17, step 0 / 5. Update No.1 attribute: Smiling         Total loss: 0.42211    Direction loss: 0.42211    Consistency loss: 0.00000    Sim loss: 1.65075   
-Epoch 17, step 1 / 5. Update No.1 attribute: Smiling         Total loss: 0.31523    Direction loss: 0.31523    Consistency loss: 0.00000    Sim loss: 1.63728   
-Epoch 17, step 2 / 5. Update No.1 attribute: Smiling         Total loss: 0.35411    Direction loss: 0.35411    Consistency loss: 0.00000    Sim loss: 1.63668   
-Epoch 17, step 3 / 5. Update No.1 attribute: Smiling         Total loss: 0.37641    Direction loss: 0.37641    Consistency loss: 0.00000    Sim loss: 1.64248   
-Epoch 17, step 4 / 5. Update No.1 attribute: Smiling         Total loss: 0.31773    Direction loss: 0.31773    Consistency loss: 0.00000    Sim loss: 1.64001   
-Adjusting learning rate of group 0 to 5.0000e-03.
-Epoch 18, step 0 / 5. Update No.1 attribute: Smiling         Total loss: 0.32710    Direction loss: 0.32710    Consistency loss: 0.00000    Sim loss: 1.64218   
-Epoch 18, step 1 / 5. Update No.1 attribute: Smiling         Total loss: 0.31601    Direction loss: 0.31601    Consistency loss: 0.00000    Sim loss: 1.64222   
-Epoch 18, step 2 / 5. Update No.1 attribute: Smiling         Total loss: 0.26317    Direction loss: 0.26317    Consistency loss: 0.00000    Sim loss: 1.63336   
-Epoch 18, step 3 / 5. Update No.1 attribute: Smiling         Total loss: 0.38766    Direction loss: 0.38766    Consistency loss: 0.00000    Sim loss: 1.65168   
-Epoch 18, step 4 / 5. Update No.1 attribute: Smiling         Total loss: 0.32480    Direction loss: 0.32480    Consistency loss: 0.00000    Sim loss: 1.64128   
-Adjusting learning rate of group 0 to 5.0000e-03.
-Epoch 19, step 0 / 5. Update No.1 attribute: Smiling         Total loss: 0.40689    Direction loss: 0.40689    Consistency loss: 0.00000    Sim loss: 1.65128   
-Epoch 19, step 1 / 5. Update No.1 attribute: Smiling         Total loss: 0.38522    Direction loss: 0.38522    Consistency loss: 0.00000    Sim loss: 1.64801   
-Epoch 19, step 2 / 5. Update No.1 attribute: Smiling         Total loss: 0.27676    Direction loss: 0.27676    Consistency loss: 0.00000    Sim loss: 1.62847   
-Epoch 19, step 3 / 5. Update No.1 attribute: Smiling         Total loss: 0.35053    Direction loss: 0.35053    Consistency loss: 0.00000    Sim loss: 1.63487   
-Epoch 19, step 4 / 5. Update No.1 attribute: Smiling         Total loss: 0.36976    Direction loss: 0.36976    Consistency loss: 0.00000    Sim loss: 1.65381   
-Adjusting learning rate of group 0 to 5.0000e-03.
-  0%|          | 0/30 [00:00<?, ?it/s]  3%|▎         | 1/30 [00:17<08:23, 17.37s/it]  7%|▋         | 2/30 [00:34<07:58, 17.09s/it] 10%|█         | 3/30 [00:51<07:38, 17.00s/it] 13%|█▎        | 4/30 [01:08<07:20, 16.95s/it] 17%|█▋        | 5/30 [01:24<07:03, 16.93s/it] 20%|██        | 6/30 [01:41<06:45, 16.92s/it] 23%|██▎       | 7/30 [01:58<06:28, 16.91s/it] 27%|██▋       | 8/30 [02:15<06:11, 16.90s/it] 30%|███       | 9/30 [02:32<05:54, 16.90s/it] 33%|███▎      | 10/30 [02:49<05:38, 16.90s/it] 37%|███▋      | 11/30 [03:06<05:21, 16.90s/it] 40%|████      | 12/30 [03:23<05:04, 16.89s/it] 43%|████▎     | 13/30 [03:40<04:47, 16.89s/it] 47%|████▋     | 14/30 [03:56<04:30, 16.89s/it] 50%|█████     | 15/30 [04:13<04:13, 16.89s/it] 53%|█████▎    | 16/30 [04:30<03:56, 16.89s/it] 57%|█████▋    | 17/30 [04:47<03:39, 16.89s/it] 60%|██████    | 18/30 [05:04<03:22, 16.89s/it] 63Epoch 20, step 0 / 5. Update No.1 attribute: Smiling         Total loss: 0.29923    Direction loss: 0.29923    Consistency loss: 0.00000    Sim loss: 1.64784   
-Epoch 20, step 1 / 5. Update No.1 attribute: Smiling         Total loss: 0.32501    Direction loss: 0.32501    Consistency loss: 0.00000    Sim loss: 1.64881   
-Epoch 20, step 2 / 5. Update No.1 attribute: Smiling         Total loss: 0.34566    Direction loss: 0.34566    Consistency loss: 0.00000    Sim loss: 1.66043   
-Epoch 20, step 3 / 5. Update No.1 attribute: Smiling         Total loss: 0.31573    Direction loss: 0.31573    Consistency loss: 0.00000    Sim loss: 1.64853   
-Epoch 20, step 4 / 5. Update No.1 attribute: Smiling         Total loss: 0.34113    Direction loss: 0.34113    Consistency loss: 0.00000    Sim loss: 1.64219   
-Adjusting learning rate of group 0 to 5.0000e-03.
-Successfully save FairTokens!
-Successfully save Models!
-Epoch 21, step 0 / 5. Update No.1 attribute: Smiling         Total loss: 0.29236    Direction loss: 0.29236    Consistency loss: 0.00000    Sim loss: 1.64146   
-Epoch 21, step 1 / 5. Update No.1 attribute: Smiling         Total loss: 0.27656    Direction loss: 0.27656    Consistency loss: 0.00000    Sim loss: 1.63909   
-Epoch 21, step 2 / 5. Update No.1 attribute: Smiling         Total loss: 0.32233    Direction loss: 0.32233    Consistency loss: 0.00000    Sim loss: 1.64271   
-Epoch 21, step 3 / 5. Update No.1 attribute: Smiling         Total loss: 0.33619    Direction loss: 0.33619    Consistency loss: 0.00000    Sim loss: 1.64525   
-Epoch 21, step 4 / 5. Update No.1 attribute: Smiling         Total loss: 0.36429    Direction loss: 0.36429    Consistency loss: 0.00000    Sim loss: 1.65029   
-Adjusting learning rate of group 0 to 5.0000e-03.
-Epoch 22, step 0 / 5. Update No.1 attribute: Smiling         Total loss: 0.28394    Direction loss: 0.28394    Consistency loss: 0.00000    Sim loss: 1.64393   
-Epoch 22, step 1 / 5. Update No.1 attribute: Smiling         Total loss: 0.32502    Direction loss: 0.32502    Consistency loss: 0.00000    Sim loss: 1.64762   
-Epoch 22, step 2 / 5. Update No.1 attribute: Smiling         Total loss: 0.36226    Direction loss: 0.36226    Consistency loss: 0.00000    Sim loss: 1.64869   
-Epoch 22, step 3 / 5. Update No.1 attribute: Smiling         Total loss: 0.31079    Direction loss: 0.31079    Consistency loss: 0.00000    Sim loss: 1.65039   
-Epoch 22, step 4 / 5. Update No.1 attribute: Smiling         Total loss: 0.29878    Direction loss: 0.29878    Consistency loss: 0.00000    Sim loss: 1.64090   
-Adjusting learning rate of group 0 to 5.0000e-03.
-Epoch 23, step 0 / 5. Update No.1 attribute: Smiling         Total loss: 0.28375    Direction loss: 0.28375    Consistency loss: 0.00000    Sim loss: 1.64679   
-Epoch 23, step 1 / 5. Update No.1 attribute: Smiling         Total loss: 0.36702    Direction loss: 0.36702    Consistency loss: 0.00000    Sim loss: 1.65569   
-Epoch 23, step 2 / 5. Update No.1 attribute: Smiling         Total loss: 0.29860    Direction loss: 0.29860    Consistency loss: 0.00000    Sim loss: 1.64843   
-Epoch 23, step 3 / 5. Update No.1 attribute: Smiling         Total loss: 0.25822    Direction loss: 0.25680    Consistency loss: 0.00141    Sim loss: 1.64885   
-Epoch 23, step 4 / 5. Update No.1 attribute: Smiling         Total loss: 0.41425    Direction loss: 0.41425    Consistency loss: 0.00000    Sim loss: 1.66086   
-Adjusting learning rate of group 0 to 5.0000e-03.
-Epoch 24, step 0 / 5. Update No.1 attribute: Smiling         Total loss: 0.27483    Direction loss: 0.27483    Consistency loss: 0.00000    Sim loss: 1.64874   
-Epoch 24, step 1 / 5. Update No.1 attribute: Smiling         Total loss: 0.33263    Direction loss: 0.33263    Consistency loss: 0.00000    Sim loss: 1.64533   
-Epoch 24, step 2 / 5. Update No.1 attribute: Smiling         Total loss: 0.33348    Direction loss: 0.33348    Consistency loss: 0.00000    Sim loss: 1.63919   
-Epoch 24, step 3 / 5. Update No.1 attribute: Smiling         Total loss: 0.31601    Direction loss: 0.31601    Consistency loss: 0.00000    Sim loss: 1.64727   
-Epoch 24, step 4 / 5. Update No.1 attribute: Smiling         Total loss: 0.29750    Direction loss: 0.29750    Consistency loss: 0.00000    Sim loss: 1.63327   
-Adjusting learning rate of group 0 to 5.0000e-03.
-Epoch 25, step 0 / 5. Update No.1 attribute: Smiling         Total loss: 0.24448    Direction loss: 0.24448    Consistency loss: 0.00000    Sim loss: 1.63792   
-Epoch 25, step 1 / 5. Update No.1 attribute: Smiling         Total loss: 0.33057    Direction loss: 0.33057    Consistency loss: 0.00000    Sim loss: 1.64015   
-Epoch 25, step 2 / 5. Update No.1 attribute: Smiling         Total loss: 0.27038    Direction loss: 0.27038    Consistency loss: 0.00000    Sim loss: 1.63728   
-Epoch 25, step 3 / 5. Update No.1 attribute: Smiling         Total loss: 0.31596    Direction loss: 0.31596    Consistency loss: 0.00000    Sim loss: 1.64615   
-Epoch 25, step 4 / 5. Update No.1 attribute: Smiling         Total loss: 0.35558    Direction loss: 0.35558    Consistency loss: 0.00000    Sim loss: 1.64403   
-Adjusting learning rate of group 0 to 5.0000e-03.
-Epoch 26, step 0 / 5. Update No.1 attribute: Smiling         Total loss: 0.24751    Direction loss: 0.24751    Consistency loss: 0.00000    Sim loss: 1.63804   
-Epoch 26, step 1 / 5. Update No.1 attribute: Smiling         Total loss: 0.31517    Direction loss: 0.31517    Consistency loss: 0.00000    Sim loss: 1.64279   
-Epoch 26, step 2 / 5. Update No.1 attribute: Smiling         Total loss: 0.34939    Direction loss: 0.34939    Consistency loss: 0.00000    Sim loss: 1.65185   
-Epoch 26, step 3 / 5. Update No.1 attribute: Smiling         Total loss: 0.29180    Direction loss: 0.29180    Consistency loss: 0.00000    Sim loss: 1.64761   
-Epoch 26, step 4 / 5. Update No.1 attribute: Smiling         Total loss: 0.39925    Direction loss: 0.39925    Consistency loss: 0.00000    Sim loss: 1.65441   
-Adjusting learning rate of group 0 to 5.0000e-03.
-Epoch 27, step 0 / 5. Update No.1 attribute: Smiling         Total loss: 0.27248    Direction loss: 0.27248    Consistency loss: 0.00000    Sim loss: 1.63646   
-Epoch 27, step 1 / 5. Update No.1 attribute: Smiling         Total loss: 0.29005    Direction loss: 0.29005    Consistency loss: 0.00000    Sim loss: 1.64277   
-Epoch 27, step 2 / 5. Update No.1 attribute: Smiling         Total loss: 0.57820    Direction loss: 0.57820    Consistency loss: 0.00000    Sim loss: 1.67061   
-Epoch 27, step 3 / 5. Update No.1 attribute: Smiling         Total loss: 0.28046    Direction loss: 0.28046    Consistency loss: 0.00000    Sim loss: 1.64154   
-Epoch 27, step 4 / 5. Update No.1 attribute: Smiling         Total loss: 0.35632    Direction loss: 0.35632    Consistency loss: 0.00000    Sim loss: 1.65185   
-Adjusting learning rate of group 0 to 5.0000e-03.
-Epoch 28, step 0 / 5. Update No.1 attribute: Smiling         Total loss: 0.34685    Direction loss: 0.34685    Consistency loss: 0.00000    Sim loss: 1.65390   
-Epoch 28, step 1 / 5. Update No.1 attribute: Smiling         Total loss: 0.25718    Direction loss: 0.25713    Consistency loss: 0.00006    Sim loss: 1.64176   
-Epoch 28, step 2 / 5. Update No.1 attribute: Smiling         Total loss: 0.31122    Direction loss: 0.31122    Consistency loss: 0.00000    Sim loss: 1.63915   
-Epoch 28, step 3 / 5. Update No.1 attribute: Smiling         Total loss: 0.25733    Direction loss: 0.25733    Consistency loss: 0.00000    Sim loss: 1.63843   
-Epoch 28, step 4 / 5. Update No.1 attribute: Smiling         Total loss: 0.28411    Direction loss: 0.28411    Consistency loss: 0.00000    Sim loss: 1.64132   
-Adjusting learning rate of group 0 to 5.0000e-03.
-Epoch 29, step 0 / 5. Update No.1 attribute: Smiling         Total loss: 0.34792    Direction loss: 0.34792    Consistency loss: 0.00000    Sim loss: 1.63713   
-Epoch 29, step 1 / 5. Update No.1 attribute: Smiling         Total loss: 0.34522    Direction loss: 0.34522    Consistency loss: 0.00000    Sim loss: 1.63942   
-Epoch 29, step 2 / 5. Update No.1 attribute: Smiling         Total loss: 0.21790    Direction loss: 0.21790    Consistency loss: 0.00000    Sim loss: 1.62993   
-Epoch 29, step 3 / 5. Update No.1 attribute: Smiling         Total loss: 0.39661    Direction loss: 0.39661    Consistency loss: 0.00000    Sim loss: 1.64876   
-Epoch 29, step 4 / 5. Update No.1 attribute: Smiling         Total loss: 0.35116    Direction loss: 0.35116    Consistency loss: 0.00000    Sim loss: 1.64980   
-Adjusting learning rate of group 0 to 5.0000e-03.
-Epoch 30, step 0 / 5. Update No.1 attribute: Smiling         Total loss: 0.35917    Direction loss: 0.35917    Consistency loss: 0.00000    Sim loss: 1.64020   
-Epoch 30, step 1 / 5. Update No.1 attribute: Smiling         Total loss: 0.27889    Direction loss: 0.27889    Consistency loss: 0.00000    Sim loss: 1.64212   
-Epoch 30, step 2 / 5. Update No.1 attribute: Smiling         Total loss: 0.28267    Direction loss: 0.28267    Consistency loss: 0.00000    Sim loss: 1.64419   
-Epoch 30, step 3 / 5. Update No.1 attribute: Smiling         Total loss: 0.40879    Direction loss: 0.40879    Consistency loss: 0.00000    Sim loss: 1.64866   
-Epoch 30, step 4 / 5. Update No.1 attribute: Smiling         Total loss: 0.37033    Direction loss: 0.37033    Consistency loss: 0.00000    Sim loss: 1.65430   
-Adjusting learning rate of group 0 to 5.0000e-03.
-Successfully save FairTokens!
-Successfully save Models!
-%|██████▎   | 19/30 [05:21<03:05, 16.89s/it] 67%|██████▋   | 20/30 [05:38<02:48, 16.90s/it] 70%|███████   | 21/30 [05:55<02:32, 16.89s/it] 73%|███████▎  | 22/30 [06:12<02:15, 16.89s/it] 77%|███████▋  | 23/30 [06:28<01:58, 16.89s/it] 80%|████████  | 24/30 [06:45<01:41, 16.89s/it] 83%|████████▎ | 25/30 [07:02<01:24, 16.89s/it] 87%|████████▋ | 26/30 [07:19<01:07, 16.89s/it] 90%|█████████ | 27/30 [07:36<00:50, 16.89s/it] 93%|█████████▎| 28/30 [07:53<00:33, 16.89s/it] 97%|█████████▋| 29/30 [08:10<00:16, 16.89s/it]100%|██████████| 30/30 [08:27<00:00, 16.89s/it]100%|██████████| 30/30 [08:27<00:00, 16.91s/it]
-
-JOB STATISTICS
-==============
-Job ID: 4924516
-Cluster: snellius
-User/Group: scur1031/scur1031
-State: RUNNING
-Nodes: 1
-Cores per node: 9
-CPU Utilized: 00:00:00
-CPU Efficiency: 0.00% of 01:19:39 core-walltime
-Job Wall-clock time: 00:08:51
-Memory Utilized: 0.00 MB (estimated maximum)
-Memory Efficiency: 0.00% of 31.25 GB (31.25 GB/node)
-WARNING: Efficiency statistics may be misleading for RUNNING jobs.
