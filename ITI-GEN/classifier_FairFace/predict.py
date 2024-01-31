@@ -26,8 +26,8 @@ def rect_to_bb(rect):
 	return (x, y, w, h)
 
 def detect_face(image_paths,  SAVE_DETECTED_AT, default_max_size=800,size = 300, padding = 0.25):
-    cnn_face_detector = dlib.cnn_face_detection_model_v1('FairFace/dlib_models/mmod_human_face_detector.dat')
-    sp = dlib.shape_predictor('FairFace/dlib_models/shape_predictor_5_face_landmarks.dat')
+    cnn_face_detector = dlib.cnn_face_detection_model_v1('classifier_FairFace/dlib_models/mmod_human_face_detector.dat')
+    sp = dlib.shape_predictor('classifier_FairFace/dlib_models/shape_predictor_5_face_landmarks.dat')
     base = 2000  # largest width and height
     for index, image_path in enumerate(image_paths):
         if index % 1000 == 0:
@@ -67,13 +67,13 @@ def predidct_age_gender_race(save_prediction_at, imgs_path = 'cropped_faces/'):
 
     model_fair_7 = torchvision.models.resnet34(pretrained=True)
     model_fair_7.fc = nn.Linear(model_fair_7.fc.in_features, 18)
-    model_fair_7.load_state_dict(torch.load('FairFace/res34_fair_align_multi_7_20190809.pt'))
+    model_fair_7.load_state_dict(torch.load('classifier_FairFace/res34_fair_align_multi_7_20190809.pt'))
     model_fair_7 = model_fair_7.to(device)
     model_fair_7.eval()
 
     model_fair_4 = torchvision.models.resnet34(pretrained=True)
     model_fair_4.fc = nn.Linear(model_fair_4.fc.in_features, 18)
-    model_fair_4.load_state_dict(torch.load('FairFace/res34_fair_align_multi_4_20190809.pt'))
+    model_fair_4.load_state_dict(torch.load('classifier_FairFace/res34_fair_align_multi_4_20190809.pt'))
     model_fair_4 = model_fair_4.to(device)
     model_fair_4.eval()
 
@@ -217,7 +217,7 @@ if __name__ == "__main__":
     dlib.DLIB_USE_CUDA = True
     print("using CUDA?: %s" % dlib.DLIB_USE_CUDA)
     args = parser.parse_args()
-    SAVE_DETECTED_AT = "FairFace/detected_images" 
+    SAVE_DETECTED_AT = "classifier_FairFace/detected_images" 
     ensure_dir(SAVE_DETECTED_AT)
 
     # To create a csv file with image paths if file does not exist already
