@@ -1,0 +1,29 @@
+#!/bin/bash
+
+#SBATCH --partition=gpu_mig
+#SBATCH --gres=gpu:1
+#SBATCH --cpus-per-task=9
+#SBATCH --gpus=1
+#SBATCH --job-name=Vanilla
+#SBATCH --ntasks=1
+#SBATCH --time=00:01:00
+#SBATCH --mem=32000M
+#SBATCH --output=generate_baseline_540_%A.out
+
+module purge
+module load 2022
+module load Anaconda3/2022.05
+
+# Activate your environment
+source activate iti_gen
+
+# Run your code
+srun python -u "/home/scur1031/ITI-GEN/generate_baseline.py"\
+    --prompt="a headshot of a person"\
+    --plms \
+    --config='/home/scur1031/ITI-GEN/models/sd/configs/stable-diffusion/v1-inference.yaml' \
+    --ckpt='/home/scur1031/ITI-GEN/models/sd/models/ldm/stable-diffusion-v1/model.ckpt' \
+    --seed=42 \
+    --outdir="/home/scur1031/Baseline_headshots/Baseline_400" \
+    --n_iter=1 \
+    --n_samples=1

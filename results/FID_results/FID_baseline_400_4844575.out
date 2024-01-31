@@ -1,0 +1,18 @@
+compute FID of a folder with FFHQ statistics
+Found 400 images in the folder /home/scur1031/Baseline_headshot_400
+FID Score is of /home/scur1031/Baseline_headshot_400 : 109.58978298060384
+
+JOB STATISTICS
+==============
+Job ID: 4844575
+Cluster: snellius
+User/Group: scur1031/scur1031
+State: RUNNING
+Nodes: 1
+Cores per node: 9
+CPU Utilized: 00:00:00
+CPU Efficiency: 0.00% of 00:07:21 core-walltime
+Job Wall-clock time: 00:00:49
+Memory Utilized: 0.00 MB (estimated maximum)
+Memory Efficiency: 0.00% of 31.25 GB (31.25 GB/node)
+WARNING: Efficiency statistics may be misleading for RUNNING jobs.

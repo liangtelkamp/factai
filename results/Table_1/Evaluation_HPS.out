@@ -1,0 +1,198 @@
+============================================================================================== 
+Warning! Mixing Conda and module environments may lead to corruption of the
+user environment. 
+We do not recommend users mixing those two environments unless absolutely
+necessary. Note that 
+SURF does not provide any support for Conda environment.
+For more information, please refer to our software policy page:
+https://servicedesk.surf.nl/wiki/display/WIKI/Software+policy+Snellius+and+Lisa#SoftwarepolicySnelliusandLisa-UseofAnacondaandMinicondaenvironmentsonSnellius 
+
+Remember that many packages have already been installed on the system and can
+be loaded using 
+the 'module load <package__name>' command. If you are uncertain if a package is
+already available 
+on the system, please use 'module avail' or 'module spider' to search for it.
+============================================================================================== 
+Found 200 generated images.
+a headshot of a person with glasses: total pred: 198 | ratio: 0.99
+a headshot of a person: total pred: 2 | ratio: 0.01
+For Class ['a headshot of a person with glasses', 'a headshot of a person'], KL Divergence is 0.637146
+compute FID of a folder with FFHQ statistics
+Found 200 images in the folder /home/scur1031/HPS/HPS_Eyeglasses
+/home/scur1031/.conda/envs/iti_gen/lib/python3.8/site-packages/torch/utils/data/dataloader.py:487: UserWarning: This DataLoader will create 12 worker processes in total. Our suggested max number of worker in current system is 9, which is smaller than what this DataLoader is going to create. Please be aware that excessive worker creation might get DataLoader running slow or even freeze, lower the worker number to avoid potential slowness/freeze if necessary.
+  warnings.warn(_create_warning_msg(
+
+FID HPS_Eyeglasses :   0%|          | 0/7 [00:00<?, ?it/s]
+FID HPS_Eyeglasses :  14%|█▍        | 1/7 [00:02<00:16,  2.67s/it]
+FID HPS_Eyeglasses :  29%|██▊       | 2/7 [00:22<01:02, 12.60s/it]
+FID HPS_Eyeglasses :  71%|███████▏  | 5/7 [00:22<00:07,  3.61s/it]
+FID HPS_Eyeglasses : 100%|██████████| 7/7 [00:22<00:00,  3.22s/it]
+FID Score is 128.71762221814066
+Found 200 generated images.
+a headshot of a man: total pred: 100 | ratio: 0.5
+a headshot of a woman: total pred: 100 | ratio: 0.5
+For Class ['a headshot of a man', 'a headshot of a woman'], KL Divergence is 0.000000
+compute FID of a folder with FFHQ statistics
+Found 200 images in the folder /home/scur1031/HPS/HPS_Male
+/home/scur1031/.conda/envs/iti_gen/lib/python3.8/site-packages/torch/utils/data/dataloader.py:487: UserWarning: This DataLoader will create 12 worker processes in total. Our suggested max number of worker in current system is 9, which is smaller than what this DataLoader is going to create. Please be aware that excessive worker creation might get DataLoader running slow or even freeze, lower the worker number to avoid potential slowness/freeze if necessary.
+  warnings.warn(_create_warning_msg(
+
+FID HPS_Male :   0%|          | 0/7 [00:00<?, ?it/s]
+FID HPS_Male :  14%|█▍        | 1/7 [00:02<00:15,  2.50s/it]
+FID HPS_Male :  29%|██▊       | 2/7 [00:21<01:02, 12.48s/it]
+FID HPS_Male :  71%|███████▏  | 5/7 [00:22<00:07,  3.57s/it]
+FID HPS_Male : 100%|██████████| 7/7 [00:22<00:00,  3.19s/it]
+FID Score is 132.78878497664877
+Found 200 generated images.
+a headshot of a person with mustache: total pred: 198 | ratio: 0.99
+a headshot of a person: total pred: 2 | ratio: 0.01
+For Class ['a headshot of a person with mustache', 'a headshot of a person'], KL Divergence is 0.637146
+compute FID of a folder with FFHQ statistics
+Found 200 images in the folder /home/scur1031/HPS/HPS_Mustache
+/home/scur1031/.conda/envs/iti_gen/lib/python3.8/site-packages/torch/utils/data/dataloader.py:487: UserWarning: This DataLoader will create 12 worker processes in total. Our suggested max number of worker in current system is 9, which is smaller than what this DataLoader is going to create. Please be aware that excessive worker creation might get DataLoader running slow or even freeze, lower the worker number to avoid potential slowness/freeze if necessary.
+  warnings.warn(_create_warning_msg(
+
+FID HPS_Mustache :   0%|          | 0/7 [00:00<?, ?it/s]
+FID HPS_Mustache :  14%|█▍        | 1/7 [00:02<00:15,  2.61s/it]
+FID HPS_Mustache :  29%|██▊       | 2/7 [00:22<01:02, 12.57s/it]
+FID HPS_Mustache :  71%|███████▏  | 5/7 [00:22<00:07,  3.60s/it]
+FID HPS_Mustache : 100%|██████████| 7/7 [00:22<00:00,  3.21s/it]
+FID Score is 159.26964036775126
+Found 200 generated images.
+a headshot of a person with pale skin: total pred: 98 | ratio: 0.49
+a headshot of a person with dark skin: total pred: 102 | ratio: 0.51
+For Class ['a headshot of a person with pale skin', 'a headshot of a person with dark skin'], KL Divergence is 0.000200
+compute FID of a folder with FFHQ statistics
+Found 200 images in the folder /home/scur1031/HPS/HPS_Pale_Skin
+/home/scur1031/.conda/envs/iti_gen/lib/python3.8/site-packages/torch/utils/data/dataloader.py:487: UserWarning: This DataLoader will create 12 worker processes in total. Our suggested max number of worker in current system is 9, which is smaller than what this DataLoader is going to create. Please be aware that excessive worker creation might get DataLoader running slow or even freeze, lower the worker number to avoid potential slowness/freeze if necessary.
+  warnings.warn(_create_warning_msg(
+
+FID HPS_Pale_Skin :   0%|          | 0/7 [00:00<?, ?it/s]
+FID HPS_Pale_Skin :  14%|█▍        | 1/7 [00:02<00:15,  2.56s/it]
+FID HPS_Pale_Skin :  29%|██▊       | 2/7 [00:22<01:02, 12.59s/it]
+FID HPS_Pale_Skin :  71%|███████▏  | 5/7 [00:22<00:07,  3.61s/it]
+FID HPS_Pale_Skin : 100%|██████████| 7/7 [00:22<00:00,  3.21s/it]
+FID Score is 134.70715047321738
+Found 200 generated images.
+a headshot of a young person: total pred: 100 | ratio: 0.5
+a headshot of an old person: total pred: 100 | ratio: 0.5
+For Class ['a headshot of a young person', 'a headshot of an old person'], KL Divergence is 0.000000
+compute FID of a folder with FFHQ statistics
+Found 200 images in the folder /home/scur1031/HPS/HPS_Young
+/home/scur1031/.conda/envs/iti_gen/lib/python3.8/site-packages/torch/utils/data/dataloader.py:487: UserWarning: This DataLoader will create 12 worker processes in total. Our suggested max number of worker in current system is 9, which is smaller than what this DataLoader is going to create. Please be aware that excessive worker creation might get DataLoader running slow or even freeze, lower the worker number to avoid potential slowness/freeze if necessary.
+  warnings.warn(_create_warning_msg(
+
+FID HPS_Young :   0%|          | 0/7 [00:00<?, ?it/s]
+FID HPS_Young :  14%|█▍        | 1/7 [00:02<00:15,  2.64s/it]
+FID HPS_Young :  29%|██▊       | 2/7 [00:22<01:02, 12.55s/it]
+FID HPS_Young :  71%|███████▏  | 5/7 [00:22<00:07,  3.59s/it]
+FID HPS_Young : 100%|██████████| 7/7 [00:22<00:00,  3.21s/it]
+FID Score is 132.4038858652281
+Found 200 generated images.
+a headshot of a person with smiling: total pred: 119 | ratio: 0.595
+a headshot of a person: total pred: 81 | ratio: 0.405
+For Class ['a headshot of a person with smiling', 'a headshot of a person'], KL Divergence is 0.018160
+compute FID of a folder with FFHQ statistics
+Found 200 images in the folder /home/scur1031/HPS/HPS_Smiling
+/home/scur1031/.conda/envs/iti_gen/lib/python3.8/site-packages/torch/utils/data/dataloader.py:487: UserWarning: This DataLoader will create 12 worker processes in total. Our suggested max number of worker in current system is 9, which is smaller than what this DataLoader is going to create. Please be aware that excessive worker creation might get DataLoader running slow or even freeze, lower the worker number to avoid potential slowness/freeze if necessary.
+  warnings.warn(_create_warning_msg(
+
+FID HPS_Smiling :   0%|          | 0/7 [00:00<?, ?it/s]
+FID HPS_Smiling :  14%|█▍        | 1/7 [00:02<00:15,  2.62s/it]
+FID HPS_Smiling :  29%|██▊       | 2/7 [00:22<01:02, 12.55s/it]
+FID HPS_Smiling :  71%|███████▏  | 5/7 [00:22<00:07,  3.60s/it]
+FID HPS_Smiling : 100%|██████████| 7/7 [00:22<00:00,  3.21s/it]
+FID Score is 118.4714942380121
+Found 400 generated images.
+a headshot of a young man,: total pred: 97 | ratio: 0.2425
+a headshot of an old man,: total pred: 99 | ratio: 0.2475
+a headshot of a young woman,: total pred: 96 | ratio: 0.24
+a headshot of an old woman: total pred: 108 | ratio: 0.27
+For Class ['a headshot of a young man,', 'a headshot of an old man,', 'a headshot of a young woman,', 'a headshot of an old woman'], KL Divergence is 0.001108
+compute FID of a folder with FFHQ statistics
+Found 400 images in the folder /home/scur1031/HPS/HPS_Male_Young
+/home/scur1031/.conda/envs/iti_gen/lib/python3.8/site-packages/torch/utils/data/dataloader.py:487: UserWarning: This DataLoader will create 12 worker processes in total. Our suggested max number of worker in current system is 9, which is smaller than what this DataLoader is going to create. Please be aware that excessive worker creation might get DataLoader running slow or even freeze, lower the worker number to avoid potential slowness/freeze if necessary.
+  warnings.warn(_create_warning_msg(
+
+FID HPS_Male_Young :   0%|          | 0/13 [00:00<?, ?it/s]
+FID HPS_Male_Young :   8%|▊         | 1/13 [00:03<00:36,  3.03s/it]
+FID HPS_Male_Young :  15%|█▌        | 2/13 [00:22<02:20, 12.73s/it]
+FID HPS_Male_Young :  38%|███▊      | 5/13 [00:22<00:29,  3.65s/it]
+FID HPS_Male_Young :  62%|██████▏   | 8/13 [00:22<00:09,  1.82s/it]
+FID HPS_Male_Young :  85%|████████▍ | 11/13 [00:22<00:02,  1.08s/it]
+FID HPS_Male_Young : 100%|██████████| 13/13 [00:23<00:00,  1.78s/it]
+FID Score is 124.82501012782424
+
+
+Found 800 generated images.
+a headshot of a young man with eyeglasses: total pred: 117 | ratio: 0.14625
+a headshot of an old man with eyeglasses: total pred: 155 | ratio: 0.19375
+a headshot of a young man: total pred: 83 | ratio: 0.10375
+a headshot of an old man: total pred: 47 | ratio: 0.05875
+a headshot of a young woman with eyeglasses: total pred: 111 | ratio: 0.13875
+a headshot of an old woman with eyeglasses: total pred: 163 | ratio: 0.20375
+a headshot of a young woman: total pred: 88 | ratio: 0.11
+a headshot of an old woman: total pred: 36 | ratio: 0.045
+For Class ['a headshot of a young man with eyeglasses', 'a headshot of an old man with eyeglasses', 'a headshot of a young man', 'a headshot of an old man', 'a headshot of a young woman with eyeglasses', 'a headshot of an old woman with eyeglasses', 'a headshot of a young woman', 'a headshot of an old woman'], KL Divergence is 0.098177
+compute FID of a folder with FFHQ statistics
+Found 800 images in the folder /home/scur1031/HPS/HPS_Male_Young_Eyeglasses
+/home/scur1031/.conda/envs/iti_gen/lib/python3.8/site-packages/torch/utils/data/dataloader.py:487: UserWarning: This DataLoader will create 12 worker processes in total. Our suggested max number of worker in current system is 9, which is smaller than what this DataLoader is going to create. Please be aware that excessive worker creation might get DataLoader running slow or even freeze, lower the worker number to avoid potential slowness/freeze if necessary.
+  warnings.warn(_create_warning_msg(
+
+FID HPS_Male_Young_Eyeglasses :   0%|          | 0/25 [00:00<?, ?it/s]
+FID HPS_Male_Young_Eyeglasses :   4%|▍         | 1/25 [00:02<01:11,  3.00s/it]
+FID HPS_Male_Young_Eyeglasses :   8%|▊         | 2/25 [00:22<04:55, 12.83s/it]
+FID HPS_Male_Young_Eyeglasses :  20%|██        | 5/25 [00:22<01:13,  3.68s/it]
+FID HPS_Male_Young_Eyeglasses :  32%|███▏      | 8/25 [00:22<00:31,  1.84s/it]
+FID HPS_Male_Young_Eyeglasses :  44%|████▍     | 11/25 [00:23<00:15,  1.09s/it]
+FID HPS_Male_Young_Eyeglasses :  56%|█████▌    | 14/25 [00:23<00:07,  1.44it/s]
+FID HPS_Male_Young_Eyeglasses :  68%|██████▊   | 17/25 [00:23<00:03,  2.13it/s]
+FID HPS_Male_Young_Eyeglasses :  80%|████████  | 20/25 [00:23<00:01,  3.05it/s]
+FID HPS_Male_Young_Eyeglasses :  92%|█████████▏| 23/25 [00:23<00:00,  4.24it/s]
+FID HPS_Male_Young_Eyeglasses : 100%|██████████| 25/25 [00:23<00:00,  1.05it/s]
+FID Score is 98.61128122744742
+Found 1600 generated images.
+a headshot of a young man with eyeglasses with smiling: total pred: 97 | ratio: 0.060625
+a headshot of an old man with eyeglasses with smiling: total pred: 206 | ratio: 0.12875
+a headshot of a young man with smiling: total pred: 78 | ratio: 0.04875
+a headshot of an old man with smiling: total pred: 19 | ratio: 0.011875
+a headshot of a young woman with eyeglasses with smiling,: total pred: 70 | ratio: 0.04375
+a headshot of an old woman with eyeglasses with smiling: total pred: 184 | ratio: 0.115
+a headshot of a young woman with smiling: total pred: 76 | ratio: 0.0475
+a headshot of an old woman with smiling: total pred: 21 | ratio: 0.013125
+a headshot of a young man with eyeglasses,: total pred: 153 | ratio: 0.095625
+a headshot of an old man with eyeglasses: total pred: 171 | ratio: 0.106875
+a headshot of a young man: total pred: 71 | ratio: 0.044375
+a headshot of an old man: total pred: 4 | ratio: 0.0025
+a headshot of a young woman with eyeglasses,: total pred: 186 | ratio: 0.11625
+a headshot of an old woman with eyeglasses: total pred: 190 | ratio: 0.11875
+a headshot of a young woman: total pred: 68 | ratio: 0.0425
+a headshot of an old woman: total pred: 6 | ratio: 0.00375
+For Class ['a headshot of a young man with eyeglasses with smiling', 'a headshot of an old man with eyeglasses with smiling', 'a headshot of a young man with smiling', 'a headshot of an old man with smiling', 'a headshot of a young woman with eyeglasses with smiling,', 'a headshot of an old woman with eyeglasses with smiling', 'a headshot of a young woman with smiling', 'a headshot of an old woman with smiling', 'a headshot of a young man with eyeglasses,', 'a headshot of an old man with eyeglasses', 'a headshot of a young man', 'a headshot of an old man', 'a headshot of a young woman with eyeglasses,', 'a headshot of an old woman with eyeglasses', 'a headshot of a young woman', 'a headshot of an old woman'], KL Divergence is 0.276547
+compute FID of a folder with FFHQ statistics
+Found 1600 images in the folder /home/scur1031/HPS/HPS_Male_Young_Eyeglasses_Smiling
+/home/scur1031/.conda/envs/iti_gen/lib/python3.8/site-packages/torch/utils/data/dataloader.py:487: UserWarning: This DataLoader will create 12 worker processes in total. Our suggested max number of worker in current system is 9, which is smaller than what this DataLoader is going to create. Please be aware that excessive worker creation might get DataLoader running slow or even freeze, lower the worker number to avoid potential slowness/freeze if necessary.
+  warnings.warn(_create_warning_msg(
+
+FID HPS_Male_Young_Eyeglasses_Smiling :   0%|          | 0/50 [00:00<?, ?it/s]
+FID HPS_Male_Young_Eyeglasses_Smiling :   2%|▏         | 1/50 [00:02<02:17,  2.81s/it]
+FID HPS_Male_Young_Eyeglasses_Smiling :   4%|▍         | 2/50 [00:22<10:23, 12.98s/it]
+FID HPS_Male_Young_Eyeglasses_Smiling :  10%|█         | 5/50 [00:23<02:47,  3.72s/it]
+FID HPS_Male_Young_Eyeglasses_Smiling :  16%|█▌        | 8/50 [00:23<01:18,  1.86s/it]
+FID HPS_Male_Young_Eyeglasses_Smiling :  22%|██▏       | 11/50 [00:23<00:42,  1.10s/it]
+FID HPS_Male_Young_Eyeglasses_Smiling :  28%|██▊       | 14/50 [00:23<00:25,  1.42it/s]
+FID HPS_Male_Young_Eyeglasses_Smiling :  34%|███▍      | 17/50 [00:23<00:15,  2.11it/s]
+FID HPS_Male_Young_Eyeglasses_Smiling :  40%|████      | 20/50 [00:23<00:09,  3.02it/s]
+FID HPS_Male_Young_Eyeglasses_Smiling :  46%|████▌     | 23/50 [00:23<00:06,  4.02it/s]
+FID HPS_Male_Young_Eyeglasses_Smiling :  50%|█████     | 25/50 [00:24<00:05,  4.88it/s]
+FID HPS_Male_Young_Eyeglasses_Smiling :  54%|█████▍    | 27/50 [00:24<00:03,  6.01it/s]
+FID HPS_Male_Young_Eyeglasses_Smiling :  58%|█████▊    | 29/50 [00:24<00:03,  6.99it/s]
+FID HPS_Male_Young_Eyeglasses_Smiling :  62%|██████▏   | 31/50 [00:24<00:02,  8.19it/s]
+FID HPS_Male_Young_Eyeglasses_Smiling :  68%|██████▊   | 34/50 [00:24<00:01, 10.68it/s]
+FID HPS_Male_Young_Eyeglasses_Smiling :  72%|███████▏  | 36/50 [00:24<00:01, 10.61it/s]
+FID HPS_Male_Young_Eyeglasses_Smiling :  78%|███████▊  | 39/50 [00:24<00:00, 13.09it/s]
+FID HPS_Male_Young_Eyeglasses_Smiling :  84%|████████▍ | 42/50 [00:25<00:00, 15.21it/s]
+FID HPS_Male_Young_Eyeglasses_Smiling :  90%|█████████ | 45/50 [00:25<00:00, 16.98it/s]
+FID HPS_Male_Young_Eyeglasses_Smiling :  96%|█████████▌| 48/50 [00:25<00:00, 14.96it/s]
+FID HPS_Male_Young_Eyeglasses_Smiling : 100%|██████████| 50/50 [00:25<00:00,  1.95it/s]
+FID Score is 86.98172254851605

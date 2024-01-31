@@ -1,0 +1,236 @@
+
+Found 200 generated images.
+a headshot of a man: total pred: 101 | ratio: 0.505
+a headshot of a woman: total pred: 99 | ratio: 0.495
+For Class ['a headshot of a man', 'a headshot of a woman'], KL Divergence is 0.000050
+compute FID of a folder with FFHQ statistics
+Found 200 images in the folder /home/scur1031/ITI-GEN/ckpts/a_headshot_of_a_person_Male/original_prompt_embedding/sample_results/samples
+
+
+FID samples :   0%|          | 0/7 [00:00<?, ?it/s]
+FID samples :  14%|█▍        | 1/7 [00:02<00:16,  2.78s/it]
+FID samples :  29%|██▊       | 2/7 [00:22<01:03, 12.80s/it]
+FID samples :  43%|████▎     | 3/7 [00:22<00:28,  7.04s/it]
+FID samples :  57%|█████▋    | 4/7 [00:22<00:13,  4.34s/it]
+FID samples :  71%|███████▏  | 5/7 [00:23<00:05,  2.84s/it]
+FID samples :  86%|████████▌ | 6/7 [00:23<00:01,  1.94s/it]
+FID samples : 100%|██████████| 7/7 [00:23<00:00,  3.36s/it]
+FID Score is 115.39464654659295
+
+Found 200 generated images.
+a headshot of a young person: total pred: 104 | ratio: 0.52
+a headshot of an old person: total pred: 96 | ratio: 0.48
+For Class ['a headshot of a young person', 'a headshot of an old person'], KL Divergence is 0.000800
+compute FID of a folder with FFHQ statistics
+Found 200 images in the folder /home/scur1031/ITI-GEN/ckpts/a_headshot_of_a_person_Young/original_prompt_embedding/sample_results/samples
+
+
+FID samples :   0%|          | 0/7 [00:00<?, ?it/s]
+FID samples :  14%|█▍        | 1/7 [00:02<00:16,  2.71s/it]
+FID samples :  29%|██▊       | 2/7 [00:22<01:03, 12.68s/it]
+FID samples :  43%|████▎     | 3/7 [00:22<00:27,  6.97s/it]
+FID samples :  57%|█████▋    | 4/7 [00:22<00:12,  4.30s/it]
+FID samples :  71%|███████▏  | 5/7 [00:22<00:05,  2.81s/it]
+FID samples :  86%|████████▌ | 6/7 [00:23<00:01,  1.92s/it]
+FID samples : 100%|██████████| 7/7 [00:23<00:00,  3.33s/it]
+FID Score is 130.84948067745046
+
+
+Found 200 generated images.
+a headshot of a person pale skin: total pred: 100 | ratio: 0.5
+a headshot of a person with no dark skin: total pred: 100 | ratio: 0.5
+For Class ['a headshot of a person pale skin', 'a headshot of a person with no dark skin'], KL Divergence is 0.000000
+compute FID of a folder with FFHQ statistics
+Found 200 images in the folder /home/scur1031/ITI-GEN/ckpts/a_headshot_of_a_person_Pale_Skin/original_prompt_embedding/sample_results
+
+
+FID sample_results :   0%|          | 0/7 [00:00<?, ?it/s]
+FID sample_results :  14%|█▍        | 1/7 [00:02<00:15,  2.58s/it]
+FID sample_results :  29%|██▊       | 2/7 [00:22<01:02, 12.59s/it]
+FID sample_results :  57%|█████▋    | 4/7 [00:22<00:14,  4.73s/it]
+FID sample_results :  86%|████████▌ | 6/7 [00:22<00:02,  2.52s/it]
+FID sample_results : 100%|██████████| 7/7 [00:22<00:00,  3.22s/it]
+FID Score is 140.88037449854698
+
+Found 200 generated images.
+a headshot of a person with eyeglasses: total pred: 106 | ratio: 0.53
+a headshot of a person: total pred: 94 | ratio: 0.47
+For Class ['a headshot of a person with eyeglasses', 'a headshot of a person'], KL Divergence is 0.001801
+compute FID of a folder with FFHQ statistics
+Found 200 images in the folder ITI-GEN/ckpts/a_headshot_of_a_person_Eyeglasses/original_prompt_embedding/sample_results/samples
+FID Score is 124.6143462389368
+
+Found 200 generated images.
+a headshot of a person with mustache: total pred: 25 | ratio: 0.125
+a headshot of a person: total pred: 175 | ratio: 0.875
+For Class ['a headshot of a person with mustache', 'a headshot of a person'], KL Divergence is 0.316377
+compute FID of a folder with FFHQ statistics
+Found 200 images in the folder /home/scur1031/ITI-GEN/ckpts/a_headshot_of_a_person_Smiling/original_prompt_embedding/sample_results
+
+FID sample_results :   0%|          | 0/7 [00:00<?, ?it/s]
+FID sample_results :  14%|█▍        | 1/7 [00:02<00:12,  2.03s/it]
+FID sample_results :  29%|██▊       | 2/7 [00:21<01:02, 12.49s/it]
+FID sample_results :  43%|████▎     | 3/7 [00:22<00:27,  6.87s/it]
+FID sample_results :  57%|█████▋    | 4/7 [00:22<00:12,  4.23s/it]
+FID sample_results :  71%|███████▏  | 5/7 [00:22<00:05,  2.78s/it]
+FID sample_results :  86%|████████▌ | 6/7 [00:22<00:01,  1.90s/it]
+FID sample_results : 100%|██████████| 7/7 [00:22<00:00,  3.25s/it]
+FID Score is 124.17072658484494
+Found 200 generated images.
+a headshot of a person with smiling: total pred: 100 | ratio: 0.5
+a headshot of a person: total pred: 100 | ratio: 0.5
+For Class ['a headshot of a person with smiling', 'a headshot of a person'], KL Divergence is 0.000000
+compute FID of a folder with FFHQ statistics
+Found 200 images in the folder /home/scur1031/ITI-GEN/ckpts/a_headshot_of_a_person_Smiling/original_prompt_embedding/sample_results
+
+FID sample_results :   0%|          | 0/7 [00:00<?, ?it/s]
+FID sample_results :  14%|█▍        | 1/7 [00:02<00:12,  2.06s/it]
+FID sample_results :  29%|██▊       | 2/7 [00:21<01:02, 12.47s/it]
+FID sample_results :  43%|████▎     | 3/7 [00:22<00:27,  6.86s/it]
+FID sample_results :  57%|█████▋    | 4/7 [00:22<00:12,  4.23s/it]
+FID sample_results :  71%|███████▏  | 5/7 [00:22<00:05,  2.77s/it]
+FID sample_results :  86%|████████▌ | 6/7 [00:22<00:01,  1.89s/it]
+FID sample_results : 100%|██████████| 7/7 [00:22<00:00,  3.25s/it]
+FID Score is 124.17072658484494
+
+Found 400 generated images.
+a headshot of a young man,: total pred: 106 | ratio: 0.265
+a headshot of an old man,: total pred: 93 | ratio: 0.2325
+a headshot of a young woman,: total pred: 101 | ratio: 0.2525
+a headshot of an old woman: total pred: 100 | ratio: 0.25
+For Class ['a headshot of a young man,', 'a headshot of an old man,', 'a headshot of a young woman,', 'a headshot of an old woman'], KL Divergence is 0.001081
+compute FID of a folder with FFHQ statistics
+Found 400 images in the folder /home/scur1031/ITI-GEN/ckpts/a_headshot_of_a_person_Male_Young/original_prompt_embedding/sample_results
+
+FID sample_results :   0%|          | 0/13 [00:00<?, ?it/s]
+FID sample_results :   8%|▊         | 1/13 [00:02<00:26,  2.20s/it]
+FID sample_results :  15%|█▌        | 2/13 [00:21<02:17, 12.48s/it]
+FID sample_results :  23%|██▎       | 3/13 [00:22<01:08,  6.87s/it]
+FID sample_results :  31%|███       | 4/13 [00:22<00:38,  4.23s/it]
+FID sample_results :  38%|███▊      | 5/13 [00:22<00:22,  2.77s/it]
+FID sample_results :  46%|████▌     | 6/13 [00:22<00:13,  1.89s/it]
+FID sample_results :  54%|█████▍    | 7/13 [00:22<00:08,  1.33s/it]
+FID sample_results :  62%|██████▏   | 8/13 [00:22<00:04,  1.03it/s]
+FID sample_results :  69%|██████▉   | 9/13 [00:23<00:02,  1.38it/s]
+FID sample_results :  77%|███████▋  | 10/13 [00:23<00:01,  1.79it/s]
+FID sample_results :  85%|████████▍ | 11/13 [00:23<00:00,  2.25it/s]
+FID sample_results :  92%|█████████▏| 12/13 [00:23<00:00,  2.74it/s]
+FID sample_results : 100%|██████████| 13/13 [00:23<00:00,  3.47it/s]
+FID sample_results : 100%|██████████| 13/13 [00:23<00:00,  1.84s/it]
+FID Score is 103.6723501199574
+
+Found 800 generated images.
+a headshot of a young man with eyeglasses: total pred: 88 | ratio: 0.11
+a headshot of an old man with eyeglasses: total pred: 40 | ratio: 0.05
+a headshot of a young man: total pred: 243 | ratio: 0.30375
+a headshot of an old man: total pred: 31 | ratio: 0.03875
+a headshot of a young woman with eyeglasses: total pred: 35 | ratio: 0.04375
+a headshot of an old woman with eyeglasses: total pred: 62 | ratio: 0.0775
+a headshot of a young woman: total pred: 239 | ratio: 0.29875
+a headshot of an old woman: total pred: 62 | ratio: 0.0775
+For Class ['a headshot of a young man with eyeglasses', 'a headshot of an old man with eyeglasses', 'a headshot of a young man', 'a headshot of an old man', 'a headshot of a young woman with eyeglasses', 'a headshot of an old woman with eyeglasses', 'a headshot of a young woman', 'a headshot of an old woman'], KL Divergence is 0.304711
+compute FID of a folder with FFHQ statistics
+Found 800 images in the folder /home/scur1031/ITI-GEN/ckpts/a_headshot_of_a_person_Male_Young_Eyeglasses/original_prompt_embedding/sample_results
+
+FID sample_results :   0%|          | 0/25 [00:00<?, ?it/s]
+FID sample_results :   4%|▍         | 1/25 [00:02<00:59,  2.50s/it]
+FID sample_results :   8%|▊         | 2/25 [00:22<04:52, 12.72s/it]
+FID sample_results :  12%|█▏        | 3/25 [00:22<02:33,  7.00s/it]
+FID sample_results :  16%|█▌        | 4/25 [00:22<01:30,  4.31s/it]
+FID sample_results :  20%|██        | 5/25 [00:22<00:56,  2.82s/it]
+FID sample_results :  24%|██▍       | 6/25 [00:23<00:36,  1.93s/it]
+FID sample_results :  28%|██▊       | 7/25 [00:23<00:24,  1.36s/it]
+FID sample_results :  32%|███▏      | 8/25 [00:23<00:16,  1.02it/s]
+FID sample_results :  36%|███▌      | 9/25 [00:23<00:11,  1.36it/s]
+FID sample_results :  40%|████      | 10/25 [00:23<00:08,  1.77it/s]
+FID sample_results :  44%|████▍     | 11/25 [00:24<00:06,  2.23it/s]
+FID sample_results :  48%|████▊     | 12/25 [00:24<00:04,  2.71it/s]
+FID sample_results :  52%|█████▏    | 13/25 [00:24<00:03,  3.17it/s]
+FID sample_results :  56%|█████▌    | 14/25 [00:24<00:03,  3.61it/s]
+FID sample_results :  60%|██████    | 15/25 [00:24<00:02,  4.00it/s]
+FID sample_results :  64%|██████▍   | 16/25 [00:24<00:02,  4.33it/s]
+FID sample_results :  68%|██████▊   | 17/25 [00:25<00:01,  4.61it/s]
+FID sample_results :  72%|███████▏  | 18/25 [00:25<00:01,  4.82it/s]
+FID sample_results :  76%|███████▌  | 19/25 [00:25<00:01,  4.98it/s]
+FID sample_results :  80%|████████  | 20/25 [00:25<00:00,  5.10it/s]
+FID sample_results :  84%|████████▍ | 21/25 [00:25<00:00,  5.18it/s]
+FID sample_results :  88%|████████▊ | 22/25 [00:26<00:00,  5.24it/s]
+FID sample_results :  92%|█████████▏| 23/25 [00:26<00:00,  5.29it/s]
+FID sample_results :  96%|█████████▌| 24/25 [00:26<00:00,  5.32it/s]
+FID sample_results : 100%|██████████| 25/25 [00:26<00:00,  5.32it/s]
+FID sample_results : 100%|██████████| 25/25 [00:26<00:00,  1.07s/it]
+FID Score is 90.7289822163593
+Found 1600 generated images.
+a headshot of a young man with eyeglasses with smiling: total pred: 81 | ratio: 0.050625
+a headshot of an old man with eyeglasses with smiling: total pred: 32 | ratio: 0.02
+a headshot of a young man with smiling: total pred: 105 | ratio: 0.065625
+a headshot of an old man with smiling: total pred: 36 | ratio: 0.0225
+a headshot of a young woman with eyeglasses with smiling,: total pred: 62 | ratio: 0.03875
+a headshot of an old woman with eyeglasses with smiling: total pred: 62 | ratio: 0.03875
+a headshot of a young woman with smiling: total pred: 110 | ratio: 0.06875
+a headshot of an old woman with smiling: total pred: 13 | ratio: 0.008125
+a headshot of a young man with eyeglasses,: total pred: 102 | ratio: 0.06375
+a headshot of an old man with eyeglasses: total pred: 159 | ratio: 0.099375
+a headshot of a young man: total pred: 310 | ratio: 0.19375
+a headshot of an old man: total pred: 28 | ratio: 0.0175
+a headshot of a young woman with eyeglasses,: total pred: 103 | ratio: 0.064375
+a headshot of an old woman with eyeglasses: total pred: 65 | ratio: 0.040625
+a headshot of a young woman: total pred: 316 | ratio: 0.1975
+a headshot of an old woman: total pred: 16 | ratio: 0.01
+For Class ['a headshot of a young man with eyeglasses with smiling', 'a headshot of an old man with eyeglasses with smiling', 'a headshot of a young man with smiling', 'a headshot of an old man with smiling', 'a headshot of a young woman with eyeglasses with smiling,', 'a headshot of an old woman with eyeglasses with smiling', 'a headshot of a young woman with smiling', 'a headshot of an old woman with smiling', 'a headshot of a young man with eyeglasses,', 'a headshot of an old man with eyeglasses', 'a headshot of a young man', 'a headshot of an old man', 'a headshot of a young woman with eyeglasses,', 'a headshot of an old woman with eyeglasses', 'a headshot of a young woman', 'a headshot of an old woman'], KL Divergence is 0.337279
+compute FID of a folder with FFHQ statistics
+Found 1600 images in the folder /home/scur1031/ITI-GEN/ckpts/a_headshot_of_a_person_Male_Young_Eyeglasses_Smiling/original_prompt_embedding/sample_results
+
+FID sample_results :   0%|          | 0/50 [00:00<?, ?it/s]
+FID sample_results :   2%|▏         | 1/50 [00:02<01:47,  2.19s/it]
+FID sample_results :   4%|▍         | 2/50 [00:21<09:56, 12.43s/it]
+FID sample_results :   6%|▌         | 3/50 [00:21<05:21,  6.84s/it]
+FID sample_results :   8%|▊         | 4/50 [00:22<03:13,  4.21s/it]
+FID sample_results :  10%|█         | 5/50 [00:22<02:04,  2.76s/it]
+FID sample_results :  12%|█▏        | 6/50 [00:22<01:23,  1.89s/it]
+FID sample_results :  14%|█▍        | 7/50 [00:22<00:57,  1.33s/it]
+FID sample_results :  16%|█▌        | 8/50 [00:22<00:40,  1.03it/s]
+FID sample_results :  18%|█▊        | 9/50 [00:23<00:29,  1.38it/s]
+FID sample_results :  20%|██        | 10/50 [00:23<00:22,  1.79it/s]
+FID sample_results :  22%|██▏       | 11/50 [00:23<00:17,  2.25it/s]
+FID sample_results :  24%|██▍       | 12/50 [00:23<00:13,  2.73it/s]
+FID sample_results :  26%|██▌       | 13/50 [00:23<00:11,  3.21it/s]
+FID sample_results :  28%|██▊       | 14/50 [00:24<00:09,  3.66it/s]
+FID sample_results :  30%|███       | 15/50 [00:24<00:08,  4.04it/s]
+FID sample_results :  32%|███▏      | 16/50 [00:24<00:07,  4.35it/s]
+FID sample_results :  34%|███▍      | 17/50 [00:24<00:07,  4.61it/s]
+FID sample_results :  36%|███▌      | 18/50 [00:24<00:06,  4.81it/s]
+FID sample_results :  38%|███▊      | 19/50 [00:24<00:06,  4.95it/s]
+FID sample_results :  40%|████      | 20/50 [00:25<00:05,  5.06it/s]
+FID sample_results :  42%|████▏     | 21/50 [00:25<00:05,  5.13it/s]
+FID sample_results :  44%|████▍     | 22/50 [00:25<00:05,  5.18it/s]
+FID sample_results :  46%|████▌     | 23/50 [00:25<00:05,  5.23it/s]
+FID sample_results :  48%|████▊     | 24/50 [00:25<00:04,  5.28it/s]
+FID sample_results :  50%|█████     | 25/50 [00:26<00:04,  5.30it/s]
+FID sample_results :  52%|█████▏    | 26/50 [00:26<00:04,  5.33it/s]
+FID sample_results :  54%|█████▍    | 27/50 [00:26<00:04,  5.34it/s]
+FID sample_results :  56%|█████▌    | 28/50 [00:26<00:04,  5.35it/s]
+FID sample_results :  58%|█████▊    | 29/50 [00:26<00:03,  5.34it/s]
+FID sample_results :  60%|██████    | 30/50 [00:27<00:03,  5.35it/s]
+FID sample_results :  62%|██████▏   | 31/50 [00:27<00:03,  5.36it/s]
+FID sample_results :  64%|██████▍   | 32/50 [00:27<00:03,  5.36it/s]
+FID sample_results :  66%|██████▌   | 33/50 [00:27<00:03,  5.37it/s]
+FID sample_results :  68%|██████▊   | 34/50 [00:27<00:02,  5.37it/s]
+FID sample_results :  70%|███████   | 35/50 [00:27<00:02,  5.38it/s]
+FID sample_results :  72%|███████▏  | 36/50 [00:28<00:02,  5.38it/s]
+FID sample_results :  74%|███████▍  | 37/50 [00:28<00:02,  5.38it/s]
+FID sample_results :  76%|███████▌  | 38/50 [00:28<00:02,  5.37it/s]
+FID sample_results :  78%|███████▊  | 39/50 [00:28<00:02,  5.36it/s]
+FID sample_results :  80%|████████  | 40/50 [00:28<00:01,  5.36it/s]
+FID sample_results :  82%|████████▏ | 41/50 [00:29<00:01,  5.37it/s]
+FID sample_results :  84%|████████▍ | 42/50 [00:29<00:01,  5.38it/s]
+FID sample_results :  86%|████████▌ | 43/50 [00:29<00:01,  5.38it/s]
+FID sample_results :  88%|████████▊ | 44/50 [00:29<00:01,  5.38it/s]
+FID sample_results :  90%|█████████ | 45/50 [00:29<00:00,  5.38it/s]
+FID sample_results :  92%|█████████▏| 46/50 [00:30<00:00,  5.38it/s]
+FID sample_results :  94%|█████████▍| 47/50 [00:30<00:00,  5.38it/s]
+FID sample_results :  96%|█████████▌| 48/50 [00:30<00:00,  5.39it/s]
+FID sample_results :  98%|█████████▊| 49/50 [00:30<00:00,  5.38it/s]
+FID sample_results : 100%|██████████| 50/50 [00:30<00:00,  5.39it/s]
+FID sample_results : 100%|██████████| 50/50 [00:30<00:00,  1.62it/s]
+FID Score is 76.17708142551245

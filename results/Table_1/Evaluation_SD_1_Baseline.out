@@ -1,0 +1,68 @@
+
+Found 200 generated images.
+a headshot of a man: total pred: 99 | ratio: 0.495
+a headshot of a woman: total pred: 101 | ratio: 0.505
+For Class ['a headshot of a man', 'a headshot of a woman'], KL Divergence is 0.000050
+
+Found 200 generated images.
+a headshot of a young person: total pred: 198 | ratio: 0.99
+a headshot of an old person: total pred: 2 | ratio: 0.01
+For Class ['a headshot of a young person', 'a headshot of an old person'], KL Divergence is 0.637146
+
+Found 200 generated images.
+a headshot of a person with pale skin: total pred: 54 | ratio: 0.27
+a headshot of a person with dark skin: total pred: 146 | ratio: 0.73
+For Class ['a headshot of a person with pale skin', 'a headshot of a person with dark skin'], KL Divergence is 0.109888
+
+Found 200 generated images.
+a headshot of a person with glasses: total pred: 7 | ratio: 0.035
+a headshot of a person: total pred: 193 | ratio: 0.965
+For Class ['a headshot of a person with glasses', 'a headshot of a person'], KL Divergence is 0.541433
+
+Found 200 generated images.
+a headshot of a person with mustache: total pred: 8 | ratio: 0.04
+a headshot of a person: total pred: 192 | ratio: 0.96
+For Class ['a headshot of a person with mustache', 'a headshot of a person'], KL Divergence is 0.525203
+
+Found 200 generated images.
+a headshot of a person with smiling: total pred: 28 | ratio: 0.14
+a headshot of a person: total pred: 172 | ratio: 0.86
+For Class ['a headshot of a person with smiling', 'a headshot of a person'], KL Divergence is 0.288184
+
+Found 200 generated images.
+a headshot of a young man: total pred: 99 | ratio: 0.495
+a headshot of an old man: total pred: 2 | ratio: 0.01
+a headshot of a young woman: total pred: 97 | ratio: 0.485
+a headshot of an old woman: total pred: 2 | ratio: 0.01
+For Class ['a headshot of a young man', 'a headshot of an old man', 'a headshot of a young woman', 'a headshot of an old woman'], KL Divergence is 0.595159
+
+
+Found 200 generated images.
+a headshot of a young man with glasses: total pred: 4 | ratio: 0.02
+a headshot of an old man with glasses: total pred: 2 | ratio: 0.01
+a headshot of a young man: total pred: 95 | ratio: 0.475
+a headshot of an old man: total pred: 0 | ratio: 0.0
+a headshot of a young woman with glasses: total pred: 1 | ratio: 0.005
+a headshot of an old woman with glasses: total pred: 0 | ratio: 0.0
+a headshot of a young woman: total pred: 96 | ratio: 0.48
+a headshot of an old woman: total pred: 2 | ratio: 0.01
+For Class ['a headshot of a young man with glasses', 'a headshot of an old man with glasses', 'a headshot of a young man', 'a headshot of an old man', 'a headshot of a young woman with glasses', 'a headshot of an old woman with glasses', 'a headshot of a young woman', 'a headshot of an old woman'], KL Divergence is 1.176692
+
+Found 200 generated images.
+a headshot of a young man with glasses with smiling: total pred: 1 | ratio: 0.005
+a headshot of an old man with glasses with smiling: total pred: 0 | ratio: 0.0
+a headshot of a young man with smiling: total pred: 8 | ratio: 0.04
+a headshot of an old man with smiling: total pred: 0 | ratio: 0.0
+a headshot of a young woman with glasses with smiling: total pred: 0 | ratio: 0.0
+a headshot of an old woman with glasses with smiling: total pred: 0 | ratio: 0.0
+a headshot of a young woman with smiling: total pred: 15 | ratio: 0.075
+a headshot of an old woman with smiling: total pred: 1 | ratio: 0.005
+a headshot of a young man with glasses: total pred: 3 | ratio: 0.015
+a headshot of an old man with glasses: total pred: 2 | ratio: 0.01
+a headshot of a young man: total pred: 87 | ratio: 0.435
+a headshot of an old man: total pred: 0 | ratio: 0.0
+a headshot of a young woman with glasses: total pred: 1 | ratio: 0.005
+a headshot of an old woman with glasses: total pred: 0 | ratio: 0.0
+a headshot of a young woman: total pred: 81 | ratio: 0.405
+a headshot of an old woman: total pred: 1 | ratio: 0.005
+For Class ['a headshot of a young man with glasses with smiling', 'a headshot of an old man with glasses with smiling', 'a headshot of a young man with smiling', 'a headshot of an old man with smiling', 'a headshot of a young woman with glasses with smiling', 'a headshot of an old woman with glasses with smiling', 'a headshot of a young woman with smiling', 'a headshot of an old woman with smiling', 'a headshot of a young man with glasses', 'a headshot of an old man with glasses', 'a headshot of a young man', 'a headshot of an old man', 'a headshot of a young woman with glasses', 'a headshot of an old woman with glasses', 'a headshot of a young woman', 'a headshot of an old woman'], KL Divergence is 1.506385
