@@ -5,6 +5,7 @@ Welcome to our github. For the course Fairness, Accountability, Confidentiality 
 This project comprises multiple components, with the majority of the code originating from Zhang et al. (2023). We have, however, made specific adjustments to ensure compatibility with our server environment.
 
 - Due to licence issues, we cannot share the pre-trained checkpoints directly. Download it yourself and put the Stable Diffusion checkpoints at <path/to/sd-v1-4.ckpt>.
+- For the exact code of the authors and execution we refer you to the their [repository](https://github.com/humansensinglab/ITI-GEN)
 - Within this section, you will find a collection of images generated utilizing the Stable Diffusion model (v1.4). Additionally, we have included the evaluation jobfile for HPS. To generate these images, please follow the instructions below:
 (warning: you might have to change the path to the ITI-GEN folder within the generation_baseline.py file)
 ```

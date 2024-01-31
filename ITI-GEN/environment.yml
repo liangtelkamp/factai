@@ -1,5 +1,6 @@
 name: iti_gen
 channels:
+  - conda-forge
   - pytorch
   - defaults
 dependencies:
