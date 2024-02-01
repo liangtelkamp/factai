@@ -14,8 +14,6 @@ from pytorch_lightning import seed_everything
 from torch import autocast
 from contextlib import contextmanager, nullcontext
 
-import sys
-sys.path.append('/home/scur1031/ITI-GEN') # Change this to your own path
 from models.sd.ldm.util import instantiate_from_config 
 from models.sd.ldm.models.diffusion.ddim import DDIMSampler
 from models.sd.ldm.models.diffusion.plms import PLMSSampler

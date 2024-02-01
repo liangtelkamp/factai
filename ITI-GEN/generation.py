@@ -14,10 +14,7 @@ from pytorch_lightning import seed_everything
 from torch import autocast
 from contextlib import contextmanager, nullcontext
 from utils import get_folder_names_and_indexes
-
-# Import to make paths compatible
-import sys
-sys.path.append('/home/scur1031/ITI-GEN') # Change to make compatible
+from models.sd.ldm.util import instantiate_from_config
 
 from models.sd.ldm.util import instantiate_from_config
 from models.sd.ldm.models.diffusion.ddim import DDIMSampler
