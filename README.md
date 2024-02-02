@@ -24,7 +24,7 @@ srun python -u "/ITI-GEN/generate_baseline.py"\
 
 - The 'results' folder contains the outputs of the executed jobfiles. It houses the tables and figures presenting our findings.
 
-- embedding: 
+- embedding: For running the embedding python script you need to install the packages matplotlib and umap-learn.
 
 - The 'jobfiles' directory contains a set of scripts ready for execution. However, it is necessary to customize the paths to align them with your specific environment. Here is a glimpse of what is available:
 
@@ -65,7 +65,7 @@ srun python -u /ITI-GEN/evaluation.py \
 ```
 ## 4. FairFace classifier
 The FairFace classifier is used to classify the multi-category attributes 'age' and 'skin tone'.
-
+For running predict.py you need to install the packages pandas and dlib.
 The job file to run the code of the FairFace classifier is called classifier_fairface.job:
 ```
 srun python -u classifier_FairFace/predict.py \
